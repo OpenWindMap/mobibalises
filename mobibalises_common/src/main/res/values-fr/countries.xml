@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_states">(états)</string>
+    <string-array name="continent_labels">
+        <item>Europe Occidentale</item>
+        <item>Europe de l\'Est</item>
+        <item>Amérique du Nord</item>
+        <item>Amérique Centrale / Caraïbes</item>
+        <item>Amérique du Sud</item>
+        <item>Moyen-Orient</item>
+        <item>Afrique</item>
+        <item>Asie</item>
+        <item>Océanie</item>
+    </string-array>
+    <string-array name="regional_names_CA">
+        <item>Alberta</item>
+        <item>Colombie-Britannique</item>
+        <item>Manitoba</item>
+        <item>Nouveau-Brunswick</item>
+        <item>Terre-Neuve-et-Labrador</item>
+        <item>Nouvelle-Écosse</item>
+        <item>Ontario</item>
+        <item>Île-du-Prince-Édouard</item>
+        <item>Québec</item>
+        <item>Saskatchewan</item>
+        <item>Territoires du Nord-Ouest</item>
+        <item>Nunavut</item>
+        <item>Territoire du Yukon</item>
+    </string-array>
+	<string-array name="regional_names_US">
+	    <item>Alabama</item>
+	    <item>Alaska</item>
+	    <item>Arizona</item>
+	    <item>Arkansas</item>
+	    <item>Californie</item>
+	    <item>Colorado</item>
+	    <item>Connecticut</item>
+	    <item>Delaware</item>
+	    <item>Floride</item>
+	    <item>Géorgie</item>
+	    <item>Hawaii</item>
+	    <item>Idaho</item>
+	    <item>Illinois</item>
+	    <item>Indiana</item>
+	    <item>Iowa</item>
+	    <item>Kansas</item>
+	    <item>Kentucky</item>
+	    <item>Louisiane</item>
+	    <item>Maine</item>
+	    <item>Maryland</item>
+	    <item>Massachusetts</item>
+	    <item>Michigan</item>
+	    <item>Minnesota</item>
+	    <item>Mississippi</item>
+	    <item>Missouri</item>
+	    <item>Montana</item>
+	    <item>Nebraska</item>
+	    <item>Nevada</item>
+	    <item>New Hampshire</item>
+	    <item>New Jersey</item>
+	    <item>Nouveau-Mexique</item>
+	    <item>New York</item>
+	    <item>Caroline du Nord</item>
+	    <item>Dakota du Nord</item>
+	    <item>Ohio</item>
+	    <item>Oklahoma</item>
+	    <item>Oregon</item>
+	    <item>Pennsylvanie</item>
+	    <item>Rhode Island</item>
+	    <item>Caroline du Sud</item>
+	    <item>Dakota du Sud</item>
+	    <item>Tennessee</item>
+	    <item>Texas</item>
+	    <item>Utah</item>
+	    <item>Vermont</item>
+	    <item>Virginie</item>
+	    <item>Washington</item>
+	    <item>Virginie-Occidentale</item>
+	    <item>Wisconsin</item>
+	    <item>Wyoming</item>
+	</string-array>
+
+</resources>

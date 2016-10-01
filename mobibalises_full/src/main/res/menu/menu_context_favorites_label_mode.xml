@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_context_favorites_label_historique"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_label_historique_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_label_lien_historique_web"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_label_historique_web_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_label_lien_detail_web"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_label_detail_web_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_label_speak"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_label_speak_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_label_balise_alarm"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_label_alarm_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_label_delete"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_label_delete">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_label_favorite"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_label_labels_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_label_map"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_label_map_balise">
+    </item>
+
+</menu>

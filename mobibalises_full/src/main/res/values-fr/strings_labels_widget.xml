@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_widget_prefs_single_title">Widget MobiBalises #%1$s</string>
+    <string name="label_widget_prefs_all_title">Widgets MobiBalises</string>
+    <string name="label_widget_prefs_choosen_list">Liste de balises</string>
+    <string name="label_widget_prefs_display_weather">Afficher les infos météo</string>
+    <string name="label_widget_prefs_display_header">Afficher les indicateurs</string>
+    <string name="label_widget_prefs_display_header_summary">#Id du widget et heure de mise à jour</string>
+    <string name="label_widget_prefs_display_title">Afficher le titre</string>
+    <string name="label_widget_prefs_speak">Parler quand les données sont mises à jour</string>
+    <string name="label_widget_prefs_speak_black">Même si l\'écran est éteint</string>
+    <string name="label_widget_prefs_speak_black_summary">Cette option peut amener à vider la batterie rapidement</string>
+    <string name="label_widget_prefs_speak_all">Pour toutes les balises de la liste</string>
+    <string name="label_widget_prefs_speak_all_summary">... ou seulement celles affichées sur le widget</string>
+    <string name="label_widget_prefs_delete">Supprimer le widget</string>
+    <string name="label_widget_prefs_delete_summary">... ne fonctionne que dans le cas de widget "fantôme" ou de widget sur l\'écran de verrouillage</string>
+
+</resources>

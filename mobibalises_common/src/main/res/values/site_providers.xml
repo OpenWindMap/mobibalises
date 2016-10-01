@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="site_providers_base_key">spot_provider</string>
+	<string-array name="site_providers_keys">
+		<item>spot_provider.ffvl</item>
+		<item>spot_provider.dhv</item>
+		<item>spot_provider.pge_west_eur</item>
+		<item>spot_provider.pge_east_eur</item>
+		<item>spot_provider.pge_north_ame</item>
+		<item>spot_provider.pge_south_ame</item>
+		<item>spot_provider.pge_middle_east</item>
+		<item>spot_provider.pge_africa</item>
+		<item>spot_provider.pge_asia</item>
+		<item>spot_provider.pge_oceania</item>
+	</string-array>
+	<string-array name="site_providers_forDebugs">
+		<item>false</item>
+        <item>false</item>
+		<item>false</item>
+		<item>false</item>
+		<item>false</item>
+		<item>false</item>
+		<item>false</item>
+		<item>false</item>
+		<item>false</item>
+		<item>false</item>
+	</string-array>
+	<string-array name="site_providers_titles">
+		<item>FFVL</item>
+		<item>DHV</item>
+		<item>Paragliding Earth</item>
+		<item>Paragliding Earth</item>
+		<item>Paragliding Earth</item>
+		<item>Paragliding Earth</item>
+		<item>Paragliding Earth</item>
+		<item>Paragliding Earth</item>
+		<item>Paragliding Earth</item>
+		<item>Paragliding Earth</item>
+	</string-array>
+	<string-array name="site_providers_summaries">
+		<item>French Free Flight Federation</item>
+		<item>German Free Flight Federation</item>
+		<item>Western Europe</item>
+		<item>Eastern Europe</item>
+		<item>North America</item>
+		<item>South America</item>
+		<item>Middle East</item>
+		<item>Africa</item>
+		<item>Asia</item>
+		<item>Oceania</item>
+	</string-array>
+	<string-array name="types_spot_titles">
+		<item>Takeoffs</item>
+		<item>Landings</item>
+		<item>Spots</item>
+	</string-array>
+	<string-array name="types_spot_defaults">
+		<item>true</item>
+		<item>true</item>
+		<item>false</item>
+	</string-array>
+	<string-array name="pratiques_titles">
+		<item>Paragliding</item>
+		<item>Hang-gliding</item>
+		<item>Rigide</item>
+		<item>Speed Riding</item>
+		<item>Kite</item>
+		<item>Cerf-Volant</item>
+	</string-array>
+	<string-array name="pratiques_defaults">
+		<item>true</item>
+		<item>true</item>
+		<item>true</item>
+		<item>false</item>
+		<item>false</item>
+		<item>false</item>
+	</string-array>
+	<string-array name="spot_provider_ffvl_infos">
+		<item>Access</item>
+	</string-array>
+    <string-array name="spot_provider_dhv_infos">
+        <item>Site</item>
+        <item>Access</item>
+        <item>Contacts</item>
+        <item>Regulation</item>
+        <item>Weather</item>
+        <item>Towing</item>
+        <item>Comments</item>
+        <item>Accomodations</item>
+        <item>Webcams</item>
+    </string-array>
+    <string name="spot_provider_dhv_infosKey_true">yes</string>
+    <string name="spot_provider_dhv_infosKey_false">no</string>
+    <string name="spot_provider_dhv_infosKey_nom">&lt;b&gt;Name&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_desc">&lt;b&gt;Description (de)&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_enDesc">&lt;b&gt;Description (en)&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_maxDeniv">&lt;b&gt;Max. elev. diff.&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_cert">&lt;b&gt;DE certified&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_certHolder">&lt;b&gt;Certification holder&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_siteInformations">&lt;b&gt;Informations&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_suitHg">&lt;b&gt;Hang gliding use (de)&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_suitHgEn">&lt;b&gt;Hang gliding use (en)&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_suitPg">&lt;b&gt;Paragliding use (de)&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_suitPgEn">&lt;b&gt;Paragliding use (en)&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_remontee">&lt;b&gt;Cable car&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_codePostal">&lt;b&gt;Postal code&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_region">&lt;b&gt;Region&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_municipalite">&lt;b&gt;Municipality&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_accVoiture">&lt;b&gt;Access by car&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_accTC">&lt;b&gt;Access by public transport&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_accMP">&lt;b&gt;Access by foot&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_accRem">&lt;b&gt;Comments&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_reglesInvitesActives">&lt;b&gt;Guest rules apply&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_reglesInvites">&lt;b&gt;Guest rules&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_lgTreuil">&lt;b&gt;Length&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_htTreuil1">&lt;b&gt;Height 1&lt;/b&gt;</string>
+    <string name="spot_provider_dhv_infosKey_htTreuil2">&lt;b&gt;Height 2&lt;/b&gt;</string>
+    <string-array name="spot_provider_pge_west_eur_infos">
+		<item>Description</item>
+		<item>Access</item>
+		<item>Comments</item>
+		<item>Weather</item>
+		<item>Flight Rules</item>
+		<item>Contact</item>
+		<item>Web Site</item>
+	</string-array>
+	<string-array name="spot_provider_pge_east_eur_infos">
+		<item>Description</item>
+		<item>Access</item>
+		<item>Comments</item>
+		<item>Weather</item>
+		<item>Flight Rules</item>
+		<item>Contact</item>
+		<item>Web Site</item>
+	</string-array>
+	<string-array name="spot_provider_pge_north_ame_infos">
+		<item>Description</item>
+		<item>Access</item>
+		<item>Comments</item>
+		<item>Weather</item>
+		<item>Flight Rules</item>
+		<item>Contact</item>
+		<item>Web Site</item>
+	</string-array>
+	<string-array name="spot_provider_pge_south_ame_infos">
+		<item>Description</item>
+		<item>Access</item>
+		<item>Comments</item>
+		<item>Weather</item>
+		<item>Flight Rules</item>
+		<item>Contact</item>
+		<item>Web Site</item>
+	</string-array>
+	<string-array name="spot_provider_pge_middle_east_infos">
+		<item>Description</item>
+		<item>Access</item>
+		<item>Comments</item>
+		<item>Weather</item>
+		<item>Flight Rules</item>
+		<item>Contact</item>
+		<item>Web Site</item>
+	</string-array>
+	<string-array name="spot_provider_pge_africa_infos">
+		<item>Description</item>
+		<item>Access</item>
+		<item>Comments</item>
+		<item>Weather</item>
+		<item>Flight Rules</item>
+		<item>Contact</item>
+		<item>Web Site</item>
+	</string-array>
+	<string-array name="spot_provider_pge_asia_infos">
+		<item>Description</item>
+		<item>Access</item>
+		<item>Comments</item>
+		<item>Weather</item>
+		<item>Flight Rules</item>
+		<item>Contact</item>
+		<item>Web Site</item>
+	</string-array>
+	<string-array name="spot_provider_pge_oceania_infos">
+		<item>Description</item>
+		<item>Access</item>
+		<item>Comments</item>
+		<item>Weather</item>
+		<item>Flight Rules</item>
+		<item>Contact</item>
+		<item>Web Site</item>
+	</string-array>
+</resources>

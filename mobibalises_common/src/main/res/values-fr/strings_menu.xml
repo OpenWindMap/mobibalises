@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="menu_mode_list">Mode liste</string>
+	<string name="menu_mode_map">Mode carte</string>
+    <string name="menu_mode_flight">Mode vol</string>
+	<string name="menu_labels">Gestion des listes</string>
+    <string name="menu_add_to_label">Aj. balises visibles à liste</string>
+	<string name="menu_label_selection">Sélection liste</string>
+
+	<string name="menu_location">Ma position</string>
+
+	<string name="menu_maptype">Type de carte</string>
+	<string-array name="menu_maptype_names">
+        <item>OSM - Mapnik</item>
+	    <item>OSM - OpenCycleMap</item>
+        <!--item>OSM - Tiles@Home</item-->
+        <item>IGN - Satellite</item>
+        <item>IGN - Carte</item>
+        <item>Google - Terrain</item>
+        <item>Google - Satellite</item>
+        <item>Google - Roadmap</item>
+        <item>Google - Hybrid</item>
+        <item>Hiking (Europe)</item>
+        <item>Relief (Europe)</item>
+        <item>Hike &amp; Bike (Europe)</item>
+        <item>MapQuest - OSM</item>
+        <item>MapQuest - Open Aerial</item>
+        <item>Mapbox</item>
+		<item>Bing - Road</item>
+		<item>Bing - Aerial</item>
+		<item>Bing - Aerial with Labels</item>
+        <item>Vide - Gris clair</item>
+        <item>Vide - Noir</item>
+        <item>Carreaux - Gris clair</item>
+        <item>Carreaux - Noir</item>
+	</string-array>
+
+	<string name="menu_mapdatas">Calques</string>
+	<string-array name="menu_mapdatas_names">
+		<item>Balises - Vent</item>
+        <item>Balises - Météo</item>
+		<item>Sites de pratique</item>
+		<item>Webcams</item>
+	</string-array>
+
+	<string name="menu_display_mode">Affichage</string>
+
+    <string name="menu_search">Recherche</string>
+
+	<string name="menu_datainfos">Infos données</string>
+
+	<string name="menu_history_mode">Enregistrement historique</string>
+
+    <string name="menu_alarm_mode">Mode alarme</string>
+    <string name="menu_alarms">Gestion des alarmes</string>
+
+	<string name="menu_preferences">Préférences</string>
+	<string name="menu_widget_preferences">Préférences des widgets</string>
+
+	<string name="menu_about">A Propos</string>
+	<string name="menu_help">Aide</string>
+	<string name="menu_whatsnew">Quoi de neuf ?</string>
+    <string name="menu_ffvl_message">Message FFVL</string>
+
+    <string name="menu_context_map_historique_balise">Historique</string>
+    <string name="menu_context_map_detail_web_balise">Détails (Web)</string>
+	<string name="menu_context_map_historique_web_balise">Historique (Web)</string>
+	<string name="menu_context_map_tooltip_balise">Infobulle</string>
+	<string name="menu_context_map_speak_balise">Parle !</string>
+	<string name="menu_context_map_alarm_balise">Ajouter une alarme</string>
+	<string name="menu_context_map_labels_balise">Ajouter à listes</string>
+
+	<string name="menu_context_map_infos_spot">Informations</string>
+	<string name="menu_context_map_navigate_to_spot">Naviguer vers...</string>
+	<string name="menu_context_map_detail_spot">Détails (Web)</string>
+
+	<string name="menu_context_map_webcam_image">Image</string>
+	<string name="menu_context_map_webcam_webmap">Détails (Web MobiBalises)</string>
+	<string name="menu_context_map_webcam_edit">Editer (Web MobiBalises)</string>
+	<string name="menu_context_map_webcam_web">Page Web</string>
+
+	<string name="menu_context_map_liste_items_type_balise">Balise</string>
+	<string name="menu_context_map_liste_items_type_spot">Site</string>
+	<string name="menu_context_map_liste_items_type_webcam">Webcam</string>
+	<string name="menu_context_map_liste_items_type_unknown">\?\?\?</string>
+
+    <string name="menu_context_favorites_label_historique_balise">Historique</string>
+	<string name="menu_context_favorites_label_detail_web_balise">Détails (Web)</string>
+	<string name="menu_context_favorites_label_historique_web_balise">Historique (Web)</string>
+	<string name="menu_context_favorites_label_speak_balise">Parle !</string>
+	<string name="menu_context_favorites_label_alarm_balise">Ajouter une alarme</string>
+	<string name="menu_context_favorites_label_delete">Supprimer de la liste</string>
+	<string name="menu_context_favorites_label_labels_balise">Ajouter à listes</string>
+	<string name="menu_context_favorites_label_map_balise">Voir sur la carte</string>
+
+	<string name="menu_context_favorites_proximity_detail_balise">Détails (Web)</string>
+	<string name="menu_context_favorites_proximity_historique_balise">Historique (Web)</string>
+	<string name="menu_context_favorites_proximity_speak_balise">Parle !</string>
+	<string name="menu_context_favorites_proximity_alarm_balise">Ajouter une alarme</string>
+	<string name="menu_context_favorites_proximity_labels_balise">Ajouter à listes</string>
+	<string name="menu_context_favorites_proximity_map_balise">Voir sur la carte</string>
+
+</resources>

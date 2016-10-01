@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffvl_message_progress_dialog_title">FFVL</string>
+    <string name="ffvl_message_progress_dialog_message">Abrufen von aktuellen FFVL Nachricht...</string>
+    <string name="ffvl_message_dialog_title">FFVL</string>
+    <string name="ffvl_message_none">Keine Nachricht</string>
+</resources>

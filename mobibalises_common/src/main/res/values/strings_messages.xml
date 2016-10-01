@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="message_startup">v%1$s</string>
+
+    <string-array name="messages_about"></string-array>
+
+    <string name="message_confirm_quit">Press again to exit</string>
+    <string name="message_cache_not_available">Warning, cache not available\n%1$s</string>
+    <string name="message_location_progress">Waiting for location informations.\nPress back key to cancel...</string>
+    <string name="message_finer_location_progress">Approximate location found.\nWaiting for more precise location informations.\nPress back key to cancel...</string>
+    <string name="message_empty_location">No wind station near your position or location in progress.\nTry to change proximity settings...</string>
+    <string name="message_location_non_active">No location provider enabled, click OK to display the location settings</string>
+    <string name="message_download_error_title">Download error(s)</string>
+    <string name="message_download_error_nodata">No data for</string>
+    <string name="message_please_wait">Please wait...</string>
+    <string name="message_spot_error_title">Spots error for :</string>
+    <string name="message_spot_error">&#8226; %1$s (%2$s)</string>
+    <string name="message_spot_error_start">&lt;big&gt;</string>
+    <string name="message_spot_error_end">\n\n... try to download data again (\"Settings\" screen)&lt;/big&gt;</string>
+    <string name="message_whats_new_title">What\'s new ?</string>
+
+    <string-array name="messages_whats_new"></string-array>
+
+    <string name="message_first_launch">You are launching %1$s for the first time...\n\nThe first step consists in configuring wind stations data sources. To do that, you can go to the \"Preferences\" menu item, then follow the items \"Weather stations...\" and \"Data sources...\". Choose the countries and data providers of your choice.&lt;big&gt;By clicking the \"Close\" button, you are going to be directly redirected to this screen...&lt;/big&gt;</string>
+    <string name="message_unknown_error">Unknown error</string>
+    <string name="message_data_infos_title">Data infos</string>
+    <string name="message_data_infos_nonetwork">No network</string>
+    <string name="message_data_infos_noprovider">No provider...</string>
+    <string name="message_data_infos_releves">Wind reports</string>
+    <string name="message_data_infos_balises">Stations</string>
+    <string name="message_data_infos_webcams">Webcams</string>
+    <string name="message_data_infos_nodata">No data</string>
+    <string name="message_data_infos_provider_paused">unused (sleeping)</string>
+    <string name="message_data_infos_provider_in_progress">update in progress...</string>
+    <string name="message_data_infos_provider_sleeping">sleeping for %1$s</string>
+    <string name="message_data_infos_line_server">server</string>
+    <string name="message_data_infos_line_last_update">last update</string>
+    <string name="message_data_infos_line_last_check">last check</string>
+    <string name="message_loading_providers">Loading %1$s</string>
+    <string name="message_start_favorites">Init in progress...</string>
+    <string name="message_no_favorites">You can add stations by the above button or within map mode by the context menu (long press) on a station (\"Add to lists\" item).</string>
+    <string name="message_no_widget">You must first add some widgets on your desktop...</string>
+    <string name="message_delete_label_title">Delete list ?</string>
+    <string name="message_delete_label_message">Do you want to delete the list \"%1$s\" and its %2$d favorites ?</string>
+    <string name="message_label_already_exists">The list \"%1$s\" already exists</string>
+    <string name="message_widget_update_in_progress">Update in progress...</string>
+    <string name="message_widget_update_in_progress_short">Update...</string>
+    <string name="message_widget_no_localisation">Unable to obtain current localization.\nPlease make sure that almost one localization provider is enabled.</string>
+    <string name="message_widget_no_localisation_short">Localization error</string>
+    <string name="message_no_spot_provider_checked">You have to activate some spot data sources.\nClick on the \"Spots...\" button below</string>
+    <string name="message_error_title">Error</string>
+    <string name="message_ign_key_invalid">Your IGN API key is invalid</string>
+    <string name="message_ign_unavailable">IGN maps are unfortunately unavailable directly on MobiWindStations+.\nAll the explanations are here : http://www.mobibalises.net/faq.php#ign</string>
+    <string name="message_balise_not_found">Station not found !</string>
+    <string name="message_spot_not_found">Spot not found !</string>
+    <string name="message_webcam_not_found">Webcam not found !</string>
+
+    <string name="message_config_search_reset">Do you really want to reset the search database ?</string>
+    <string name="message_config_search_reset_done">Search database has been reset !</string>
+    <string name="message_config_search_delete_title">Please choose which data to erase</string>
+    <string name="message_config_search_delete_done">Data erased !</string>
+    <string name="message_config_search_delete_nothing">No data erased</string>
+    <string name="message_search_in_progress">In progress...</string>
+    <string name="message_search_no_result">No result</string>
+
+</resources>

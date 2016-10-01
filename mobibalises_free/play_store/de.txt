@@ -1,0 +1,10 @@
+Description :
+=============
+Echtzeit-Anzeige der Wind Informationen von Wetterstationen rund um die Welt.
+Diese Informationen werden auf einer geographischen Karte angezeigt.
+Die Anwendung ermöglicht es auch, die freien Flug detaillierte Informationen Orten in Frankreich und auf der ganzen Welt zu sehen.
+Diese Anwendung ist besonders gewidmet Paragleiten und Drachenfliegen, sondern ist auch sehr nützlich für alle Outdoor-Aktivitäten wich hängen von der Wind (Kite-Surfen, Windsurfen, etc.)
+
+Texte promotionnel :
+====================
+Echtzeit-Anzeige der Wind Informationen von Wetterstationen rund um die Welt.

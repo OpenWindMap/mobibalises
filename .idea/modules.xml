@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MobiBalises.iml" filepath="$PROJECT_DIR$/MobiBalises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/balises/balises.iml" filepath="$PROJECT_DIR$/balises/balises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/balises_lgpl/balises_lgpl.iml" filepath="$PROJECT_DIR$/balises_lgpl/balises_lgpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map/map.iml" filepath="$PROJECT_DIR$/map/map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobibalises_common/mobibalises_common.iml" filepath="$PROJECT_DIR$/mobibalises_common/mobibalises_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobibalises_free/mobibalises_free.iml" filepath="$PROJECT_DIR$/mobibalises_free/mobibalises_free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobibalises_full/mobibalises_full.iml" filepath="$PROJECT_DIR$/mobibalises_full/mobibalises_full.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobibalises_lgpl/mobibalises_lgpl.iml" filepath="$PROJECT_DIR$/mobibalises_lgpl/mobibalises_lgpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pedro_android_utils/pedro_android_utils.iml" filepath="$PROJECT_DIR$/pedro_android_utils/pedro_android_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pedro_android_utils_lgpl/pedro_android_utils_lgpl.iml" filepath="$PROJECT_DIR$/pedro_android_utils_lgpl/pedro_android_utils_lgpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pedro_android_widget/pedro_android_widget.iml" filepath="$PROJECT_DIR$/pedro_android_widget/pedro_android_widget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pedro_utils/pedro_utils.iml" filepath="$PROJECT_DIR$/pedro_utils/pedro_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pedro_utils_lgpl/pedro_utils_lgpl.iml" filepath="$PROJECT_DIR$/pedro_utils_lgpl/pedro_utils_lgpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/play_library/play_library.iml" filepath="$PROJECT_DIR$/play_library/play_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/saveable_lgpl/saveable_lgpl.iml" filepath="$PROJECT_DIR$/saveable_lgpl/saveable_lgpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spots/spots.iml" filepath="$PROJECT_DIR$/spots/spots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcams_android_lgpl/webcams_android_lgpl.iml" filepath="$PROJECT_DIR$/webcams_android_lgpl/webcams_android_lgpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webcams_lgpl/webcams_lgpl.iml" filepath="$PROJECT_DIR$/webcams_lgpl/webcams_lgpl.iml" />
+    </modules>
+  </component>
+</project>

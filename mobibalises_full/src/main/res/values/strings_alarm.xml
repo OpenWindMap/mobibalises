@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="alarm_color_title_background">#442099CC</color>
+    <color name="alarm_color_subtitle_background">#22CCCCCC</color>
+
+    <string name="alarm_text_liste_vide">Add an alarm</string>
+    <string name="alarm_notification_android_title">Alarm for {1} !</string>
+    <string name="alarm_notification_android_text_verifiee">The criteria are met</string>
+    <string name="alarm_notification_android_text_non_verifiee">The criteria are not met</string>
+    <string name="alarm_notification_android_action_notification">Ok</string>
+    <string name="alarm_notification_android_action_alarme">Alarm</string>
+    <string name="alarm_notification_android_action_mode_alarme">All</string>
+    <string name="alarm_notification_android_text_default_provider">&lt;provider&gt;</string>
+    <string name="alarm_notification_android_text_default_balise">&lt;windstation&gt;</string>
+    <string name="alarm_notification_voix_text_verifiee">Alarm checked for {1}</string>
+    <string name="alarm_notification_voix_text_non_verifiee">Alarm not checked for {1}</string>
+    <string name="alarm_title_fournisseur">Provider</string>
+    <string name="alarm_title_balise">Wind station</string>
+    <string name="alarm_title_notifications">Notification(s)</string>
+    <string name="alarm_title_notification_android">Android system notification</string>
+    <string name="alarm_text_notification_android_perso">Custom text</string>
+    <string name="alarm_text_notification_android_audio">Notification sound :</string>
+    <string name="alarm_text_notification_android_audio_aucune">None</string>
+    <string name="alarm_text_notification_android_vibration">Vibrate</string>
+    <string name="alarm_title_notification_voix">Voice synthesis notification</string>
+    <string name="alarm_text_notification_voix_perso">Custom text</string>
+    <string name="alarm_title_notification_broadcast">Broadcast notification</string>
+    <string name="alarm_text_notification_broadcast_perso">Custom text</string>
+    <string name="alarm_title_secteurs">Sectors</string>
+    <string name="alarm_title_vitesses_mini">Min speeds</string>
+    <string name="alarm_title_vitesses_moy">Average speeds</string>
+    <string name="alarm_title_vitesses_maxi">Max speeds</string>
+    <string name="alarm_title_plages_horaires">Hours ranges</string>
+    <string name="alarm_title_selection">Select alarms</string>
+    <string name="alarm_title_selection_sous_titre_singulier">%1$s alarm selected</string>
+    <string name="alarm_title_selection_sous_titre_pluriel">%1$s alarms selected</string>
+    <string name="alarm_text_activation">Notify when criteria</string>
+    <string name="alarm_text_plage_horaire_sep">to</string>
+    <string name="alarm_text_choix_fournisseur">Please choose a provider</string>
+    <string name="alarm_text_choix_balise">Please choose a wind station</string>
+    <string name="alarm_message_provider_inactif">Provider disabled, enable it in preferences</string>
+    <string name="alarm_message_non_creee">Alarm not created, provider and/or wind station not chosen</string>
+
+    <string-array name="alarm_label_activation">
+        <item>become met</item>
+        <item>become non met</item>
+        <item>become met or non met</item>
+        <item>are met (at every update)</item>
+        <item>are not met (at every update)</item>
+    </string-array>
+
+</resources>

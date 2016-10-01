@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="label_weather_beacons">Balises météo...</string>
+	<string name="label_practice_spots">Sites de pratique...</string>
+	<string name="label_datasources">Sources de données...</string>
+	<string name="label_display">Affichage</string>
+	<string name="label_spots_download">Téléchargement des sites</string>
+	<string name="label_spots_download_progress">En cours, veuillez patienter...</string>
+	<string name="label_spot_types">Types de spot</string>
+	<string name="label_practices">Pratiques</string>
+    <string name="label_webcams">Webcams...</string>
+    <string name="label_status">Statuts</string>
+
+	<string name="label_non_available">ND</string>
+	<string name="label_map_inactive">Inactive</string>
+	<string name="label_map_no_data">Aucun relevé</string>
+	<string name="label_map_touch_action_title">Action sur touch</string>
+	<string name="label_map_touch_action_tooltip">Afficher l\'infobulle</string>
+	<string name="label_map_touch_action_speech">Parler</string>
+	<string name="label_map_touch_action_both">Afficher l\'infobulle et parler</string>
+    <string name="label_map_metar_synop_collision_title">En cas de doublon METAR/SYNOP</string>
+    <string name="label_map_metar_synop_collision_hide_synop">Cacher la station SYNOP</string>
+    <string name="label_map_metar_synop_collision_hide_metar">Cacher la station METAR</string>
+    <string name="label_map_metar_synop_collision_no_hide">Ne cacher aucune station</string>
+	<string name="label_map_wind_title">Valeur de vent affichée</string>
+	<string name="label_map_tooltip_balise_category">Données de la balise</string>
+	<string name="label_map_tooltip_releve_category">Données du relevé</string>
+	<string name="label_map_speak_balise_category">Données de la balise</string>
+	<string name="label_map_speak_releve_category">Données du relevé</string>
+	<string name="label_map_datetimestatus">Date et heure / Statut</string>
+	<string name="label_map_average_direction">Direction moyenne</string>
+	<string name="label_map_average_direction_abv">Dir. moy.</string>
+	<string name="label_map_instant_direction">Direction instantanée</string>
+	<string name="label_map_instant_direction_abv">Dir. inst.</string>
+    <string name="label_map_variation_direction">Variation Direction</string>
+    <string name="label_map_variation_direction_abv">Var. Dir.</string>
+	<string name="label_map_average_wind">Vent moyen</string>
+	<string name="label_map_average_wind_abv">Vent moy.</string>
+	<string name="label_map_min_wind">Vent minimum</string>
+	<string name="label_map_min_wind_abv">Vent min.</string>
+	<string name="label_map_max_wind">Vent maximum</string>
+	<string name="label_map_max_wind_abv">Vent max.</string>
+	<string name="label_map_temperature">Température</string>
+	<string name="label_map_temperature_abv">Temp.</string>
+    <string name="label_map_dew_point">Point de rosée</string>
+    <string name="label_map_dew_point_abv">Pt. rosée</string>
+	<string name="label_map_hydrometry">Pluie</string>
+	<string name="label_map_hydrometry_abv">Pluie</string>
+    <string-array name="label_map_rains">
+        <item>non</item>
+        <item>faible</item>
+        <item>moyenne</item>
+        <item>forte</item>
+        <item>déluge</item>
+    </string-array>
+	<string name="label_map_clouds">Nuages</string>
+    <string name="label_map_clouds_abv">Nuages</string>
+	<string name="label_map_pressure">Pression</string>
+	<string name="label_map_pressure_abv">Press.</string>
+	<string name="label_map_luminosity">Luminosité</string>
+	<string name="label_map_luminosity_abv">Lumin.</string>
+	<string name="label_map_humidity">Humidité</string>
+	<string name="label_map_humidity_abv">Humid.</string>
+	<string name="label_map_altitude">Altitude</string>
+	<string name="label_map_altitude_abv">Alt.</string>
+	<string name="label_map_category">Carte</string>
+    <string name="label_map_display_category">Affichage en mode carte</string>
+	
+	<string name="label_map_windslimits">Limites de vitesses de vent...</string>
+	<string name="label_map_windslimits_summary">Règles utilisées pour afficher la valeur des balises en VERT ou en ROUGE</string>
+	<string name="label_map_windslimits_moy_check">Vent moyen...</string>
+	<string name="label_map_windslimits_moy_value">... valeur limite : {0} [unit]</string>
+	<string name="label_map_windslimits_operator">Opérateur logique</string>
+	<string name="label_map_windslimits_operator_and">ET</string>
+	<string name="label_map_windslimits_operator_or">OU</string>
+	<string name="label_map_windslimits_max_check">Vent maximum...</string>
+	<string name="label_map_windslimits_max_value">... valeur limite : {0} [unit]</string>
+	<string name="label_map_windslimits_summary_checked">Valeur en VERT si &lt;=</string>
+	<string name="label_map_windslimits_summary_unchecked">Non pris en compte</string>
+	<string name="label_map_outofdate_title">Limite de péremption des données</string>
+    <string name="label_map_outofdate_summary">{0} minutes</string>
+	<string name="label_map_outofdate_max_wind_title">Limite de péremption vent max.</string>
+    <string name="label_map_outofdate_max_wind_summary">{0} minutes</string>
+	<string name="label_map_balise_hide_inactive_title">Cacher les balises inactives</string>
+	<string name="label_map_centering_title">Centrage sur \"Touch\"</string>
+	<string name="label_map_centering_false">Aucun</string>
+	<string name="label_map_centering_true">Sur la balise et/ou le site</string>
+    <string name="label_map_use_gps_title">Utiliser le GPS si disponible</string>
+    <string name="label_map_use_gps_summary">En mode carte</string>
+    <string name="label_map_ign_use_own_key_title">Utiliser une clef API IGN personnelle</string>
+    <string name="label_map_ign_use_own_key_summary">(Redémarrage nécessaire)</string>
+    <string name="label_map_ign_own_key_title">Clef API IGN</string>
+    <string name="label_map_search_title">Moteur de recherche...</string>
+    <string name="label_map_search_reset_title">Effacer la base de données de recherche</string>
+    <string name="label_map_search_reset_balises_prefix">Balises</string>
+    <string name="label_map_search_reset_spots_prefix">Sites</string>
+    <string name="label_map_config_tooltip">Données de l\'infobulle...</string>
+    <string name="label_map_config_tooltip_summary">En mode carte</string>
+	<string name="label_map_config_speak">Synthèse vocale...</string>
+
+	<string name="label_map_directions_N">N</string>
+	<string name="label_map_directions_NNE">NNE</string>
+	<string name="label_map_directions_NE">NE</string>
+	<string name="label_map_directions_ENE">ENE</string>
+	<string name="label_map_directions_E">E</string>
+	<string name="label_map_directions_ESE">ESE</string>
+	<string name="label_map_directions_SE">SE</string>
+	<string name="label_map_directions_SSE">SSE</string>
+	<string name="label_map_directions_S">S</string>
+	<string name="label_map_directions_SSO">SSO</string>
+	<string name="label_map_directions_SO">SO</string>
+	<string name="label_map_directions_OSO">OSO</string>
+	<string name="label_map_directions_O">O</string>
+	<string name="label_map_directions_ONO">ONO</string>
+	<string name="label_map_directions_NO">NO</string>
+	<string name="label_map_directions_NNO">NNO</string>
+
+	<string name="label_map_full_directions_N">Nord</string>
+	<string name="label_map_full_directions_NNE">Nord-Nord-Est</string>
+	<string name="label_map_full_directions_NE">Nord-Est</string>
+	<string name="label_map_full_directions_ENE">Est-Nord-Est</string>
+	<string name="label_map_full_directions_E">Est</string>
+	<string name="label_map_full_directions_ESE">Est-Sud-Est</string>
+	<string name="label_map_full_directions_SE">Sud-Est</string>
+	<string name="label_map_full_directions_SSE">Sud-Sud-Est</string>
+	<string name="label_map_full_directions_S">Sud</string>
+	<string name="label_map_full_directions_SSO">Sud-Sud-Ouest</string>
+	<string name="label_map_full_directions_SO">Sud-Ouest</string>
+	<string name="label_map_full_directions_OSO">Ouest-Sud-Ouest</string>
+	<string name="label_map_full_directions_O">Ouest</string>
+	<string name="label_map_full_directions_ONO">Ouest-Nord-Ouest</string>
+	<string name="label_map_full_directions_NO">Nord-Ouest</string>
+	<string name="label_map_full_directions_NNO">Nord-Nord-Ouest</string>
+
+	<string name="message_format_altitude">{0}{1}</string>
+	<string name="message_format_direction">{0} ({1}{2})</string>
+    <string name="message_format_oscillation_direction">{0,number,#}{1}-{2,number,#}{3}</string>
+	<string name="message_format_vitesse">{0,number,#} {1}</string>
+    <string name="message_format_vitesse_horodatee">{0,number,#} {1}{2}</string>
+    <string name="message_format_heure_vitesse_max">à {0}</string>
+    <string name="message_format_temperature">{0,number,#}{1}</string>
+    <string name="message_format_pluie">{0}</string>
+    <string name="message_format_hydrometrie">{0,number,#.#} {1}</string>
+    <string name="message_format_pluie_hydrometrie">{0} ({1,number,#.#}{2})</string>
+    <string name="message_format_nuages_huitieme">{0}/8</string>
+    <string name="message_format_nuages_plafond">(@{0}{1})</string>
+    <string name="message_format_nuages_bourgeons">{Cu/Cb}</string>
+    <string name="message_format_nuages">{0} {1} {2}</string>
+    <string name="message_format_pression">{0,number,#} {1}</string>
+	<string name="message_format_luminosite">{0}</string>
+	<string name="message_format_humidite">{0}{1}</string>
+	<string name="message_format_orientations">{0}</string>
+	<string name="message_format_pratiques">{0}</string>
+
+	<string name="label_map_orientations">Orientations</string>
+	<string name="label_map_orientations_abv">Orient.</string>
+	<string name="label_map_orientations_toutes">Toutes</string>
+	<string-array name="label_map_pratiques_valeurs_abv">
+		<item>P</item>
+		<item>D</item>
+		<item>R</item>
+		<item>SR</item>
+		<item>K</item>
+		<item>C</item>
+	</string-array>
+	<string name="label_map_pratiques">Pratiques</string>
+	<string name="label_map_pratiques_abv">Prat.</string>
+	<string name="label_map_orientations_zoom_level_title">Zoom orient. sites : {0}</string>
+	<string name="label_map_orientations_zoom_level_summary">Niveau de zoom à partir duquel afficher les orientations des sites, par défaut {0}, valeur actuelle de zoom : {1}</string>
+
+	<string name="label_misc">Divers</string>
+    <string name="config_ffvl_message_title">Message FFVL</string>
+    <string name="config_ffvl_message_summary">Afficher les éventuelles informations de la FFVL au démarrage</string>
+	<string name="config_error_reports_title">Envoyer rapports d\'erreurs</string>
+	<string name="config_error_reports_summary">Les rapports sont anonymes, veuillez SVP laisser cette option (pour améliorer la qualité)</string>
+	<string name="label_ga">Google Analytics</string>
+	<string name="label_ga_true">Statistiques anonymes envoyées à GA (aucune donnée privée)</string>
+	<string name="label_ga_false">Les statistiques ne sont pas envoyées à GA</string>
+	<string name="label_wakelock">Désactiver le mode veille</string>
+	<string name="label_wakelock_summary">... lorsque la carte ou la liste est affichée</string>
+    <string name="label_wakelock_flight_mode">Seulement en mode vol</string>
+	<string name="label_wakelockbright">Activer le rétro-éclairage</string>
+	<string name="config_double_backkey_key_title">Double appui sur "back" pour quitter</string>
+
+	<string name="label_advanced_config">Configuration avancée</string>
+	<string name="label_map_cache_size_title">Taille maximum du cache des cartes : {0} Mo</string>
+	<string name="label_map_cache_size_summary">Par défault : {0} Mo, utilisé : {1,number,#.#} Mo</string>
+    <string name="label_light_mode_title">Mode graphique \"light\"</string>
+    <string name="label_light_mode_summary">Consommation mémoire réduite pour les graphiques (redémarrage nécessaire)</string>
+
+	<string name="label_favorite_inactive">Inactive</string>
+	<string name="label_favorite_no_data">Aucun relevé</string>
+	<string name="message_format_favorite_instant_direction"> ({0})</string>
+    <string name="label_favorite_direction_variation_abv">Var. dir. :</string>
+    <string name="message_format_favorite_max_wind_hour">&lt;small&gt;({0})&lt;/small&gt;</string>
+	<string name="message_format_favorite_vent">Vent : &lt;big&gt;&lt;b&gt;{0}&lt;/big&gt; {1}&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;big&gt;{2}/{3}/{4}&lt;/b&gt;&lt;/big&gt;{5} {6}</string>
+	<string name="label_favorite_altitude_abv">Alt. :</string>
+	<string name="label_favorite_temperature_abv">Temp. :</string>
+	<string name="label_favorite_dew_point_abv">Pt. rosée :</string>
+	<string name="label_favorite_rain">Pluie :</string>
+    <string name="label_favorite_hydrometry_abv">Hydro. :</string>
+    <string name="label_favorite_clouds">Nuages :</string>
+    <string name="label_favorite_clouds_base">(\@{0,number,#}{1})</string>
+    <string name="label_favorite_clouds_cucb">&lt;b&gt;{Cu/Cb}&lt;/b&gt;</string>
+    <string name="label_favorite_pressure_abv">Press. :</string>
+	<string name="label_favorite_luminosity_abv">Lum. :</string>
+	<string name="label_favorite_humidity_abv">Hum. :</string>
+    <string name="number_format_favorite_entier">#</string>
+    <string name="number_format_favorite_1_decimale">#.#</string>
+
+	<string name="label_title_favorite_label_update">Modification de la liste</string>
+	<string name="label_title_choose_label">Choisissez la liste</string>
+	<string name="label_title_select_labels">Sélectionnez les listes</string>
+	<string name="label_default_label">Liste #1</string>
+    <string name="label_default_new_label">Liste #%1$s</string>
+    <string name="label_new_list_item">&lt;Nouvelle liste&gt;</string>
+    <string name="label_add_beacons">Ajouter des balises...</string>
+
+	<string name="label_proximity">A proximité</string>
+    <string name="label_around">Autour de moi</string>
+    <string name="label_flight_mode">:: Mode vol ::</string>
+
+    <string name="label_list_mode_compact_display">Compact</string>
+    <string name="label_list_mode_medium_display">Intermédiaire</string>
+    <string name="label_list_mode_full_display">Complet</string>
+
+    <string name="label_config_balises_proximity_category">Réglages du mode \"A proximité\"</string>
+	<string name="label_config_favorites_proximity_nb_title">Nb balises proches max : {0}</string>
+	<string name="label_config_favorites_proximity_nb_summary">Nombre de balises maximum affichées à proximité</string>
+	<string name="label_config_favorites_proximity_radius_limited_title">Limitation au rayon</string>
+	<string name="label_config_favorites_proximity_radius_limited_summary">Limiter les balises de proximité à un rayon (en km)</string>
+	<string name="label_config_favorites_proximity_radius_limit_title">Rayon limite : {0} km</string>
+	<string name="label_config_favorites_proximity_radius_limit_summary">Distance maximum pour les balises de proximité</string>
+
+    <string name="label_config_balises_around_category">Réglages du mode \"Autour de moi\"</string>
+    <string name="label_config_favorites_around_min_title">Rayon mini : {0} km</string>
+    <string name="label_config_favorites_around_min_summary">Limiter les balises autour de moi à un rayon mini (en km)</string>
+    <string name="label_config_favorites_around_max_title">Rayon maxi : {0} km</string>
+    <string name="label_config_favorites_around_max_summary">Limiter les balises autour de moi à un rayon maxi (in km)</string>
+
+	<string name="label_dialog_balises_title">Sélectionnez les balises pour \'%1$s\'</string>
+	<string name="label_dialog_balises_filter">Filtre :</string>
+
+	<string name="label_voice_sdcard_title">Carte SD</string>
+	<string name="label_voice_sdcard_message">&lt;big&gt;La synthèse vocale ne peut fonctionner que si le stockage externe (carte SD) est disponible.\nVeuillez rendre la carte SD disponible et réessayez.&lt;/big&gt;</string>
+
+	<string name="label_voice_install_title">Synthèse vocale</string>
+	<string name="label_voice_install_message">Les données de synthèse vocale doivent être téléchargées depuis le Play Store Google.\nClickez sur \'%1$s\' pour accéder au Play Store Google.</string>
+
+	<string name="label_config_flight_mode">Mode vol...</string>
+    <string name="label_config_flight_mode_foreground_speech">Synthèse vocale si actif</string>
+    <string name="label_config_flight_mode_foreground_speech_summary">Lorsqu\'un écran MobiBalises est actif (carte ou liste)</string>
+    <string name="label_config_flight_mode_use_gps">Utiliser le GPS si disponible</string>
+
+    <string name="label_config_history_mode">Mode historique...</string>
+    <string name="label_config_history_mode_record">Enregistrement</string>
+    <string name="label_history_mode_duration">Durée : {0} jour(s)</string>
+    <string name="label_config_history_mode_range">Plage horaire</string>
+    <string name="label_config_history_mode_range_summary">En dehors de cette plage, l\'enregistrement de l\'historique sera automatiquement désactivé</string>
+    <string name="label_history_mode_range_start">Début : {0}h00</string>
+    <string name="label_history_mode_range_end">Fin : {0}h00</string>
+
+    <string name="label_config_history_mode_misc">Divers</string>
+    <string name="label_config_history_mode_ask">Confirmation téléchargement</string>
+    <string name="label_config_history_mode_ask_summary">Demander confirmation avant de télécharger des données d\'historique</string>
+
+    <string name="number_format_history_entier">#</string>
+    <string name="label_history_vent_mini">Min : </string>
+    <string name="label_history_vent_moyen">Moy : </string>
+    <string name="label_history_vent_maxi">Max : </string>
+    <string name="label_history_temperature">T° : </string>
+    <string name="label_history_legende_vent_mini">Min</string>
+    <string name="label_history_legende_vent_moyen">Moy</string>
+    <string name="label_history_legende_vent_maxi">Max</string>
+    <string name="label_history_legende_temperature">T°</string>
+
+</resources>

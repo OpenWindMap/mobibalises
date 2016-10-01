@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_context_balise_historique"
+        android:enabled="true"
+        android:title="@string/menu_context_map_historique_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_balise_lien_historique_web"
+        android:enabled="true"
+        android:title="@string/menu_context_map_historique_web_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_balise_lien_detail_web"
+        android:enabled="true"
+        android:title="@string/menu_context_map_detail_web_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_balise_tooltip"
+        android:enabled="true"
+        android:title="@string/menu_context_map_tooltip_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_balise_speak"
+        android:enabled="true"
+        android:title="@string/menu_context_map_speak_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_balise_alarm"
+        android:enabled="true"
+        android:title="@string/menu_context_map_alarm_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_balise_favorite"
+        android:enabled="true"
+        android:title="@string/menu_context_map_labels_balise">
+    </item>
+
+</menu>

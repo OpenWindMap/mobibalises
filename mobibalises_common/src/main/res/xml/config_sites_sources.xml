@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slider="http://schemas.android.com/apk/res-auto"
+    android:key="@string/config_key"
+    android:title="@string/app_name" >
+
+    <PreferenceCategory
+        android:key="@string/config_data_category_sites_sources"
+        android:title="@string/label_datasources" >
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/config_data_category_sites_types"
+        android:title="@string/label_spot_types" >
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/config_data_category_sites_pratiques"
+        android:title="@string/label_practices" >
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="config_data_category_sites_orientations"
+        android:title="Orientations" >
+        <CheckBoxPreference
+            android:defaultValue="@string/config_data_sites_orientation_N_default"
+            android:key="@string/config_data_sites_orientation_N"
+            android:title="@string/label_map_full_directions_N" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_data_sites_orientation_NE_default"
+            android:key="@string/config_data_sites_orientation_NE"
+            android:title="@string/label_map_full_directions_NE" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_data_sites_orientation_E_default"
+            android:key="@string/config_data_sites_orientation_E"
+            android:title="@string/label_map_full_directions_E" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_data_sites_orientation_SE_default"
+            android:key="@string/config_data_sites_orientation_SE"
+            android:title="@string/label_map_full_directions_SE" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_data_sites_orientation_S_default"
+            android:key="@string/config_data_sites_orientation_S"
+            android:title="@string/label_map_full_directions_S" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_data_sites_orientation_SO_default"
+            android:key="@string/config_data_sites_orientation_SO"
+            android:title="@string/label_map_full_directions_SO" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_data_sites_orientation_O_default"
+            android:key="@string/config_data_sites_orientation_O"
+            android:title="@string/label_map_full_directions_O" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_data_sites_orientation_NO_default"
+            android:key="@string/config_data_sites_orientation_NO"
+            android:title="@string/label_map_full_directions_NO" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="config_data_category_sites_divers"
+        android:title="@string/label_misc" >
+        <org.pedro.android.widget.SliderPreference
+            android:key="@string/config_data_sites_orientations_zoom_level_key"
+            android:layout="@layout/preference_seekbar"
+            android:summary="@string/label_map_orientations_zoom_level_summary"
+            android:title="@string/label_map_orientations_zoom_level_title"
+            android:widgetLayout="@layout/preference_widget_seekbar"
+            slider:defValue="@string/config_data_sites_orientations_zoom_level_default"
+            slider:maxValue="17"
+            slider:minValue="0" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

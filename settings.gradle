@@ -1,0 +1,2 @@
+include ':map', ':pedro_utils', ':pedro_utils_lgpl', ':pedro_android_utils_lgpl', ':pedro_android_utils', ':pedro_android_widget', ':mobibalises_common', ':balises_lgpl', ':balises', ':saveable_lgpl', ':spots', ':webcams_lgpl', ':webcams_android_lgpl', ':mobibalises_free', ':mobibalises_full', ':mobibalises_lgpl'
+include ':play_library'

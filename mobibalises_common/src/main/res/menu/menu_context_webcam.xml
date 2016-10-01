@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_context_webcam_image"
+        android:enabled="true"
+        android:title="@string/menu_context_map_webcam_image">
+    </item>
+    <item
+        android:id="@+id/item_context_webcam_webmap"
+        android:enabled="true"
+        android:title="@string/menu_context_map_webcam_webmap">
+    </item>
+    <item
+        android:id="@+id/item_context_webcam_edit"
+        android:enabled="true"
+        android:title="@string/menu_context_map_webcam_edit">
+    </item>
+    <item
+        android:id="@+id/item_context_webcam_web"
+        android:title="@string/menu_context_map_webcam_web">
+    </item>
+
+</menu>

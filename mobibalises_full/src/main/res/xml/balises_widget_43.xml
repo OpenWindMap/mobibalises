@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.pedro.android.mobibalises.preferences.BalisesWidget43PreferencesActivity"
+    android:initialLayout="@layout/balises_widget_43_layout"
+    android:minHeight="250dip"
+    android:minResizeHeight="110dip"
+    android:minResizeWidth="180dip"
+    android:minWidth="250dip"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen|keyguard" >
+
+</appwidget-provider>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="messages_about">
+        <item>Version : {0}</item>
+        <item>© Pedro.M (contact@mobibalises.net)</item>
+        <item>\nhttp://www.mobibalises.net</item>
+        <item>http://www.mobibalises.net/aide.php</item>
+        <item>http://www.mobibalises.net/faq.php</item>
+        <item>\nRemerciements : LTMTP :: JuMo :: DKM :: Antoine :: La \"Z-Fly G33k Team\" ;) :: Raf (ParaglidingEarth) :: L5-S1</item>
+        <item>\nDonnées des balises météo et des sites issues de la Fédération Française de Vol Libre (www.ffvl.fr)</item>
+        <item>Wind data © contributors of the Pioupiou wind network (www.pioupiou.fr)</item>
+        <item>Données des sites issues du DHV (www.dhv.de)</item>
+        <item>Données des sites issues de Paragliding Earth (www.paraglidingearth.com)</item>
+        <item>Données des balises météo issues de OGIMET (www.ogimet.com)</item>
+        <item>Données des balises météo issues de Aviation Weather Center (NOAA) (www.aviationweather.gov)</item>
+        <item>\nLicenses open source : www.mobibalises.net/licenses.php</item>
+        <item>\nID : {0}</item>
+    </string-array>
+    <string-array name="messages_whats_new">
+        <item>Réseau des balises Pioupiou (www.pioupiou.fr)</item>
+    </string-array>
+
+    <string name="message_unlicensed">&lt;b&gt;Votre license d\'utilisation de MobiBalises+ n\'est pas valide&lt;/b&gt;.\nVous pouvez vous procurer MobiBalises+ sur Google Play Store en cliquant sur le bouton ci-dessous.\nVous pouvez réessayer (2 fois), sinon MobiBalises+ va se terminer maintenant...\n\nID : %1$s</string>
+    <string name="message_unlicensed_widget">Votre license d\'utilisation de MobiBalises+ n\'est pas valide.\nVous pouvez vous procurer MobiBalises+ sur Google Play Store...</string>
+    <string name="message_history_mode_on">Mode historique activé</string>
+    <string name="message_history_mode_off">Mode historique désactivé</string>
+    <string name="message_history_no_data">Pas de données d\'historique pour la balise \'%1$s\'</string>
+    <string name="message_history_no_data_downloaded">Aucunes données d\'historique téléchargées pour la balise \'%1$s\'</string>
+    <string name="message_history_no_network">Réseau indisponible.\nConnectez la 3G ou le Wifi...</string>
+    <string name="message_history_no_network_incomplete">Réseau indisponible.\nConnectez la 3G ou le Wifi...\nLa fenêtre d\'historique affichera des données périmées.</string>
+    <string name="message_history_download_progress">Téléchargement historique en cours...</string>
+    <string name="message_history_download_no_data">Pas de données d\'historique pour la balise \'%1$s\'.\nVoulez-vous télécharger l\'historique ?</string>
+    <string name="message_history_download_incomplete_data">Les données d\'historique pour la balise \'%1$s\' semblent incomplètes.\nVoulez-vous télécharger l\'historique (et écraser les données locales) ?</string>
+    <string name="message_history_download_error">Erreur au téléchargement de l\'historique pour la balise \'%1$s\' : %2$s</string>
+    <string name="message_history_save_error">Erreur à l\'enregistrement de l\'historique pour la balise \'%1$s\' : %2$s</string>
+    <string name="message_history_read_error">Erreur à la lecture de l\'historique pour la balise \'%1$s\' : %2$s</string>
+    <string name="message_alarm_mode_on">Mode alarme activé</string>
+    <string name="message_alarm_mode_off">Mode alarme désactivé</string>
+
+</resources>

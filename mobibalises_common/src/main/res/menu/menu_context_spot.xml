@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:enabled="true" android:id="@+id/item_context_spot_infos" android:title="@string/menu_context_map_infos_spot"></item>
+	<item android:id="@+id/item_context_spot_navigate" android:title="@string/menu_context_map_navigate_to_spot"></item>
+	<item android:enabled="true" android:id="@+id/item_context_spot_lien_detail" android:title="@string/menu_context_map_detail_spot"></item>
+</menu>

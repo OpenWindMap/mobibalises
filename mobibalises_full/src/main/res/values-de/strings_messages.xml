@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="messages_about">
+        <item>Version : {0}</item>
+        <item>© Pedro.M (contact@mobibalises.net)</item>
+        <item>\nhttp://www.mobibalises.net</item>
+        <item>http://www.mobibalises.net/aide.php</item>
+        <item>http://www.mobibalises.net/faq.php</item>
+        <item>\Dank : LTMTP :: JuMo :: DKM :: Antoine :: Die \"Z-Fly G33k Team\" ;) :: Raf (ParaglidingEarth) :: L5-S1</item>
+        <item>\nWetter und Praxis Dateien von der "Fédération Française de Vol Libre" (www.ffvl.fr)</item>
+        <item>Wind data © contributors of the Pioupiou wind network (www.pioupiou.fr)</item>
+        <item>Praxisdaten aus DHV (www.dhv.de)</item>
+        <item>Standortdaten von Paragliding Earth (www.paraglidingearth.com)</item>
+        <item>Wetterdaten aus  OGIMET (www.ogimet.com)</item>
+        <item>Wetterdaten aus  Aviation Weather Center (NOAA) (www.aviationweather.gov)</item>
+        <item>\nOpen-Source-Lizenzen : www.mobibalises.net/licenses.php</item>
+        <item>\nID : {0}</item>
+    </string-array>
+    <string-array name="messages_whats_new">
+        <item>Pioupiou wind data (www.pioupiou.fr)</item>
+    </string-array>
+
+    <string name="message_unlicensed">&lt;b&gt;Ihre Installation von MobiWindStationen+ ist nicht lizenzierte&lt;/b&gt;.\nSie können MobiWindStationen+ aus Google Play-Shop, indem Sie auf die Schaltfläche unten bekommen.\nSie können versuchen (2-mal), oder das Programm jetzt beenden...\n\nID : %1$s</string>
+    <string name="message_unlicensed_widget">Ihre Installation von MobiWindStationen+ ist nicht lizenzierte.\nSie können MobiWindStationen+ aus Google Play-Shop...</string>
+
+    <string name="message_history_mode_on">Historische-Modus aktiviert</string>
+    <string name="message_history_mode_off">Historische-Modus deaktiviert</string>
+    <string name="message_history_no_data">Keine Verlaufsdaten für die Station \'%1$s\'</string>
+    <string name="message_history_no_data_downloaded">Keine Verlaufsdaten geladen für die Station \'%1$s\'</string>
+    <string name="message_history_no_network">Netzwerk nicht verfügbar.\nVerbindung zu 3G oder Wifi...</string>
+    <string name="message_history_no_network_incomplete">Netzwerk nicht verfügbar.\nVerbindung zu 3G oder Wifi...\nDie historische Fenster zeigt veraltete Daten.</string>
+    <string name="message_history_download_progress">Historische in Fortschritt download...</string>
+    <string name="message_history_download_no_data">Keine Verlaufsdaten für die Station \'%1$s\'.\nWollen Sie die Historische Daten herunterladen?</string>
+    <string name="message_history_download_incomplete_data">Historische Daten scheinen unvollständig für Station \'%1$s\'.\Wollen Sie die Historische Daten downloaden (und überschreiben lokale Daten)?</string>
+    <string name="message_history_download_error">Fehler beim Download der Historische für die Station \'%1$s\' : %2$s</string>
+    <string name="message_history_save_error">Fehler während der Aufzeichnung der Historische für die Station \'%1$s\' : %2$s</string>
+    <string name="message_history_read_error">Fehler beim Lesen der Historische für die Station \'%1$s\' : %2$s</string>
+    <string name="message_alarm_mode_on">Alarm-Modus aktiviert</string>
+    <string name="message_alarm_mode_off">Alarm-Modus deaktiviert</string>
+
+</resources>

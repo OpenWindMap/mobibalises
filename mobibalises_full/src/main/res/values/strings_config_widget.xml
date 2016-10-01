@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="config_widget_key">config_widget_key</string>
+	<string name="config_widget_width_key">config_widget_width_key</string>
+	<string name="config_widget_width_default">4</string>
+	<string name="config_widget_height_key">config_widget_height_key</string>
+	<string name="config_widget_height_default">2</string>
+	<string name="config_widget_label_key">config_widget_label_key</string>
+	<string name="config_widget_label_value_proximity">___proximity___</string>
+	<string name="config_widget_label_value_around">___around___</string>
+	<string name="config_widget_display_weather_key">config_widget_display_weather_key</string>
+    <string name="config_widget_display_weather_default">true</string>
+	<string name="config_widget_display_header_key">config_widget_display_header_key</string>
+    <string name="config_widget_display_header_default">true</string>
+    <string name="config_widget_display_title_key">config_widget_display_title_key</string>
+    <string name="config_widget_display_title_default">true</string>
+    <string name="config_widget_speak_key">config_widget_speak_key</string>
+    <string name="config_widget_speak_default">false</string>
+    <string name="config_widget_speak_black_key">config_widget_speak_black_key</string>
+    <string name="config_widget_speak_black_default">true</string>
+    <string name="config_widget_speak_all_key">config_widget_speak_all_key</string>
+    <string name="config_widget_speak_all_default">false</string>
+    <string name="config_widget_type_key">config_widget_type_key</string>
+    <string name="config_widget_delete_key">config_widget_delete_key</string>
+    
+</resources>

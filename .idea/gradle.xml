@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/balises" />
+            <option value="$PROJECT_DIR$/balises_lgpl" />
+            <option value="$PROJECT_DIR$/map" />
+            <option value="$PROJECT_DIR$/mobibalises_common" />
+            <option value="$PROJECT_DIR$/mobibalises_free" />
+            <option value="$PROJECT_DIR$/mobibalises_full" />
+            <option value="$PROJECT_DIR$/mobibalises_lgpl" />
+            <option value="$PROJECT_DIR$/pedro_android_utils" />
+            <option value="$PROJECT_DIR$/pedro_android_utils_lgpl" />
+            <option value="$PROJECT_DIR$/pedro_android_widget" />
+            <option value="$PROJECT_DIR$/pedro_utils" />
+            <option value="$PROJECT_DIR$/pedro_utils_lgpl" />
+            <option value="$PROJECT_DIR$/play_library" />
+            <option value="$PROJECT_DIR$/saveable_lgpl" />
+            <option value="$PROJECT_DIR$/spots" />
+            <option value="$PROJECT_DIR$/webcams_android_lgpl" />
+            <option value="$PROJECT_DIR$/webcams_lgpl" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

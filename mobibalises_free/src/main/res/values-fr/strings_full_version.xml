@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="full_version_default">&lt;b&gt;Cette fonctionnalité est réservée à MobiBalises+.&lt;/b&gt;</string>
+    <string name="full_version_flight_mode">
+        &lt;b&gt;Cette fonctionnalité est réservée à MobiBalises+.&lt;/b&gt;\n
+        Le mode vol permet :\nEn mode carte de centrer automatiquement et en continu la carte sur votre position géographique précise.\nEn mode liste de rafraichir automatiquement et en continu la liste des balises à proximité. Et aussi d\'entendre par synthèse vocale les relevés des balises à proximité lorsqu\'elles se mettent à jour.
+    </string>
+    <string name="full_version_history_mode">
+        &lt;b&gt;Cette fonctionnalité est réservée à MobiBalises+.&lt;/b&gt;\n
+        Le mode historique permet d\'enregistrer les données des balises en continu, même quand l\'écran de votre terminal est éteint. Vous pouvez ensuite consulter balise par balise l\'historique de l\'évolution du vent sur les derniers jours et heures.
+    </string>
+    <string name="full_version_list_mode">
+        &lt;b&gt;Cette fonctionnalité est réservée à MobiBalises+.&lt;/b&gt;\n
+        Le mode liste permet de consulter sous forme synthétique des listes de balises constituées manuellement ou automatiquement en fonction de votre position géographique.
+    </string>
+    <string name="full_version_alarm_mode">
+        &lt;b&gt;Cette fonctionnalité est réservée à MobiBalises+.&lt;/b&gt;\n
+        Les alarmes vous permettent d\'être notifiés quand les données d\'une balise satisfont vos critères.
+    </string>
+    <string name="full_version_widgets">
+        &lt;b&gt;Cette fonctionnalité est réservée à MobiBalises+.&lt;/b&gt;\n
+        Les widgets permettent d\'afficher sur votre bureau des listes de balises constituées manuellement ou automatiquement en fonction de votre position géographique (à proximité ou autour de vous).
+    </string>
+    <string name="full_version_weather_icons">
+        &lt;b&gt;Cette fonctionnalité est réservée à MobiBalises+.&lt;/b&gt;\n
+        Le calque "météo" permet d\'afficher des informations graphiques liées à la météo (nuages, pluie) pour chaque balise qui les fournit (METAR et SYNOP uniquement pour le moment).
+    </string>
+    <string name="full_version_speech">
+        &lt;b&gt;Cette fonctionnalité est réservée à MobiBalises+.&lt;/b&gt;\n
+        Les données des balises (vent, température, ...) sont directement énoncées par le système de synthèse vocale.
+    </string>
+</resources>

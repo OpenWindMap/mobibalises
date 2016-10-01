@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pedro.android.mobibalises"
+    android:installLocation="auto"
+    android:versionCode="38"
+    android:versionName="@string/app_version" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <permission android:name="mobibalises.BROADCAST" />
+    <permission android:name="mobibalises.ALARM_BROADCAST" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true" >
+        <activity
+            android:name=".start.BalisesStartActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.balisemeteo.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".map.BalisesMapActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/MobiBalisesMapTheme" >
+            <intent-filter>
+                <action android:name="com.pedro.android.mobibalises.MAP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".search.SearchActivity" />
+        </activity>
+        <activity android:name=".search.SearchActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".preferences.BalisesPreferencesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.pedro.android.mobibalises.PREFERENCES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".favorites.FavoritesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/MobiBalisesFavoritesTheme" >
+            <intent-filter>
+                <action android:name="com.pedro.android.mobibalises.FAVORITES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".favorites.FavoritesLabelsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.pedro.android.mobibalises.FAVORITES_LABELS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".history.HistoryActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.pedro.android.mobibalises.HISTORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".alarm.AlarmsFragmentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat" >
+            <intent-filter>
+                <action android:name="com.pedro.android.mobibalises.ALARMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".alarm.AlarmFragmentActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat" >
+            <intent-filter>
+                <action android:name="com.pedro.android.mobibalises.ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".service.StartupReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="mobibalises.STARTUP_TRY" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".alarm.AlarmNotificationCloseReceiver" >
+            <intent-filter>
+                <action android:name="mobibalises.ALARM_TAP" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".service.ProvidersService" />
+
+        <receiver
+            android:name=".service.BaliseProvidersReceiver"
+            android:permission="mobibalises.BROADCAST" >
+            <intent-filter android:priority="0" >
+                <action android:name="mobibalises.start" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".widget.BalisesWidget11"
+            android:label="@string/widget_11_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/balises_widget_11" />
+        </receiver>
+        <receiver
+            android:name=".widget.BalisesWidget21"
+            android:label="@string/widget_21_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/balises_widget_21" />
+        </receiver>
+        <receiver
+            android:name=".widget.BalisesWidget22"
+            android:label="@string/widget_22_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/balises_widget_22" />
+        </receiver>
+        <receiver
+            android:name=".widget.BalisesWidget33"
+            android:label="@string/widget_33_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/balises_widget_33" />
+        </receiver>
+        <receiver
+            android:name=".widget.BalisesWidget41"
+            android:label="@string/widget_41_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/balises_widget_41" />
+        </receiver>
+        <receiver
+            android:name=".widget.BalisesWidget42"
+            android:label="@string/widget_42_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/balises_widget_42" />
+        </receiver>
+
+        <activity
+            android:name=".preferences.BalisesWidget11PreferencesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/label_widget_prefs_all_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+                <action android:name="com.pedro.android.mobibalises.WIDGETS_PREFERENCES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".preferences.BalisesWidget21PreferencesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/label_widget_prefs_all_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".preferences.BalisesWidget22PreferencesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/label_widget_prefs_all_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".preferences.BalisesWidget33PreferencesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/label_widget_prefs_all_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".preferences.BalisesWidget41PreferencesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/label_widget_prefs_all_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".preferences.BalisesWidget42PreferencesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/label_widget_prefs_all_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

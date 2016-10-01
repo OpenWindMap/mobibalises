@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "423711554556",
+    "project_id": "api-project-423711554556"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423711554556:android:e3ca095a0774a029",
+        "android_client_info": {
+          "package_name": "org.pedro.android.mobibalises_common"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqGZWS783Mw_dDLfRX4Y-B18yBk8a9iqo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-21264887-4"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="0dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/alarm_plage_vitesse_inferieure_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="right"
+        android:minEms="2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/alarm_plage_vitesse_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/alarm_plage_vitesse_superieure_value"
+        android:layout_toRightOf="@id/alarm_plage_vitesse_inferieure_value"
+        android:orientation="horizontal"
+        android:tag="@+id/alarm_plage_vitesse_plage" />
+
+    <TextView
+        android:id="@id/alarm_plage_vitesse_superieure_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/alarm_plage_vitesse_del"
+        android:gravity="left"
+        android:minEms="2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@id/alarm_plage_vitesse_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_menu_delete"
+        android:tag="@+id/alarm_plage_vitesse_del_type" />
+
+</RelativeLayout>

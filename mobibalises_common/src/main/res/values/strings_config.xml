@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="config_key">config_key</string>
+	<string name="config_data_balises_key">config_data_balises_key</string>
+	<string name="config_data_sites_key">config_data_sites_key</string>
+	<string name="config_data_category_balises_sources_key">config_data_category_balises_sources_key</string>
+	<string name="config_data_category_sites_sources">config_data_category_sites_sources</string>
+	<string name="config_data_category_sites_types">config_data_category_sites_types</string>
+	<string name="config_data_sites_orientation_N">config_data_sites_orientation_N</string>
+	<string name="config_data_sites_orientation_NE">config_data_sites_orientation_NE</string>
+	<string name="config_data_sites_orientation_E">config_data_sites_orientation_E</string>
+	<string name="config_data_sites_orientation_SE">config_data_sites_orientation_SE</string>
+	<string name="config_data_sites_orientation_S">config_data_sites_orientation_S</string>
+	<string name="config_data_sites_orientation_SO">config_data_sites_orientation_SO</string>
+	<string name="config_data_sites_orientation_O">config_data_sites_orientation_O</string>
+	<string name="config_data_sites_orientation_NO">config_data_sites_orientation_NO</string>
+	<string name="config_data_sites_orientation_N_default">true</string>
+	<string name="config_data_sites_orientation_NE_default">true</string>
+	<string name="config_data_sites_orientation_E_default">true</string>
+	<string name="config_data_sites_orientation_SE_default">true</string>
+	<string name="config_data_sites_orientation_S_default">true</string>
+	<string name="config_data_sites_orientation_SO_default">true</string>
+	<string name="config_data_sites_orientation_O_default">true</string>
+	<string name="config_data_sites_orientation_NO_default">true</string>
+	<string name="config_data_category_sites_pratiques">config_data_category_sites_pratiques</string>
+	<string name="config_data_sites_orientations_zoom_level_key">config_data_sites_orientations_zoom_level_key</string>
+	<string name="config_data_sites_orientations_zoom_level_default">10</string>
+	<string name="config_data_webcams_key">config_data_webcams_key</string>
+	<string name="config_data_category_webcams_pratiques">config_data_category_webcams_pratiques</string>
+	<string name="config_data_category_webcams_statuts">config_data_category_webcams_statuts</string>
+	<string name="config_map_touch_action_key">config_map_touch_action_key</string>
+	<string name="config_map_touch_action_default">@string/config_map_touch_action_tooltip</string>
+	<string-array name="config_map_touch_action_entries">
+		<item>@string/label_map_touch_action_tooltip</item>
+		<item>@string/label_map_touch_action_speech</item>
+		<item>@string/label_map_touch_action_both</item>
+	</string-array>
+	<string name="config_map_touch_action_tooltip">1</string>
+	<string name="config_map_touch_action_speech">2</string>
+	<string name="config_map_touch_action_both">3</string>
+	<string-array name="config_map_touch_action_values">
+		<item>@string/config_map_touch_action_tooltip</item>
+		<item>@string/config_map_touch_action_speech</item>
+		<item>@string/config_map_touch_action_both</item>
+	</string-array>
+    <string name="config_map_metar_synop_collision_key">config_map_metar_synop_collision_key</string>
+    <string name="config_map_metar_synop_collision_default">@string/config_map_metar_synop_collision_hide_synop</string>
+	<string-array name="config_map_metar_synop_collision_entries">
+        <item>@string/label_map_metar_synop_collision_hide_synop</item>
+        <item>@string/label_map_metar_synop_collision_hide_metar</item>
+        <item>@string/label_map_metar_synop_collision_no_hide</item>
+    </string-array>
+    <string name="config_map_metar_synop_collision_hide_synop">1</string>
+    <string name="config_map_metar_synop_collision_hide_metar">2</string>
+    <string name="config_map_metar_synop_collision_no_hide">3</string>
+    <string-array name="config_map_metar_synop_collision_values">
+        <item>@string/config_map_metar_synop_collision_hide_synop</item>
+        <item>@string/config_map_metar_synop_collision_hide_metar</item>
+        <item>@string/config_map_metar_synop_collision_no_hide</item>
+    </string-array>
+    <string name="config_map_use_gps_key">config_map_use_gps_key</string>
+    <string name="config_map_use_gps_default">false</string>
+    <string name="config_map_ign_use_own_key_key">config_map_ign_use_own_key_key</string>
+    <string name="config_map_ign_use_own_key_default">false</string>
+    <string name="config_map_ign_own_key_key">config_map_ign_own_key_key</string>
+    <string name="config_map_search_reset_key">config_map_search_reset_key</string>
+    <string name="config_map_wind_key">config_map_wind_key</string>
+	<string name="config_map_wind_default">@string/config_map_wind_value_moy</string>
+	<string-array name="config_map_wind_entries">
+		<item>@string/label_map_average_wind</item>
+		<item>@string/label_map_max_wind</item>
+		<item>@string/label_map_min_wind</item>
+	</string-array>
+	<string name="config_map_wind_value_moy">1</string>
+	<string name="config_map_wind_value_max">2</string>
+	<string name="config_map_wind_value_min">3</string>
+	<string-array name="config_map_wind_values">
+		<item>@string/config_map_wind_value_moy</item>
+		<item>@string/config_map_wind_value_max</item>
+		<item>@string/config_map_wind_value_min</item>
+	</string-array>
+	<string name="config_map_tooltip_key">config_map_tooltip_key</string>
+	<string name="config_map_tooltip_altitude_key">config_map_tooltip_altitude_key</string>
+	<string name="config_map_tooltip_altitude_default">true</string>
+	<string name="config_map_tooltip_date_key">config_map_tooltip_date_key</string>
+	<string name="config_map_tooltip_date_default">true</string>
+	<string name="config_map_tooltip_averagedir_key">config_map_tooltip_averagedir_key</string>
+	<string name="config_map_tooltip_averagedir_default">true</string>
+	<string name="config_map_tooltip_instantdir_key">config_map_tooltip_instantdir_key</string>
+	<string name="config_map_tooltip_instantdir_default">true</string>
+    <string name="config_map_tooltip_variationdir_key">config_map_tooltip_variationdir_key</string>
+    <string name="config_map_tooltip_variationdir_default">true</string>
+	<string name="config_map_tooltip_averagewind_key">config_map_tooltip_averagewind_key</string>
+	<string name="config_map_tooltip_averagewind_default">true</string>
+	<string name="config_map_tooltip_minwind_key">config_map_tooltip_minwind_key</string>
+	<string name="config_map_tooltip_minwind_default">true</string>
+	<string name="config_map_tooltip_maxwind_key">config_map_tooltip_maxwind_key</string>
+	<string name="config_map_tooltip_maxwind_default">true</string>
+	<string name="config_map_tooltip_temperature_key">config_map_tooltip_temperature_key</string>
+	<string name="config_map_tooltip_temperature_default">true</string>
+    <string name="config_map_tooltip_dew_point_key">config_map_tooltip_dew_point_key</string>
+    <string name="config_map_tooltip_dew_point_default">true</string>
+	<string name="config_map_tooltip_hydrometry_key">config_map_tooltip_hydrometry_key</string>
+	<string name="config_map_tooltip_hydrometry_default">true</string>
+    <string name="config_map_tooltip_clouds_key">config_map_tooltip_clouds_key</string>
+    <string name="config_map_tooltip_clouds_default">true</string>
+	<string name="config_map_tooltip_pressure_key">config_map_tooltip_pressure_key</string>
+	<string name="config_map_tooltip_pressure_default">true</string>
+	<string name="config_map_tooltip_luminosity_key">config_map_tooltip_luminosity_key</string>
+	<string name="config_map_tooltip_luminosity_default">true</string>
+	<string name="config_map_tooltip_humidity_key">config_map_tooltip_humidity_key</string>
+	<string name="config_map_tooltip_humidity_default">true</string>
+
+	<string name="config_map_speak_key">config_map_speak_key</string>
+	<string name="config_map_speak_altitude_key">config_map_speak_altitude_key</string>
+	<string name="config_map_speak_altitude_default">false</string>
+	<string name="config_map_speak_date_key">config_map_speak_date_key</string>
+	<string name="config_map_speak_date_default">true</string>
+	<string name="config_map_speak_averagedir_key">config_map_speak_averagedir_key</string>
+	<string name="config_map_speak_averagedir_default">true</string>
+	<string name="config_map_speak_instantdir_key">config_map_speak_instantdir_key</string>
+	<string name="config_map_speak_instantdir_default">false</string>
+    <string name="config_map_speak_variationdir_key">config_map_speak_variationdir_key</string>
+    <string name="config_map_speak_variationdir_default">false</string>
+	<string name="config_map_speak_averagewind_key">config_map_speak_averagewind_key</string>
+	<string name="config_map_speak_averagewind_default">true</string>
+	<string name="config_map_speak_minwind_key">config_map_speak_minwind_key</string>
+	<string name="config_map_speak_minwind_default">true</string>
+	<string name="config_map_speak_maxwind_key">config_map_speak_maxwind_key</string>
+	<string name="config_map_speak_maxwind_default">true</string>
+	<string name="config_map_speak_temperature_key">config_map_speak_temperature_key</string>
+	<string name="config_map_speak_temperature_default">true</string>
+    <string name="config_map_speak_dew_point_key">config_map_speak_dew_point_key</string>
+    <string name="config_map_speak_dew_point_default">false</string>
+	<string name="config_map_speak_hydrometry_key">config_map_speak_hydrometry_key</string>
+	<string name="config_map_speak_hydrometry_default">true</string>
+    <string name="config_map_speak_clouds_key">config_map_speak_clouds_key</string>
+    <string name="config_map_speak_clouds_default">true</string>
+	<string name="config_map_speak_pressure_key">config_map_speak_pressure_key</string>
+	<string name="config_map_speak_pressure_default">false</string>
+	<string name="config_map_speak_luminosity_key">config_map_speak_luminosity_key</string>
+	<string name="config_map_speak_luminosity_default">false</string>
+	<string name="config_map_speak_humidity_key">config_map_speak_humidity_key</string>
+	<string name="config_map_speak_humidity_default">false</string>
+
+	<string name="config_map_limit_screen_key">config_map_limit_screen_key</string>
+	<string name="config_map_limit_moy_check_key">config_map_limit_moy_check_key</string>
+	<string name="config_map_limit_moy_check_default">true</string>
+	<string name="config_map_limit_moy_edit_key">config_map_limit_moy_edit_key</string>
+	<string name="config_map_limit_moy_edit_default">15</string>
+	<string name="config_map_limit_operator_key">config_map_limit_operator_key</string>
+	<string name="config_map_limit_operator_default">@string/config_map_limit_operator_value_and</string>
+	<string-array name="config_map_limit_operator_entries">
+		<item>@string/label_map_windslimits_operator_and</item>
+		<item>@string/label_map_windslimits_operator_or</item>
+	</string-array>
+	<string name="config_map_limit_operator_value_and">1</string>
+	<string name="config_map_limit_operator_value_or">2</string>
+	<string-array name="config_map_limit_operator_values">
+		<item>@string/config_map_limit_operator_value_and</item>
+		<item>@string/config_map_limit_operator_value_or</item>
+	</string-array>
+	<string name="config_map_limit_max_check_key">config_map_limit_max_check_key</string>
+	<string name="config_map_limit_max_check_default">true</string>
+	<string name="config_map_limit_max_edit_key">config_map_limit_max_edit_key</string>
+	<string name="config_map_limit_max_edit_default">25</string>
+	<string name="config_map_outofdate_key">config_map_outofdate_key</string>
+	<string name="config_map_outofdate_default">30</string>
+    <string name="config_map_outofdate_max_wind_key">config_map_outofdate_max_wind_key</string>
+    <string name="config_map_outofdate_max_wind_default">120</string>
+	<string name="config_map_balise_hide_inactive_key">config_map_balise_hide_inactive_key</string>
+	<string name="config_map_balise_hide_inactive_default">true</string>
+	<string name="config_map_centering_key">config_map_centering_key</string>
+	<string name="config_map_centering_default">false</string>
+
+	<string name="config_unit_speed_key">config_unit_speed_key</string>
+    <string name="config_unit_speed_default">@string/config_unit_speed_value_kph</string>
+	<string-array name="config_unit_speed_entries">
+        <item>@string/unit_speed_kph</item>
+        <item>@string/unit_speed_mph</item>
+        <item>@string/unit_speed_kts</item>
+    </string-array>
+    <string name="config_unit_speed_value_kph">kph</string>
+    <string name="config_unit_speed_value_mph">mph</string>
+    <string name="config_unit_speed_value_kts">kts</string>
+    <string-array name="config_unit_speed_values">
+        <item>@string/config_unit_speed_value_kph</item>
+        <item>@string/config_unit_speed_value_mph</item>
+        <item>@string/config_unit_speed_value_kts</item>
+    </string-array>
+    <string name="config_unit_altitude_key">config_unit_altitude_key</string>
+    <string name="config_unit_altitude_default">@string/config_unit_altitude_value_m</string>
+    <string-array name="config_unit_altitude_entries">
+        <item>@string/unit_altitude_m</item>
+        <item>@string/unit_altitude_ft</item>
+    </string-array>
+    <string name="config_unit_altitude_value_m">m</string>
+    <string name="config_unit_altitude_value_ft">ft</string>
+    <string-array name="config_unit_altitude_values">
+        <item>@string/config_unit_altitude_value_m</item>
+        <item>@string/config_unit_altitude_value_ft</item>
+    </string-array>
+    <string name="config_unit_distance_key">config_unit_distance_key</string>
+    <string name="config_unit_distance_default">@string/config_unit_distance_value_km</string>
+    <string-array name="config_unit_distance_entries">
+        <item>@string/unit_distance_km</item>
+        <item>@string/unit_distance_mi</item>
+        <item>@string/unit_distance_nm</item>
+    </string-array>
+    <string name="config_unit_distance_value_km">km</string>
+    <string name="config_unit_distance_value_mi">mi</string>
+    <string name="config_unit_distance_value_nm">nm</string>
+    <string-array name="config_unit_distance_values">
+        <item>@string/config_unit_distance_value_km</item>
+        <item>@string/config_unit_distance_value_mi</item>
+        <item>@string/config_unit_distance_value_nm</item>
+    </string-array>
+    <string name="config_unit_temperature_key">config_unit_temperature_key</string>
+    <string name="config_unit_temperature_default">@string/config_unit_temperature_value_celsius</string>
+    <string-array name="config_unit_temperature_entries">
+        <item>@string/unit_temperature_celsius</item>
+        <item>@string/unit_temperature_fahrenheit</item>
+    </string-array>
+    <string name="config_unit_temperature_value_celsius">celsius</string>
+    <string name="config_unit_temperature_value_fahrenheit">fahrenheit</string>
+    <string-array name="config_unit_temperature_values">
+        <item>@string/config_unit_temperature_value_celsius</item>
+        <item>@string/config_unit_temperature_value_fahrenheit</item>
+    </string-array>
+    
+    <string name="config_ffvl_message_key">config_ffvl_message_key</string>
+    <string name="config_ffvl_message_default">false</string>
+	<string name="config_error_reports_key">config_error_reports_key</string>
+	<string name="config_error_reports_default">true</string>
+	<string name="config_ga_key">config_ga_key</string>
+	<string name="config_ga_default">true</string>
+	<string name="config_wakelock_key">config_wakelock_key</string>
+	<string name="config_wakelock_default">false</string>
+    <string name="config_wakelock_flight_mode_key">config_wakelock_flight_mode_key</string>
+    <string name="config_wakelock_flight_mode_default">false</string>
+	<string name="config_wakelockbright_key">config_wakelockbright_key</string>
+	<string name="config_wakelockbright_default">false</string>
+	<string name="config_double_backkey_key">config_double_backkey_key</string>
+	<string name="config_double_backkey_default">true</string>
+	<string name="config_advanced_map_cache_size_key">config_advanced_map_cache_size_key</string>
+	<string name="config_advanced_map_cache_size_default">10</string>
+    <string name="config_advanced_light_mode_key">config_advanced_light_mode_key</string>
+    <string name="config_advanced_light_mode_default">true</string>
+
+	<string-array name="config_balises_list_mode_display_entries">
+        <item>@string/label_list_mode_compact_display</item>
+        <item>@string/label_list_mode_medium_display</item>
+        <item>@string/label_list_mode_full_display</item>
+    </string-array>
+    <string name="config_balises_list_mode_display_value_compact">1</string>
+    <string name="config_balises_list_mode_display_value_medium">2</string>
+    <string name="config_balises_list_mode_display_value_full">3</string>
+    <string-array name="config_balises_list_mode_display_values">
+        <item>@string/config_balises_list_mode_display_value_compact</item>
+        <item>@string/config_balises_list_mode_display_value_medium</item>
+        <item>@string/config_balises_list_mode_display_value_full</item>
+    </string-array>
+    
+	<string name="config_favorites_proximity_nb_key">config_favorites_proximity_nb_key</string>
+	<string name="config_favorites_proximity_nb_default">16</string>
+	<string name="config_favorites_proximity_radius_limited_key">config_favorites_proximity_radius_limited_key</string>
+	<string name="config_favorites_proximity_radius_limited_default">true</string>
+	<string name="config_favorites_proximity_radius_limit_key">config_favorites_proximity_radius_limit_key</string>
+	<string name="config_favorites_proximity_radius_limit_default">50</string>
+
+    <string name="config_favorites_around_min_key">config_favorites_around_min_key</string>
+    <string name="config_favorites_around_min_default">5</string>
+    <string name="config_favorites_around_max_key">config_favorites_around_max_key</string>
+    <string name="config_favorites_around_max_default">50</string>
+
+    <string name="config_flight_mode_foreground_speech_key">config_flight_mode_foreground_speech_key</string>
+    <string name="config_flight_mode_foreground_speech_default">true</string>
+    <string name="config_flight_mode_use_gps_key">config_flight_mode_use_gps_key</string>
+    <string name="config_flight_mode_use_gps_default">true</string>
+    
+    <string name="config_history_mode_duration_key">config_history_mode_duration_key</string>
+    <string name="config_history_mode_duration_default">7</string>
+    <string name="config_history_mode_range_key">config_history_mode_range_key</string>
+    <string name="config_history_mode_range_default">false</string>
+    <string name="config_history_mode_range_start_key">config_history_mode_range_start_key</string>
+    <string name="config_history_mode_range_start_default">8</string>
+    <string name="config_history_mode_range_end_key">config_history_mode_range_end_key</string>
+    <string name="config_history_mode_range_end_default">20</string>
+
+    <string name="config_history_mode_ask_key">config_history_mode_ask_key</string>
+    <string name="config_history_mode_ask_default">true</string>
+
+    <string name="config_map_layers_weather_default">false</string>
+
+</resources>

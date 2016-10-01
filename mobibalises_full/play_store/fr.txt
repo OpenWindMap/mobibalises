@@ -1,0 +1,10 @@
+Description :
+=============
+Affichage en temps réel des infos de vent des stations météo tout autour du monde.
+Les informations des balises peuvent être visualisées en 3 modes différents : sur une carte géographique, sur une liste déroulante ou par widget. Dans les modes "liste" et "widget", vous pouvez choisir les stations à afficher, ou bien afficher celles proches ou autour de vous.
+L'application permet aussi de visualiser les informations détaillées des sites de vol libre en France et dans le monde entier.
+Cette application est particulièrement dédiée au parapente et au vol libre, mais est aussi d'une grande utilité pour toutes les activités de plein air dépendantes du vent (kite, planche à voile, etc).
+
+Texte promotionnel :
+====================
+Affichage temps réel des infos de vent des stations météo tout autour du monde.

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MobiBalisesFavoritesTheme" parent="@style/Theme.AppCompat">
+        <item name="android:actionBarStyle">@style/MobiBalisesFavoritesBarStyle</item>
+        <item name="actionBarStyle">@style/MobiBalisesFavoritesBarStyle</item>
+    </style>
+
+    <style name="MobiBalisesFavoritesBarStyle" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:displayOptions">showTitle</item>
+        <item name="displayOptions">showTitle</item>
+        <item name="android:background">@drawable/favorites_actionbar_ok</item>
+        <item name="background">@drawable/favorites_actionbar_ok</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+    </style>
+
+</resources>

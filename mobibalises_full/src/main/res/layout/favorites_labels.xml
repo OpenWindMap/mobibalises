@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fav_labels_addgroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="2dip" >
+
+        <View
+            android:id="@+id/fav_labels_add"
+            android:layout_width="44dip"
+            android:layout_height="44dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_input_add"
+            android:clickable="true"
+            android:onClick="onClickAdd" />
+
+        <EditText
+            android:id="@+id/fav_labels_addtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/fav_labels_add"
+            android:inputType="text" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fav_labels_addgroup"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

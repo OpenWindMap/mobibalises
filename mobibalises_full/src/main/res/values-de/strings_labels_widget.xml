@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_widget_prefs_single_title">MobiWindStationen Widget #%1$s</string>
+    <string name="label_widget_prefs_all_title">MobiWindStationen Widgets</string>
+    <string name="label_widget_prefs_choosen_list">Stationen list</string>
+    <string name="label_widget_prefs_display_weather">Zeigen Wetter Infos</string>
+    <string name="label_widget_prefs_display_header">Indikatoren anzeigen</string>
+    <string name="label_widget_prefs_display_header_summary">Widget #id und Update-Stunde</string>
+    <string name="label_widget_prefs_display_title">Titel anzeigen</string>
+    <string name="label_widget_prefs_speak">Sprich, wenn Daten aktualisiert worden</string>
+    <string name="label_widget_prefs_speak_black">Auch wenn Bildschirm ausgeschaltet ist</string>
+    <string name="label_widget_prefs_speak_black_summary">Diese Einstellung kann schnell die Batterie entladen führen</string>
+    <string name="label_widget_prefs_speak_all">Für alle Wind Stationen auf der Liste</string>
+    <string name="label_widget_prefs_speak_all_summary">... oder nur die auf das Widget angezeigt</string>
+    <string name="label_widget_prefs_delete">Widget Löschen</string>
+    <string name="label_widget_prefs_delete_summary">... nur für "Phantom" oder Sperrbildschirm Widgets</string>
+
+</resources>

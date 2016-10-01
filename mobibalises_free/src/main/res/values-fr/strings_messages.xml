@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="messages_about">
+        <item>Version : {0}</item>
+        <item>© Pedro.M (contact@mobibalises.net)</item>
+        <item>\nhttp://www.mobibalises.net</item>
+        <item>http://www.mobibalises.net/aide.php</item>
+        <item>http://www.mobibalises.net/faq.php</item>
+        <item>\nRemerciements : LTMTP :: JuMo :: DKM :: Antoine :: La \"Z-Fly G33k Team\" ;) :: Raf (ParaglidingEarth) :: L5-S1</item>
+        <item>\nDonnées des balises météo et des sites issues de la Fédération Française de Vol Libre (www.ffvl.fr)</item>
+        <item>Wind data © contributors of the Pioupiou wind network (www.pioupiou.fr)</item>
+        <item>Données des sites issues du DHV (www.dhv.de)</item>
+        <item>Données des sites issues de Paragliding Earth (www.paraglidingearth.com)</item>
+        <item>Données des balises météo issues de la ROMMA (www.romma.fr)</item>
+        <item>Données des balises météo issues de OGIMET (www.ogimet.com)</item>
+        <item>Données des balises météo issues de Aviation Weather Center (NOAA) (www.aviationweather.gov)</item>
+        <item>\nLicenses open source : www.mobibalises.net/licenses.php</item>
+        <item>\nID : {0}</item>
+    </string-array>
+    <string-array name="messages_whats_new">
+        <item>Réseau des balises Pioupiou (www.pioupiou.fr)</item>
+    </string-array>
+
+</resources>

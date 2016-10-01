@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">Annuler</string>
+	<string name="button_update">MAJ</string>
+	<string name="button_close">Fermer</string>
+	<string name="button_add">Ajouter</string>
+	<string name="button_remove">Supprimer</string>
+    <string name="button_proximity">A proximité</string>
+    <string name="button_retry">Réessayer</string>
+    <string name="button_balises_sources">Balises...</string>
+    <string name="button_sites_sources">Sites...</string>
+    <string name="button_yes">Oui</string>
+    <string name="button_no">Non</string>
+    <string name="button_always">Toujours</string>
+</resources>

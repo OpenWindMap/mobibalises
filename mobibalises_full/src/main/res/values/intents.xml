@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="intent_preferences_action">com.pedro.android.mobibalises.PREFERENCES</string>
+    <string name="intent_widget_preferences_action">com.pedro.android.mobibalises.WIDGETS_PREFERENCES</string>
+    <string name="intent_map_action">com.pedro.android.mobibalises.MAP</string>
+    <string name="intent_favorites_action">com.pedro.android.mobibalises.FAVORITES</string>
+    <string name="intent_favorites_labels_action">com.pedro.android.mobibalises.FAVORITES_LABELS</string>
+    <string name="intent_history_action">com.pedro.android.mobibalises.HISTORY</string>
+    <string name="intent_alarms_action">com.pedro.android.mobibalises.ALARMS</string>
+    <string name="intent_alarm_action">com.pedro.android.mobibalises.ALARM</string>
+
+</resources>

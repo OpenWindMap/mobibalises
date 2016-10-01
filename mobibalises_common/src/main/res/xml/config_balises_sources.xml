@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slider="http://schemas.android.com/apk/res-auto"
+    android:key="@string/config_key"
+    android:title="@string/app_name" >
+
+    <PreferenceCategory
+        android:key="@string/config_data_category_balises_sources_key"
+        android:title="@string/label_datasources" >
+    </PreferenceCategory>
+
+</PreferenceScreen>

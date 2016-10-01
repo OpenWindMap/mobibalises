@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="balise_drawable_class">org.pedro.android.mobibalises_common.view.BaliseDrawable</string>
+</resources>

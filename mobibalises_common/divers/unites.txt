@@ -1,0 +1,16 @@
+Vitesses :
+- km/h
+- mph : 1.609 km/h
+- kts : 1.852 km/h
+
+Altitudes :
+- m
+- ft : 0,3048 m
+
+Distances :
+- km
+- mi : 1.609 km
+
+Températures :
+- °C
+- °F : 9/5 * Tc + 32

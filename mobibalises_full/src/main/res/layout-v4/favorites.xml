@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <org.pedro.android.widget.DragDropListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tlv="http://schemas.android.com/apk/res/org.pedro.android.widget"
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/fav_divider"
+        android:dividerHeight="3dip"
+        android:paddingTop="1dip"
+        android:scrollbars="vertical" >
+    </org.pedro.android.widget.DragDropListView>
+
+    <LinearLayout
+        android:id="@+id/favorites_empty_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <include
+            android:id="@+id/favorites_empty_footer_button"
+            layout="@layout/favorites_footer" />
+
+        <TextView
+            android:id="@+id/favorites_empty_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:autoLink="all"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="@string/message_start_favorites"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#BBBBBB" />
+    </LinearLayout>
+
+</LinearLayout>

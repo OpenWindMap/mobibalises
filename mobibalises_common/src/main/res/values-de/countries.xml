@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_states">(Staaten)</string>
+    <string-array name="continent_labels">
+        <item>Westeuropa</item>
+        <item>Osteuropa</item>
+        <item>Nordamerika</item>
+        <item>Mittelamerika / Karibik</item>
+        <item>Südamerika</item>
+        <item>Orientalisch</item>
+        <item>Afrika</item>
+        <item>Asien</item>
+        <item>Ozeanien</item>
+    </string-array>
+    <string-array name="regional_names_CA">
+        <item>Alberta</item>
+        <item>Britisch-Kolumbien</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Neufundland und Labrador</item>
+        <item>Neuschottland</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+        <item>Northwest Territories</item>
+        <item>Nunavut</item>
+        <item>Yukon-Territorium</item>
+    </string-array>
+	<string-array name="regional_names_US">
+	    <item>Alabama</item>
+	    <item>Alaska</item>
+	    <item>Arizona</item>
+	    <item>Arkansas</item>
+	    <item>Kalifornien</item>
+	    <item>Colorado</item>
+	    <item>Connecticut</item>
+	    <item>Delaware</item>
+	    <item>Florida</item>
+	    <item>Georgia</item>
+	    <item>Hawaii</item>
+	    <item>Idaho</item>
+	    <item>Illinois</item>
+	    <item>Indiana</item>
+	    <item>Iowa</item>
+	    <item>Kansas</item>
+	    <item>Kentucky</item>
+	    <item>Louisiana</item>
+	    <item>Maine</item>
+	    <item>Maryland</item>
+	    <item>Massachusetts</item>
+	    <item>Michigan</item>
+	    <item>Minnesota</item>
+	    <item>Mississippi</item>
+	    <item>Missouri</item>
+	    <item>Montana</item>
+	    <item>Nebraska</item>
+	    <item>Nevada</item>
+	    <item>New Hampshire</item>
+	    <item>New Jersey</item>
+	    <item>New Mexico</item>
+	    <item>New York</item>
+	    <item>North Carolina</item>
+	    <item>Norddakota</item>
+	    <item>Ohio</item>
+	    <item>Oklahoma</item>
+	    <item>Oregon</item>
+	    <item>Pennsylvanie</item>
+	    <item>Rhode Island</item>
+	    <item>South Carolina</item>
+	    <item>Süddakota</item>
+	    <item>Tennessee</item>
+	    <item>Texas</item>
+	    <item>Utah</item>
+	    <item>Vermont</item>
+	    <item>Virginia</item>
+	    <item>Washington</item>
+	    <item>West Virginia</item>
+	    <item>Wisconsin</item>
+	    <item>Wyoming</item>
+	</string-array>
+
+</resources>

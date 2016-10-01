@@ -1,0 +1,10 @@
+Description :
+=============
+Real-time display of wind information from weather stations around the world.
+Those informations are viewed on a geographical map.
+The application also allows to view the free flight places detailled informations in France and all over the world.
+This application is particularly dedicated to paragliding and hang gliding, but is also very useful for all outdoor activities wich depend on the wind (kite surfing, wind surfing, etc).
+
+Texte promotionnel :
+====================
+Real-time display of wind information from weather stations around the world.

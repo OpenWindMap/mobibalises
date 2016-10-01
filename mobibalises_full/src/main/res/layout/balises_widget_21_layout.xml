@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WidgetMainLayout" >
+
+    <TextView
+        android:id="@+id/widget_id"
+        style="@style/WidgetIdView" />
+
+    <TextView
+        android:id="@+id/widget_dates"
+        style="@style/WidgetDatesView" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget_title"
+            style="@style/WidgetTitleView" />
+
+        <FrameLayout style="@style/WidgetContentLayout" >
+
+            <TextView
+                android:id="@+id/widget_message"
+                style="@style/WidgetMessageView" />
+
+            <LinearLayout style="@style/WidgetBeaconLayout" >
+
+                <FrameLayout style="@style/WidgetImageAndTextLayout" >
+
+                    <TextView
+                        android:id="@+id/widget_text_1"
+                        style="@style/WidgetNameView" />
+
+                    <ImageView
+                        android:id="@+id/widget_icon_1"
+                        style="@style/WidgetIconView" />
+                </FrameLayout>
+
+                <FrameLayout style="@style/WidgetImageAndTextLayout" >
+
+                    <TextView
+                        android:id="@+id/widget_text_2"
+                        style="@style/WidgetNameView" />
+
+                    <ImageView
+                        android:id="@+id/widget_icon_2"
+                        style="@style/WidgetIconView" />
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

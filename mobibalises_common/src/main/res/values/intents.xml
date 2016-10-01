@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="intent_preferences_action">org.pedro.android.mobibalises_common.PREFERENCES</string>
+    <string name="intent_map_action">org.pedro.android.mobibalises_common.MAP</string>
+    <string name="intent_favorites_action">org.pedro.android.mobibalises_common.FAVORITES</string>
+    <string name="intent_favorites_labels_action">org.pedro.android.mobibalises_common.FAVORITES_LABELS</string>
+
+</resources>

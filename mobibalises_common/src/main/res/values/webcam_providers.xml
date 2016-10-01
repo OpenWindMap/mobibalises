@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="webcam_providers_keys">
+        <item>mobibalises</item>
+    </string-array>
+    <string-array name="webcam_providers_titles">
+        <item>MobiWindStations</item>
+    </string-array>
+    <string-array name="webcam_providers_summaries">
+        <item>www.mobibalises.net/webcams</item>
+    </string-array>
+    <string-array name="webcam_pratiques_titles">
+        <item>Free flight</item>
+        <item>Kite</item>
+        <item>Ski</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="webcam_pratiques_defaults">
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </string-array>
+
+    <string name="webcam_statut_enligne_key">config.webcams.enligne</string>
+    <string name="webcam_statut_enligne_title">Offline</string>
+    <string name="webcam_statut_enligne_summary">Display offline webcams ?</string>
+    <string name="webcam_statut_enligne_default">false</string>
+    <string name="webcam_statut_variable_key">config.webcams.variable</string>
+    <string name="webcam_statut_variable_title">Freezed</string>
+    <string name="webcam_statut_variable_summary">Display freezed webcams ?</string>
+    <string name="webcam_statut_variable_default">false</string>
+
+</resources>

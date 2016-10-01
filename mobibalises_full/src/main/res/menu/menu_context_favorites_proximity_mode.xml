@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_context_favorites_proximity_historique"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_label_historique_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_proximity_lien_historique"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_proximity_historique_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_proximity_lien_detail"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_proximity_detail_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_proximity_speak"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_proximity_speak_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_proximity_balise_alarm"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_proximity_alarm_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_proximity_favorite"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_proximity_labels_balise">
+    </item>
+    <item
+        android:id="@+id/item_context_favorites_proximity_map"
+        android:enabled="true"
+        android:title="@string/menu_context_favorites_proximity_map_balise">
+    </item>
+
+</menu>

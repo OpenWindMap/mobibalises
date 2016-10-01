@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="messages_about">
+        <item>Version : {0}</item>
+        <item>© Pedro.M (contact@mobibalises.net)</item>
+        <item>\nhttp://www.mobibalises.net</item>
+        <item>http://www.mobibalises.net/aide.php</item>
+        <item>http://www.mobibalises.net/faq.php</item>
+        <item>\nThanks : LTMTP :: JuMo :: DKM :: Antoine :: The \"Z-Fly G33k Team\" ;) :: Raf (ParaglidingEarth) :: L5-S1</item>
+        <item>\nWind and practice datas from the "Fédération Française de Vol Libre" (www.ffvl.fr)</item>
+        <item>Wind data © contributors of the Pioupiou wind network (www.pioupiou.fr)</item>
+        <item>Practice data from DHV (www.dhv.de)</item>
+        <item>Practice data from Paragliding Earth (www.paraglidingearth.com)</item>
+        <item>Wind data from ROMMA (www.romma.fr)</item>
+        <item>Wind data from OGIMET (www.ogimet.com)</item>
+        <item>Wind data from Aviation Weather Center (NOAA) (www.aviationweather.gov)</item>
+        <item>\nOpen source licenses : www.mobibalises.net/licenses.php</item>
+        <item>\nID : {0}</item>
+    </string-array>
+    <string-array name="messages_whats_new">
+        <item>Pioupiou wind network (www.pioupiou.fr)</item>
+    </string-array>
+
+</resources>

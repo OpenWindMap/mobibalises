@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.pedro.android.mobibalises_common"
+    android:versionCode="44"
+    android:versionName="@string/app_version">
+
+</manifest>

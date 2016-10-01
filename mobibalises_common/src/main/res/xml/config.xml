@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slider="http://schemas.android.com/apk/res-auto"
+    android:key="@string/config_key"
+    android:title="@string/app_name" >
+
+    <PreferenceScreen
+        android:key="@string/config_data_balises_key"
+        android:title="@string/label_weather_beacons" >
+        <PreferenceScreen
+            android:key="config_data_screen_balises_sources_key"
+            android:title="@string/label_datasources" >
+            <PreferenceCategory
+                android:key="@string/config_data_category_balises_sources_key"
+                android:title="@string/label_datasources" >
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="config_tooltip_key"
+            android:summary="@string/label_map_config_tooltip_summary"
+            android:title="@string/label_map_config_tooltip" >
+            <PreferenceCategory
+                android:key="config_map_tooltip_balise_category_key"
+                android:title="@string/label_map_tooltip_balise_category" >
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_altitude_default"
+                    android:key="@string/config_map_tooltip_altitude_key"
+                    android:title="@string/label_map_altitude" >
+                </CheckBoxPreference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                android:key="config_map_tooltip_releve_category_key"
+                android:title="@string/label_map_tooltip_releve_category" >
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_date_default"
+                    android:key="@string/config_map_tooltip_date_key"
+                    android:title="@string/label_map_datetimestatus" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_averagedir_default"
+                    android:key="@string/config_map_tooltip_averagedir_key"
+                    android:title="@string/label_map_average_direction" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_instantdir_default"
+                    android:key="@string/config_map_tooltip_instantdir_key"
+                    android:title="@string/label_map_instant_direction" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_variationdir_default"
+                    android:key="@string/config_map_tooltip_variationdir_key"
+                    android:title="@string/label_map_variation_direction" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_minwind_default"
+                    android:key="@string/config_map_tooltip_minwind_key"
+                    android:title="@string/label_map_min_wind" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_averagewind_default"
+                    android:key="@string/config_map_tooltip_averagewind_key"
+                    android:title="@string/label_map_average_wind" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_maxwind_default"
+                    android:key="@string/config_map_tooltip_maxwind_key"
+                    android:title="@string/label_map_max_wind" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_temperature_default"
+                    android:key="@string/config_map_tooltip_temperature_key"
+                    android:title="@string/label_map_temperature" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_dew_point_default"
+                    android:key="@string/config_map_tooltip_dew_point_key"
+                    android:title="@string/label_map_dew_point" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_hydrometry_default"
+                    android:key="@string/config_map_tooltip_hydrometry_key"
+                    android:title="@string/label_map_hydrometry" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_clouds_default"
+                    android:key="@string/config_map_tooltip_clouds_key"
+                    android:title="@string/label_map_clouds" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_pressure_default"
+                    android:key="@string/config_map_tooltip_pressure_key"
+                    android:title="@string/label_map_pressure" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_luminosity_default"
+                    android:key="@string/config_map_tooltip_luminosity_key"
+                    android:title="@string/label_map_luminosity" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_tooltip_humidity_default"
+                    android:key="@string/config_map_tooltip_humidity_key"
+                    android:title="@string/label_map_humidity" >
+                </CheckBoxPreference>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="config_speak_key"
+            android:title="@string/label_map_config_speak" >
+            <PreferenceCategory
+                android:enabled="@string/app_type_full"
+                android:key="config_map_speak_balise_category_key"
+                android:title="@string/label_map_speak_balise_category" >
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_altitude_default"
+                    android:key="@string/config_map_speak_altitude_key"
+                    android:title="@string/label_map_altitude" >
+                </CheckBoxPreference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                android:enabled="@string/app_type_full"
+                android:key="config_map_speak_releve_category_key"
+                android:title="@string/label_map_speak_releve_category" >
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_date_default"
+                    android:key="@string/config_map_speak_date_key"
+                    android:title="@string/label_map_datetimestatus" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_averagedir_default"
+                    android:key="@string/config_map_speak_averagedir_key"
+                    android:title="@string/label_map_average_direction" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_instantdir_default"
+                    android:key="@string/config_map_speak_instantdir_key"
+                    android:title="@string/label_map_instant_direction" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_variationdir_default"
+                    android:key="@string/config_map_speak_variationdir_key"
+                    android:title="@string/label_map_variation_direction" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_minwind_default"
+                    android:key="@string/config_map_speak_minwind_key"
+                    android:title="@string/label_map_min_wind" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_averagewind_default"
+                    android:key="@string/config_map_speak_averagewind_key"
+                    android:title="@string/label_map_average_wind" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_maxwind_default"
+                    android:key="@string/config_map_speak_maxwind_key"
+                    android:title="@string/label_map_max_wind" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_temperature_default"
+                    android:key="@string/config_map_speak_temperature_key"
+                    android:title="@string/label_map_temperature" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_dew_point_default"
+                    android:key="@string/config_map_speak_dew_point_key"
+                    android:title="@string/label_map_dew_point" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_hydrometry_default"
+                    android:key="@string/config_map_speak_hydrometry_key"
+                    android:title="@string/label_map_hydrometry" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_clouds_default"
+                    android:key="@string/config_map_speak_clouds_key"
+                    android:title="@string/label_map_clouds" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_pressure_default"
+                    android:key="@string/config_map_speak_pressure_key"
+                    android:title="@string/label_map_pressure" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_luminosity_default"
+                    android:key="@string/config_map_speak_luminosity_key"
+                    android:title="@string/label_map_luminosity" >
+                </CheckBoxPreference>
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_speak_humidity_default"
+                    android:key="@string/config_map_speak_humidity_key"
+                    android:title="@string/label_map_humidity" >
+                </CheckBoxPreference>
+            </PreferenceCategory>
+        </PreferenceScreen>
+
+        <PreferenceCategory
+            android:key="config_data_category_balises_wind_icons_key"
+            android:title="@string/label_display" >
+            <CheckBoxPreference
+                android:defaultValue="@string/config_map_balise_hide_inactive_default"
+                android:key="@string/config_map_balise_hide_inactive_key"
+                android:title="@string/label_map_balise_hide_inactive_title" >
+            </CheckBoxPreference>
+
+            <ListPreference
+                android:defaultValue="@string/config_map_wind_default"
+                android:entries="@array/config_map_wind_entries"
+                android:entryValues="@array/config_map_wind_values"
+                android:key="@string/config_map_wind_key"
+                android:title="@string/label_map_wind_title" >
+            </ListPreference>
+
+            <PreferenceScreen
+                android:key="@string/config_map_limit_screen_key"
+                android:summary="@string/label_map_windslimits_summary"
+                android:title="@string/label_map_windslimits" >
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_limit_moy_check_default"
+                    android:key="@string/config_map_limit_moy_check_key"
+                    android:title="@string/label_map_windslimits_moy_check" >
+                </CheckBoxPreference>
+
+                <org.pedro.android.widget.SliderPreference
+                    android:key="@string/config_map_limit_moy_edit_key"
+                    android:layout="@layout/preference_seekbar"
+                    android:title="@string/label_map_windslimits_moy_value"
+                    android:widgetLayout="@layout/preference_widget_seekbar"
+                    slider:defValue="@string/config_map_limit_moy_edit_default"
+                    slider:maxValue="50"
+                    slider:minValue="1" />
+
+                <ListPreference
+                    android:defaultValue="@string/config_map_limit_operator_default"
+                    android:entries="@array/config_map_limit_operator_entries"
+                    android:entryValues="@array/config_map_limit_operator_values"
+                    android:key="@string/config_map_limit_operator_key"
+                    android:title="@string/label_map_windslimits_operator" >
+                </ListPreference>
+
+                <CheckBoxPreference
+                    android:defaultValue="@string/config_map_limit_max_check_default"
+                    android:key="@string/config_map_limit_max_check_key"
+                    android:title="@string/label_map_windslimits_max_check" >
+                </CheckBoxPreference>
+
+                <org.pedro.android.widget.SliderPreference
+                    android:key="@string/config_map_limit_max_edit_key"
+                    android:layout="@layout/preference_seekbar"
+                    android:title="@string/label_map_windslimits_max_value"
+                    android:widgetLayout="@layout/preference_widget_seekbar"
+                    slider:defValue="@string/config_map_limit_max_edit_default"
+                    slider:maxValue="100"
+                    slider:minValue="10" />
+            </PreferenceScreen>
+
+            <org.pedro.android.widget.SliderPreference
+                android:key="@string/config_map_outofdate_key"
+                android:layout="@layout/preference_seekbar"
+                android:summary="@string/label_map_outofdate_summary"
+                android:title="@string/label_map_outofdate_title"
+                android:widgetLayout="@layout/preference_widget_seekbar"
+                slider:defValue="@string/config_map_outofdate_default"
+                slider:maxValue="120"
+                slider:minValue="10" />
+            <org.pedro.android.widget.SliderPreference
+                android:key="@string/config_map_outofdate_max_wind_key"
+                android:layout="@layout/preference_seekbar"
+                android:summary="@string/label_map_outofdate_max_wind_summary"
+                android:title="@string/label_map_outofdate_max_wind_title"
+                android:widgetLayout="@layout/preference_widget_seekbar"
+                slider:defValue="@string/config_map_outofdate_max_wind_default"
+                slider:maxValue="240"
+                slider:minValue="15" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="config_data_category_balises_map_key"
+            android:title="@string/label_map_display_category" >
+            <ListPreference
+                android:defaultValue="@string/config_map_touch_action_default"
+                android:entries="@array/config_map_touch_action_entries"
+                android:entryValues="@array/config_map_touch_action_values"
+                android:key="@string/config_map_touch_action_key"
+                android:title="@string/label_map_touch_action_title" >
+            </ListPreference>
+            <ListPreference
+                android:defaultValue="@string/config_map_metar_synop_collision_default"
+                android:entries="@array/config_map_metar_synop_collision_entries"
+                android:entryValues="@array/config_map_metar_synop_collision_values"
+                android:key="@string/config_map_metar_synop_collision_key"
+                android:title="@string/label_map_metar_synop_collision_title" >
+            </ListPreference>
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:enabled="@string/app_type_full"
+            android:key="config_data_category_balises_favorites_key"
+            android:title="@string/label_config_balises_proximity_category" >
+            <org.pedro.android.widget.SliderPreference
+                android:key="@string/config_favorites_proximity_nb_key"
+                android:layout="@layout/preference_seekbar"
+                android:summary="@string/label_config_favorites_proximity_nb_summary"
+                android:title="@string/label_config_favorites_proximity_nb_title"
+                android:widgetLayout="@layout/preference_widget_seekbar"
+                slider:defValue="@string/config_favorites_proximity_nb_default"
+                slider:maxValue="25"
+                slider:minValue="1" />
+
+            <CheckBoxPreference
+                android:defaultValue="@string/config_favorites_proximity_radius_limited_default"
+                android:key="@string/config_favorites_proximity_radius_limited_key"
+                android:summary="@string/label_config_favorites_proximity_radius_limited_summary"
+                android:title="@string/label_config_favorites_proximity_radius_limited_title" />
+
+            <org.pedro.android.widget.SliderPreference
+                android:dependency="@string/config_favorites_proximity_radius_limited_key"
+                android:key="@string/config_favorites_proximity_radius_limit_key"
+                android:layout="@layout/preference_seekbar"
+                android:summary="@string/label_config_favorites_proximity_radius_limit_summary"
+                android:title="@string/label_config_favorites_proximity_radius_limit_title"
+                android:widgetLayout="@layout/preference_widget_seekbar"
+                slider:defValue="@string/config_favorites_proximity_radius_limit_default"
+                slider:maxValue="200"
+                slider:minValue="1" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:enabled="@string/app_type_full"
+            android:key="config_data_category_around_key"
+            android:title="@string/label_config_balises_around_category" >
+            <org.pedro.android.widget.SliderPreference
+                android:key="@string/config_favorites_around_min_key"
+                android:layout="@layout/preference_seekbar"
+                android:summary="@string/label_config_favorites_around_min_summary"
+                android:title="@string/label_config_favorites_around_min_title"
+                android:widgetLayout="@layout/preference_widget_seekbar"
+                slider:defValue="@string/config_favorites_around_min_default"
+                slider:maxValue="50"
+                slider:minValue="1" />
+            <org.pedro.android.widget.SliderPreference
+                android:key="@string/config_favorites_around_max_key"
+                android:layout="@layout/preference_seekbar"
+                android:summary="@string/label_config_favorites_around_max_summary"
+                android:title="@string/label_config_favorites_around_max_title"
+                android:widgetLayout="@layout/preference_widget_seekbar"
+                slider:defValue="@string/config_favorites_around_max_default"
+                slider:maxValue="200"
+                slider:minValue="2" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="@string/config_data_sites_key"
+        android:title="@string/label_practice_spots" >
+        <PreferenceCategory
+            android:key="@string/config_data_category_sites_sources"
+            android:title="@string/label_datasources" >
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="@string/config_data_category_sites_types"
+            android:title="@string/label_spot_types" >
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="@string/config_data_category_sites_pratiques"
+            android:title="@string/label_practices" >
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="config_data_category_sites_orientations"
+            android:title="Orientations" >
+            <CheckBoxPreference
+                android:defaultValue="@string/config_data_sites_orientation_N_default"
+                android:key="@string/config_data_sites_orientation_N"
+                android:title="@string/label_map_full_directions_N" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="@string/config_data_sites_orientation_NE_default"
+                android:key="@string/config_data_sites_orientation_NE"
+                android:title="@string/label_map_full_directions_NE" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="@string/config_data_sites_orientation_E_default"
+                android:key="@string/config_data_sites_orientation_E"
+                android:title="@string/label_map_full_directions_E" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="@string/config_data_sites_orientation_SE_default"
+                android:key="@string/config_data_sites_orientation_SE"
+                android:title="@string/label_map_full_directions_SE" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="@string/config_data_sites_orientation_S_default"
+                android:key="@string/config_data_sites_orientation_S"
+                android:title="@string/label_map_full_directions_S" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="@string/config_data_sites_orientation_SO_default"
+                android:key="@string/config_data_sites_orientation_SO"
+                android:title="@string/label_map_full_directions_SO" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="@string/config_data_sites_orientation_O_default"
+                android:key="@string/config_data_sites_orientation_O"
+                android:title="@string/label_map_full_directions_O" >
+            </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="@string/config_data_sites_orientation_NO_default"
+                android:key="@string/config_data_sites_orientation_NO"
+                android:title="@string/label_map_full_directions_NO" >
+            </CheckBoxPreference>
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="config_data_category_sites_divers"
+            android:title="@string/label_misc" >
+            <org.pedro.android.widget.SliderPreference
+                android:key="@string/config_data_sites_orientations_zoom_level_key"
+                android:layout="@layout/preference_seekbar"
+                android:summary="@string/label_map_orientations_zoom_level_summary"
+                android:title="@string/label_map_orientations_zoom_level_title"
+                android:widgetLayout="@layout/preference_widget_seekbar"
+                slider:defValue="@string/config_data_sites_orientations_zoom_level_default"
+                slider:maxValue="17"
+                slider:minValue="0" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="@string/config_data_webcams_key"
+        android:title="@string/label_webcams" >
+        <PreferenceCategory
+            android:key="@string/config_data_category_webcams_pratiques"
+            android:title="@string/label_practices" >
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="@string/config_data_category_webcams_statuts"
+            android:title="@string/label_status" >
+	        <CheckBoxPreference
+	            android:defaultValue="@string/webcam_statut_enligne_default"
+	            android:key="@string/webcam_statut_enligne_key"
+	            android:summary="@string/webcam_statut_enligne_summary"
+	            android:title="@string/webcam_statut_enligne_title" >
+	        </CheckBoxPreference>
+            <CheckBoxPreference
+                android:defaultValue="@string/webcam_statut_variable_default"
+                android:key="@string/webcam_statut_variable_key"
+                android:summary="@string/webcam_statut_variable_summary"
+                android:title="@string/webcam_statut_variable_title" >
+            </CheckBoxPreference>
+	    </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="config_flight_mode_key"
+        android:title="@string/label_config_flight_mode" >
+        <CheckBoxPreference
+            android:defaultValue="@string/config_flight_mode_foreground_speech_default"
+            android:enabled="@string/app_type_full"
+            android:key="@string/config_flight_mode_foreground_speech_key"
+            android:summary="@string/label_config_flight_mode_foreground_speech_summary"
+            android:title="@string/label_config_flight_mode_foreground_speech" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_flight_mode_use_gps_default"
+            android:enabled="@string/app_type_full"
+            android:key="@string/config_flight_mode_use_gps_key"
+            android:title="@string/label_config_flight_mode_use_gps" >
+        </CheckBoxPreference>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="config_history_mode_key"
+        android:title="@string/label_config_history_mode" >
+        <org.pedro.android.widget.SliderPreference
+            android:enabled="@string/app_type_full"
+            android:key="@string/config_history_mode_duration_key"
+            android:layout="@layout/preference_seekbar"
+            android:title="@string/label_history_mode_duration"
+            android:widgetLayout="@layout/preference_widget_seekbar"
+            slider:defValue="@string/config_history_mode_duration_default"
+            slider:maxValue="14"
+            slider:minValue="1" />
+
+        <PreferenceCategory
+            android:key="config_history_mode_record"
+            android:title="@string/label_config_history_mode_record" >
+            <CheckBoxPreference
+                android:defaultValue="@string/config_history_mode_range_default"
+                android:enabled="@string/app_type_full"
+                android:key="@string/config_history_mode_range_key"
+                android:summary="@string/label_config_history_mode_range_summary"
+                android:title="@string/label_config_history_mode_range" >
+            </CheckBoxPreference>
+
+            <org.pedro.android.widget.SliderPreference
+                android:dependency="@string/config_history_mode_range_key"
+                android:enabled="@string/app_type_full"
+                android:key="@string/config_history_mode_range_start_key"
+                android:layout="@layout/preference_seekbar"
+                android:title="@string/label_history_mode_range_start"
+                android:widgetLayout="@layout/preference_widget_seekbar"
+                slider:defValue="@string/config_history_mode_range_start_default"
+                slider:maxValue="23"
+                slider:minValue="0" />
+            <org.pedro.android.widget.SliderPreference
+                android:dependency="@string/config_history_mode_range_key"
+                android:enabled="@string/app_type_full"
+                android:key="@string/config_history_mode_range_end_key"
+                android:layout="@layout/preference_seekbar"
+                android:title="@string/label_history_mode_range_end"
+                android:widgetLayout="@layout/preference_widget_seekbar"
+                slider:defValue="@string/config_history_mode_range_end_default"
+                slider:maxValue="24"
+                slider:minValue="1" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:key="config_history_mode_misc"
+            android:title="@string/label_config_history_mode_misc" >
+            <CheckBoxPreference
+                android:defaultValue="@string/config_history_mode_ask_default"
+                android:enabled="@string/app_type_full"
+                android:key="@string/config_history_mode_ask_key"
+                android:summary="@string/label_config_history_mode_ask_summary"
+                android:title="@string/label_config_history_mode_ask" >
+            </CheckBoxPreference>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:key="config_map_category_key"
+        android:title="@string/label_map_category" >
+        <CheckBoxPreference
+            android:defaultValue="@string/config_map_centering_default"
+            android:key="@string/config_map_centering_key"
+            android:title="@string/label_map_centering_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_map_use_gps_default"
+            android:key="@string/config_map_use_gps_key"
+            android:summary="@string/label_map_use_gps_summary"
+            android:title="@string/label_map_use_gps_title" />
+        <CheckBoxPreference
+            android:defaultValue="@string/config_map_ign_use_own_key_default"
+            android:key="@string/config_map_ign_use_own_key_key"
+            android:summary="@string/label_map_ign_use_own_key_summary"
+            android:title="@string/label_map_ign_use_own_key_title" />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:dependency="@string/config_map_ign_use_own_key_key"
+            android:key="@string/config_map_ign_own_key_key"
+            android:title="@string/label_map_ign_own_key_title" />
+
+        <PreferenceScreen
+            android:key="config_map_search_key"
+            android:title="@string/label_map_search_title" >
+            <Preference
+                android:key="@string/config_map_search_reset_key"
+                android:title="@string/label_map_search_reset_title" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="config_misc_category_key"
+        android:title="@string/label_misc" >
+        <PreferenceScreen
+            android:key="config_units_key"
+            android:title="@string/label_units" >
+            <ListPreference
+                android:defaultValue="@string/config_unit_speed_default"
+                android:entries="@array/config_unit_speed_entries"
+                android:entryValues="@array/config_unit_speed_values"
+                android:key="@string/config_unit_speed_key"
+                android:title="@string/label_unit_speeds" />
+            <ListPreference
+                android:defaultValue="@string/config_unit_altitude_default"
+                android:entries="@array/config_unit_altitude_entries"
+                android:entryValues="@array/config_unit_altitude_values"
+                android:key="@string/config_unit_altitude_key"
+                android:title="@string/label_unit_altitudes" />
+            <ListPreference
+                android:defaultValue="@string/config_unit_distance_default"
+                android:entries="@array/config_unit_distance_entries"
+                android:entryValues="@array/config_unit_distance_values"
+                android:key="@string/config_unit_distance_key"
+                android:title="@string/label_unit_distances" />
+            <ListPreference
+                android:defaultValue="@string/config_unit_temperature_default"
+                android:entries="@array/config_unit_temperature_entries"
+                android:entryValues="@array/config_unit_temperature_values"
+                android:key="@string/config_unit_temperature_key"
+                android:title="@string/label_unit_temperatures" />
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="@string/config_ffvl_message_default"
+            android:key="@string/config_ffvl_message_key"
+            android:summary="@string/config_ffvl_message_summary"
+            android:title="@string/config_ffvl_message_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_error_reports_default"
+            android:key="@string/config_error_reports_key"
+            android:summary="@string/config_error_reports_summary"
+            android:title="@string/config_error_reports_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_ga_default"
+            android:key="@string/config_ga_key"
+            android:title="@string/label_ga" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_wakelock_default"
+            android:key="@string/config_wakelock_key"
+            android:summary="@string/label_wakelock_summary"
+            android:title="@string/label_wakelock" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_wakelock_flight_mode_default"
+            android:dependency="@string/config_wakelock_key"
+            android:enabled="@string/app_type_full"
+            android:key="@string/config_wakelock_flight_mode_key"
+            android:title="@string/label_wakelock_flight_mode" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_wakelockbright_default"
+            android:dependency="@string/config_wakelock_key"
+            android:key="@string/config_wakelockbright_key"
+            android:title="@string/label_wakelockbright" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="@string/config_double_backkey_default"
+            android:key="@string/config_double_backkey_key"
+            android:title="@string/config_double_backkey_key_title" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="config_advanced_category_key"
+        android:title="@string/label_advanced_config" >
+        <org.pedro.android.widget.SliderPreference
+            android:key="@string/config_advanced_map_cache_size_key"
+            android:layout="@layout/preference_seekbar"
+            android:summary="@string/label_map_cache_size_summary"
+            android:title="@string/label_map_cache_size_title"
+            android:widgetLayout="@layout/preference_widget_seekbar"
+            slider:defValue="@string/config_advanced_map_cache_size_default"
+            slider:maxValue="100"
+            slider:minValue="0" />
+
+        <CheckBoxPreference
+            android:defaultValue="@string/config_advanced_light_mode_default"
+            android:enabled="@string/app_type_full"
+            android:key="@string/config_advanced_light_mode_key"
+            android:summary="@string/label_light_mode_summary"
+            android:title="@string/label_light_mode_title" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

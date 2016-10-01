@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="full_version_default">&lt;b&gt;This feature is only available with MobiWindStations+.&lt;/b&gt;</string>
+    <string name="full_version_flight_mode">
+        &lt;b&gt;This feature is only available with MobiWindStations+.&lt;/b&gt;\n
+        The flight mode allows\nWhen in map mode to update the map center automatically and continuously from your geographical location.\nWhen in list mode to update automatically and continuously the list of wind stations near you. And -last but not least- you can hear (speech synthesis) the wind stations near you (radius is configurable) when then update their data.
+    </string>
+    <string name="full_version_history_mode">
+        &lt;b&gt;This feature is only available with MobiWindStations+.&lt;/b&gt;\n
+        History mode allows you to record the datas of wind stations continuously, even when the device screen is off. You can then view the winds evolutions on the last days and hours.
+    </string>
+    <string name="full_version_list_mode">
+        &lt;b&gt;This feature is only available with MobiWindStations+.&lt;/b&gt;\n
+        The list mode allows to consult as text some wind stations lists constituted manually or automatically from your geographical location.
+    </string>
+    <string name="full_version_alarm_mode">
+        &lt;b&gt;Cette fonctionnalité est réservée à MobiBalises+.&lt;/b&gt;\n
+        Alarms allow you to be notified when the wind station\'s data meet your criteria.
+    </string>
+    <string name="full_version_widgets">
+        &lt;b&gt;This feature is only available with MobiWindStations+.&lt;/b&gt;\n
+        The app widgets allow to display on your desktop some wind stations lists constituted manually or automatically from your geographical location (near or around you). 
+    </string>
+    <string name="full_version_weather_icons">
+        &lt;b&gt;This feature is only available with MobiWindStations+.&lt;/b&gt;\n
+        The weather layer allow to display graphical informations (clouds, rains) for each wind station that publish it (only METAR and SYNOP for the moment). 
+    </string>
+    <string name="full_version_speech">
+        &lt;b&gt;This feature is only available with MobiWindStations+.&lt;/b&gt;\n
+        The speech synthesis allow your Android phone to speak the wind informations. 
+    </string>
+</resources>

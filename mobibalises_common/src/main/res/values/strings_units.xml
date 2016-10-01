@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="unit_bearing">°</string>
+	<string name="unit_direction">°</string>
+	<string name="unit_hydrometry">mm/h</string>
+	<string name="unit_pressure">hPa</string>
+	<string name="unit_minutes">minutes</string>
+	<string name="unit_humidity">%</string>
+	<string name="unit_hours_abv">h</string>
+    <string name="unit_minutes_abv">\'</string>
+    <string name="unit_seconds_abv">\"</string>
+    <string name="unit_clouds">/8</string>
+
+    <string name="label_units">Units</string>
+    <string name="label_unit_speeds">Speeds</string>
+    <string name="unit_speed_kph">kph</string>
+    <string name="unit_speed_mph">mph</string>
+    <string name="unit_speed_kts">kts</string>
+    <string name="unit_speed_factor_kph">1</string>
+    <string name="unit_speed_factor_mph">0.6215</string>
+    <string name="unit_speed_factor_kts">0.54</string>
+    <string name="label_unit_altitudes">Altitudes</string>
+    <string name="unit_altitude_m">m</string>
+    <string name="unit_altitude_ft">ft</string>
+    <string name="unit_altitude_factor_m">1</string>
+    <string name="unit_altitude_factor_ft">3.2808</string>
+    <string name="label_unit_distances">Distances</string>
+    <string name="unit_distance_km">km</string>
+    <string name="unit_distance_mi">mi</string>
+    <string name="unit_distance_nm">Nm</string>
+    <string name="unit_distance_factor_km">1</string>
+    <string name="unit_distance_factor_mi">0.6215</string>
+    <string name="unit_distance_factor_nm">0.54</string>
+    <string name="label_unit_temperatures">Temperatures</string>
+    <string name="unit_temperature_celsius">°C</string>
+    <string name="unit_temperature_fahrenheit">°F</string>
+    <string name="unit_temperature_factor_celsius">1</string>
+    <string name="unit_temperature_factor_fahrenheit">1.8</string>
+    <string name="unit_temperature_delta_celsius">0</string>
+    <string name="unit_temperature_delta_fahrenheit">32</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobiWindStations+</string>
+    <string name="preferences_shared_name">com.pedro.android.mobibalises</string>
+    <string name="app_type_free">false</string>
+    <string name="app_type_full">true</string>
+
+</resources>

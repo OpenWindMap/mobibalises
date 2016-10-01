@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        mobibalises_free {
+            keyAlias 'org.pedro.android.mobibalises'
+            keyPassword 'savoie73'
+            storeFile file('/home/pierre/AndroidStudioProjects/MobiBalises/mobibalises_common/mobibalises.jks')
+            storePassword '$avoie77'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+    defaultConfig {
+        applicationId "org.pedro.android.mobibalises"
+        minSdkVersion 8
+        targetSdkVersion 22
+        versionCode 44
+        versionName "3.5.6a"
+    }
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.mobibalises_free
+            lintOptions {
+                disable 'MissingTranslation'
+            }
+            minifyEnabled true
+            proguardFile '/home/pierre/AndroidStudioProjects/MobiBalises/mobibalises_common/proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':mobibalises_common')
+}

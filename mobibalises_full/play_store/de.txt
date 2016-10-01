@@ -1,0 +1,10 @@
+Description :
+=============
+Echtzeit-Anzeige der Wind Informationen von Wetterstationen rund um die Welt.
+Karte, Liste und Widgets: Diese Informationen können in 3 verschiedene Modi betrachtet werden. In der Liste, und Widget-Modus können Sie die Wetter-Stationen auswählen, die angezeigt werden, oder solche, die NEXTOR um dich herum sind.
+Die Anwendung ermöglicht es auch, die freien Flug detaillierte Informationen Orten in Deutschland und auf der ganzen Welt zu sehen.
+Diese Anwendung ist besonders gewidmet Paragleiten und Drachenfliegen, sondern ist auch sehr nützlich für alle Outdoor-Aktivitäten wich hängen von der Wind (Kite-Surfen, Windsurfen, etc.).
+
+Texte promotionnel :
+====================
+Echtzeit-Anzeige der Wind Informationen von Wetterstationen rund um die Welt.

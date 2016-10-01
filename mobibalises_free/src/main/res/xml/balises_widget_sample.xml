@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+	android:minWidth="250dip"
+	android:minHeight="250dip"
+	android:initialLayout="@layout/balises_widget_sample_layout"
+	android:updatePeriodMillis="300000"
+>
+</appwidget-provider>

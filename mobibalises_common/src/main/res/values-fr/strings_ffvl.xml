@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ffvl_message_progress_dialog_title">FFVL</string>
+    <string name="ffvl_message_progress_dialog_message">Récupération du message FFVL en cours...</string>
+    <string name="ffvl_message_dialog_title">FFVL</string>
+    <string name="ffvl_message_none">Pas de message</string>
+</resources>

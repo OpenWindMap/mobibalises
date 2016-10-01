@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_11_name">MobiBalises 1x1</string>
+    <string name="widget_21_name">MobiBalises 2x1</string>
+    <string name="widget_22_name">MobiBalises 2x2</string>
+    <string name="widget_33_name">MobiBalises 3x3</string>
+    <string name="widget_41_name">MobiBalises 4x1</string>
+    <string name="widget_42_name">MobiBalises 4x2</string>
+    <string name="widget_43_name">MobiBalises 4x3</string>
+    <string name="widget_44_name">MobiBalises 4x4</string>
+</resources>

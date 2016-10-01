@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="webcam_providers_titles">
+        <item>MobiBalises</item>
+    </string-array>
+    <string-array name="webcam_providers_summaries">
+        <item>www.mobibalises.net/webcams</item>
+    </string-array>
+    <string-array name="webcam_pratiques_titles">
+        <item>Vol libre</item>
+        <item>Kite</item>
+        <item>Ski</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string name="webcam_statut_enligne_title">Hors ligne</string>
+    <string name="webcam_statut_enligne_summary">Afficher aussi les webcams hors ligne ?</string>
+    <string name="webcam_statut_variable_title">Figées</string>
+    <string name="webcam_statut_variable_summary">Afficher aussi les webcams gelées ?</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="message_startup">v%1$s</string>
+
+    <string-array name="messages_about"></string-array>
+
+    <string name="message_confirm_quit">Drücken Sie erneut, um zu beenden</string>
+    <string name="message_cache_not_available">Warnung Cache nicht verfügbar\n%1$s</string>
+    <string name="message_location_progress">Warten auf Standortinformationen.\nDrücken Sie die Zurück-Taste, um abzubrechen...</string>
+    <string name="message_finer_location_progress">Ungefähre Position gefunden.\nWarten auf genauere Standortinformationen.\nDrücken Sie die Zurück-Taste, um abzubrechen...</string>
+    <string name="message_empty_location">Es sind keine Wetterstation in der Nähe oder laufenden Forschungs. Versuchen Sie, die Einstellungen zu änder...</string>
+    <string name="message_location_non_active">Keine Standortanbieter aktiviert ist, klicken Sie auf OK, um die Konfiguration Standort anzuzeigen</string>
+    <string name="message_download_error_title">Download-Fehler</string>
+    <string name="message_download_error_nodata">Keine Daten für</string>
+    <string name="message_please_wait">Bitte warten...</string>
+    <string name="message_spot_error_title">Fehler für Plätzen :</string>
+    <string name="message_spot_error">&#8226; %1$s (%2$s)</string>
+    <string name="message_spot_error_start">&lt;big&gt;</string>
+    <string name="message_spot_error_end">\n\n... versuchen, erneut herunterladen der Daten (\"Einstellungen\"-Bildschirm)&lt;/big&gt;</string>
+    <string name="message_whats_new_title">Was ist neu?</string>
+
+    <string-array name="messages_whats_new"></string-array>
+
+    <string name="message_first_launch">Sie verwenden %1$s zum ersten Mal...\n\nDer erste Schritt ist die Datenquellen des Wetterstationen zu konfigurieren. Dazu können Sie in das Menü \"Einstellungen\" gehen und folgen Sie den Artikel \"Wetterstationen...\" und \"Datenquellen...\". Dann wählen Sie die Länder und Datenanbieter Ihrer Wahl.\n\n&lt;big&gt;Durch Klick auf die Schaltfläche "Schließen" Sie werden direkt auf den Bildschirm genommen werden...&lt;/big&gt;</string>
+    <string name="message_unknown_error">Unbekannter Fehler</string>
+    <string name="message_data_infos_title">Daten Informationen</string>
+    <string name="message_data_infos_nonetwork">Netzwerk nicht verfügbar</string>
+    <string name="message_data_infos_noprovider">Kein Lieferant...</string>
+    <string name="message_data_infos_releves">Daten</string>
+    <string name="message_data_infos_balises">Stationen</string>
+    <string name="message_data_infos_webcams">Webcams</string>
+    <string name="message_data_infos_nodata">Keine Information</string>
+    <string name="message_data_infos_provider_paused">unbenutzt (um zu schlafen)</string>
+    <string name="message_data_infos_provider_in_progress">Update in Arbeit...</string>
+    <string name="message_data_infos_provider_sleeping">Standby für %1$s</string>
+    <string name="message_data_infos_line_server">Server</string>
+    <string name="message_data_infos_line_last_update">letzten Download.</string>
+    <string name="message_data_infos_line_last_check">zuletzt überprüft</string>
+    <string name="message_loading_providers">Verladung %1$s</string>
+    <string name="message_start_favorites">Initialisieren...</string>
+    <string name="message_no_favorites">Sie können Wetterstationen mit dem Knopf oben oder im Kartenmodus über das Kontextmenü (langes Drücken) auf einer Wetterstation hinzufügen (Punkt \"Zur Liste hinzufügen\").</string>
+    <string name="message_no_widget">Sie müssen ein oder mehrere Widgets auf Ihrem Desktop hinzufügen...</string>
+    <string name="message_delete_label_title">Liste löschen?</string>
+    <string name="message_delete_label_message">Sind Sie sicher, dass Sie die Liste \"%1$s\" und %2$d Favoriten löschen?</string>
+    <string name="message_label_already_exists">Liste \"%1$s\" existiert bereits</string>
+    <string name="message_widget_update_in_progress">Aktualisierung...</string>
+    <string name="message_widget_update_in_progress_short">Aktual...</string>
+    <string name="message_widget_no_localisation">Unmöglich, um den aktuellen Standort zu bestimmen.\nStellen Sie sicher, dass Sie zumindest eine Quelle (GPS oder Netzwerk) in den Systemeinstellungen aktiviert haben.</string>
+    <string name="message_widget_no_localisation_short">Lokalisierungsfehler</string>
+    <string name="message_no_spot_provider_checked">Außerdem müssen Sie die plätzen Datenquellen.\nKlicken Sie auf die Schaltfläche "Plätzen..." Folgende</string>
+    <string name="message_error_title">Error</string>
+    <string name="message_ign_key_invalid">Ihre IGN-API-Schlüssel ist ungültig</string>
+    <string name="message_ign_unavailable">IGN-Karten sind auf MobiWindStations+ leider nicht verfügbar.\nAlle Erklärungen sind hier : http://www.mobibalises.net/faq.php#ign]</string>
+    <string name="message_balise_not_found">Windstation nicht gefunden !</string>
+    <string name="message_spot_not_found">Spot nicht gefunden !</string>
+    <string name="message_webcam_not_found">Webcam nicht gefunden !</string>
+
+    <string name="message_config_search_reset">Wollen Sie wirklich, um die Suchdatenbank zurücksetzen?</string>
+    <string name="message_config_search_reset_done">Die Suchdatenbank wurde zurückgesetzt!</string>
+    <string name="message_config_search_delete_title">Bitte wählen Sie, welche Daten zu löschen</string>
+    <string name="message_config_search_delete_done">Daten gelöscht!</string>
+    <string name="message_config_search_delete_nothing">Keine Daten gelöscht</string>
+    <string name="message_search_in_progress">im Gange...</string>
+    <string name="message_search_no_result">Kein Ergebnis</string>
+
+</resources>

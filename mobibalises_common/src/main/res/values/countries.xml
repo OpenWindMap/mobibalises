@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_states">(states)</string>
+    <string-array name="continent_codes">
+        <item>west_eur</item>
+        <item>east_eur</item>
+        <item>north_ame</item>
+        <item>central_ame</item>
+        <item>south_ame</item>
+        <item>middle_east</item>
+        <item>africa</item>
+        <item>asia</item>
+        <item>oceania</item>
+    </string-array>
+    <string-array name="continent_labels">
+        <item>Western Europe</item>
+        <item>Eastern Europe</item>
+        <item>North America</item>
+        <item>Central America/Carribean</item>
+        <item>South America</item>
+        <item>Middle East</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Oceania</item>
+    </string-array>
+    <string-array name="country_codes_west_eur">
+        <item>FR</item>
+        <item>DE</item>
+        <item>CH</item>
+        <item>AT</item>
+        <item>ES</item>
+        <item>IT</item>
+        <item>BE</item>
+        <item>DK</item>
+        <item>FI</item>
+        <item>GR</item>
+        <item>GL</item>
+        <item>IS</item>
+        <item>IE</item>
+        <item>LU</item>
+        <item>MT</item>
+        <item>NO</item>
+        <item>NL</item>
+        <item>PT</item>
+        <item>GB</item>
+        <item>SE</item>
+        <item>GI</item>
+    </string-array>
+    <string-array name="country_codes_east_eur">
+        <item>AL</item>
+        <item>BA</item>
+        <item>BG</item>
+        <item>HR</item>
+        <item>CZ</item>
+        <item>EE</item>
+        <item>HU</item>
+        <item>LV</item>
+        <item>LT</item>
+        <item>MD</item>
+        <item>ME</item>
+        <item>PL</item>
+        <item>RO</item>
+        <item>RS</item>
+        <item>RU</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>UA</item>
+        <item>BY</item>
+        <item>BU</item>
+        <item>MK</item>
+    </string-array>
+    <string-array name="country_codes_north_ame">
+        <item>US</item>
+        <item>CA</item>
+        <item>MX</item>
+        <item>PM</item>
+    </string-array>
+    <string-array name="country_codes_central_ame">
+        <item>BS</item>
+        <item>BZ</item>
+        <item>BM</item>
+        <item>KY</item>
+        <item>CR</item>
+        <item>CU</item>
+        <item>VG</item>
+        <item>VI</item>
+        <item>SV</item>
+        <item>GD</item>
+        <item>GP</item>
+        <item>HT</item>
+        <item>HN</item>
+        <item>JM</item>
+        <item>MQ</item>
+        <item>AN</item>
+        <item>NI</item>
+        <item>PA</item>
+        <item>KN</item>
+        <item>VC</item>
+        <item>LC</item>
+    </string-array>
+    <string-array name="country_codes_south_ame">
+        <item>BR</item>
+        <item>AR</item>
+        <item>BB</item>
+        <item>BO</item>
+        <item>CL</item>
+        <item>CO</item>
+        <item>DO</item>
+        <item>DM</item>
+        <item>EC</item>
+        <item>GF</item>
+        <item>GT</item>
+        <item>PE</item>
+        <item>PR</item>
+        <item>UY</item>
+        <item>VE</item>
+        <item>FK</item>
+        <item>GY</item>
+        <item>PY</item>
+        <item>SR</item>
+        <item>TT</item>
+    </string-array>
+    <string-array name="country_codes_middle_east">
+        <item>AM</item>
+        <item>AZ</item>
+        <item>CY</item>
+        <item>GE</item>
+        <item>IR</item>
+        <item>IL</item>
+        <item>JO</item>
+        <item>KZ</item>
+        <item>LB</item>
+        <item>QA</item>
+        <item>SA</item>
+        <item>TR</item>
+        <item>AE</item>
+        <item>BH</item>
+        <item>IQ</item>
+        <item>KW</item>
+        <item>OM</item>
+        <item>SY</item>
+        <item>TM</item>
+        <item>UZ</item>
+        <item>YE</item>
+    </string-array>
+    <string-array name="country_codes_africa">
+        <item>ZA</item>
+        <item>MA</item>
+        <item>RE</item>
+        <item>ET</item>
+        <item>AO</item>
+        <item>DZ</item>
+        <item>CV</item>
+        <item>EG</item>
+        <item>GH</item>
+        <item>KE</item>
+        <item>MU</item>
+        <item>MZ</item>
+        <item>NA</item>
+        <item>SZ</item>
+        <item>TZ</item>
+        <item>TN</item>
+        <item>ZW</item>
+        <item>BJ</item>
+        <item>BW</item>
+        <item>BF</item>
+        <item>BI</item>
+        <item>CM</item>
+        <item>CF</item>
+        <item>TD</item>
+        <item>KM</item>
+        <item>CG</item>
+        <item>CD</item>
+        <item>CI</item>
+        <item>DJ</item>
+        <item>GQ</item>
+        <item>TF</item>
+        <item>GA</item>
+        <item>GM</item>
+        <item>GN</item>
+        <item>GW</item>
+        <item>LS</item>
+        <item>LR</item>
+        <item>LY</item>
+        <item>MG</item>
+        <item>MW</item>
+        <item>ML</item>
+        <item>MR</item>
+        <item>NE</item>
+        <item>NG</item>
+        <item>RW</item>
+        <item>ST</item>
+        <item>SN</item>
+        <item>SC</item>
+        <item>SL</item>
+        <item>SO</item>
+        <item>SD</item>
+        <item>TG</item>
+        <item>UG</item>
+        <item>EH</item>
+        <item>ZM</item>
+    </string-array>
+    <string-array name="country_codes_asia">
+        <item>KH</item>
+        <item>CN</item>
+        <item>HK</item>
+        <item>IN</item>
+        <item>ID</item>
+        <item>JP</item>
+        <item>KR</item>
+        <item>KP</item>
+        <item>MY</item>
+        <item>NP</item>
+        <item>PK</item>
+        <item>PH</item>
+        <item>TW</item>
+        <item>TH</item>
+        <item>VN</item>
+        <item>BD</item>
+        <item>TL</item>
+        <item>KG</item>
+        <item>LA</item>
+        <item>MO</item>
+        <item>MV</item>
+        <item>MM</item>
+        <item>SG</item>
+        <item>LK</item>
+        <item>TJ</item>
+    </string-array>
+    <string-array name="country_codes_oceania">
+        <item>AU</item>
+        <item>PF</item>
+        <item>NC</item>
+        <item>NZ</item>
+        <item>UM</item>
+        <item>FJ</item>
+        <item>FM</item>
+        <item>PG</item>
+        <item>WS</item>
+        <item>VU</item>
+    </string-array>
+
+
+    <string-array name="regional_codes_CA">
+        <item>AB</item>
+        <item>BC</item>
+        <item>MB</item>
+        <item>NB</item>
+        <item>NL</item>
+        <item>NS</item>
+        <item>ON</item>
+        <item>PE</item>
+        <item>QC</item>
+        <item>SK</item>
+        <item>NT</item>
+        <item>NU</item>
+        <item>YT</item>
+    </string-array>
+    <string name="regional_code_default_CA">ON</string>
+    <string-array name="regional_names_CA">
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Nova Scotia</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+        <item>Northwest Territories</item>
+        <item>Nunavut</item>
+        <item>Yukon Territory</item>
+    </string-array>
+
+
+	<string-array name="regional_codes_US">
+	    <item>AL</item>
+	    <item>AK</item>
+	    <item>AZ</item>
+	    <item>AR</item>
+	    <item>CA</item>
+	    <item>CO</item>
+	    <item>CT</item>
+	    <item>DE</item>
+	    <item>FL</item>
+	    <item>GA</item>
+	    <item>HI</item>
+	    <item>ID</item>
+	    <item>IL</item>
+	    <item>IN</item>
+	    <item>IA</item>
+	    <item>KS</item>
+	    <item>KY</item>
+	    <item>LA</item>
+	    <item>ME</item>
+	    <item>MD</item>
+	    <item>MA</item>
+	    <item>MI</item>
+	    <item>MN</item>
+	    <item>MS</item>
+	    <item>MO</item>
+	    <item>MT</item>
+	    <item>NE</item>
+	    <item>NV</item>
+	    <item>NH</item>
+	    <item>NJ</item>
+	    <item>NM</item>
+	    <item>NY</item>
+	    <item>NC</item>
+	    <item>ND</item>
+	    <item>OH</item>
+	    <item>OK</item>
+	    <item>OR</item>
+	    <item>PA</item>
+	    <item>RI</item>
+	    <item>SC</item>
+	    <item>SD</item>
+	    <item>TN</item>
+	    <item>TX</item>
+	    <item>UT</item>
+	    <item>VT</item>
+	    <item>VA</item>
+	    <item>WA</item>
+	    <item>WV</item>
+	    <item>WI</item>
+	    <item>WY</item>
+	</string-array>
+	<string name="regional_code_default_US">NY</string>
+	<string-array name="regional_names_US">
+	    <item>Alabama</item>
+	    <item>Alaska</item>
+	    <item>Arizona</item>
+	    <item>Arkansas</item>
+	    <item>California</item>
+	    <item>Colorado</item>
+	    <item>Connecticut</item>
+	    <item>Delaware</item>
+	    <item>Florida</item>
+	    <item>Georgia</item>
+	    <item>Hawaii</item>
+	    <item>Idaho</item>
+	    <item>Illinois</item>
+	    <item>Indiana</item>
+	    <item>Iowa</item>
+	    <item>Kansas</item>
+	    <item>Kentucky</item>
+	    <item>Louisiana</item>
+	    <item>Maine</item>
+	    <item>Maryland</item>
+	    <item>Massachusetts</item>
+	    <item>Michigan</item>
+	    <item>Minnesota</item>
+	    <item>Mississippi</item>
+	    <item>Missouri</item>
+	    <item>Montana</item>
+	    <item>Nebraska</item>
+	    <item>Nevada</item>
+	    <item>New Hampshire</item>
+	    <item>New Jersey</item>
+	    <item>New Mexico</item>
+	    <item>New York</item>
+	    <item>North Carolina</item>
+	    <item>North Dakota</item>
+	    <item>Ohio</item>
+	    <item>Oklahoma</item>
+	    <item>Oregon</item>
+	    <item>Pennsylvania</item>
+	    <item>Rhode Island</item>
+	    <item>South Carolina</item>
+	    <item>South Dakota</item>
+	    <item>Tennessee</item>
+	    <item>Texas</item>
+	    <item>Utah</item>
+	    <item>Vermont</item>
+	    <item>Virginia</item>
+	    <item>Washington</item>
+	    <item>West Virginia</item>
+	    <item>Wisconsin</item>
+	    <item>Wyoming</item>
+	</string-array>
+
+</resources>

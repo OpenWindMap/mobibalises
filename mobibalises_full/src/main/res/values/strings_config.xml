@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="config_advanced_light_mode_default">false</string>
+    <string name="config_map_layers_weather_default">true</string>
+
+</resources>

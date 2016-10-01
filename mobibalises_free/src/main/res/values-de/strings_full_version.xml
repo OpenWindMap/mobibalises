@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="full_version_default">&lt;b&gt;Diese Funktion ist nur verfügbar mit MobiWindStationen+.&lt;/b&gt;</string>
+    <string name="full_version_flight_mode">
+        &lt;b&gt;Diese Funktion ist nur verfügbar mit MobiWindStationen+.&lt;/b&gt;\n
+        Der Flug-Modus erlaubt :\nWenn im Kartenmodus, um die Kartenmitte automatisch und kontinuierlich von Ihrem geographischen Standort zu aktualisieren.\nWenn im Listenmodus, um automatisch und kontinuierlich die Liste der Wetterstationen in Ihrer Nähe zu aktualisieren. Und Sie hören können (Sprachsynthese) die Wetterstationen in der Nähe (Radius ist konfigurierbar), wenn dann ihre Daten zu aktualisieren.
+    </string>
+    <string name="full_version_history_mode">
+        &lt;b&gt;Diese Funktion ist nur verfügbar mit MobiWindStationen+.&lt;/b&gt;\n
+        History-Modus können Sie die Daten der Wetterstationen kontinuierlich aufzeichnen, auch wenn das Gerät Bildschirm ausgeschaltet ist. Sie können dann die Winde Entwicklungen der letzten Tage und Stunden.
+    </string>
+    <string name="full_version_list_mode">
+        &lt;b&gt;Diese Funktion ist nur verfügbar mit MobiWindStationen+.&lt;/b&gt;\n
+        Die Liste Modus können als Text konsultieren einige Wetterstationen Listen manuell oder automatisch von Ihrer geographischen Lage gebildet.
+    </string>
+    <string name="full_version_alarm_mode">
+        &lt;b&gt;Diese Funktion ist nur verfügbar mit MobiWindStationen+.&lt;/b&gt;\n
+        Alarme lassen Sie benachrichtigt, wenn die Daten von einem Wetterstation entsprechen Ihren Kriterien werden.
+    </string>
+    <string name="full_version_widgets">
+        &lt;b&gt;Diese Funktion ist nur verfügbar mit MobiWindStationen+.&lt;/b&gt;\n
+        Die App-Widgets erlauben, auf dem Desktop angezeigt werden einige Wetterstationen Listen manuell oder automatisch von Ihrer geographischen Lage (in der Nähe oder um Sie herum) konstituiert.
+    </string>
+    <string name="full_version_weather_icons">
+        &lt;b&gt;Diese Funktion ist nur verfügbar mit MobiWindStationen+.&lt;/b&gt;\n
+        Das Wetter Schicht zu ermöglichen, um grafische Informationen (Wolken, Regen) für jede Wetterstation, die es zu veröffentlichen (nur METAR und SYNOP für den Moment) anzuzeigen.
+    </string>
+    <string name="full_version_speech">
+        &lt;b&gt;Diese Funktion ist nur verfügbar mit MobiWindStationen+.&lt;/b&gt;\n
+        Die Sprachsynthese kann Ihr Android-Handy auf die Wetter-Informationen sprechen.
+    </string>
+</resources>

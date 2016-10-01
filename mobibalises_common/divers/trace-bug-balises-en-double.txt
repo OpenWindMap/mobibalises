@@ -1,0 +1,7 @@
+11-20 14:34:42.761: I/System.out(17536): onBaliseProviderAdded(ffvl_FR, org.pedro.balises.CachedProvider@407f50f0) : Thread[com.pedro.android.mobibalises.service.ProvidersService.NotifyThread,5,main]
+11-20 14:34:42.761: I/System.out(17536): adding 147 for provider ffvl_FR
+11-20 14:34:45.391: I/System.out(17536): onBaliseProviderAdded(metar_FR, org.pedro.balises.CachedProvider@4062c4c8) : Thread[com.pedro.android.mobibalises.service.ProvidersService.NotifyThread,5,main]
+11-20 14:34:47.871: I/System.out(17536): adding 72 for provider romma_FR
+11-20 14:34:49.501: I/System.out(17536): adding 155 for provider metar_FR
+11-20 14:34:52.041: I/System.out(17536): onBaliseProviderAdded(romma_FR, org.pedro.balises.CachedProvider@40638df0) : Thread[com.pedro.android.mobibalises.service.ProvidersService.NotifyThread,5,main]
+11-20 14:34:52.041: I/System.out(17536): adding 72 for provider romma_FR

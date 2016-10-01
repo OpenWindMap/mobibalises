@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="providers_titles">
+		<item>FFVL</item>
+		<item>PiouPiou</item>
+		<item>METAR</item>
+		<item>ROMMA</item>
+		<item>SYNOP</item>
+		<item>FFVL (direkt)</item>
+		<item>ROMMA (direkt)</item>
+		<item>Bidon</item>
+	</string-array>
+	<string-array name="providers_summaries">
+		<item>Netz der Wetterstationen FFVL (mit Trends &amp; Historisches)</item>
+		<item>PiouPiou netz</item>
+		<item></item>
+		<item>Wetter Beobachtungsnetz Alpenmassiv (mit Trends &amp; Historisches)</item>
+		<item></item>
+		<item>Netz der Wetterstationen FFVL (direkt)</item>
+		<item>Wetter Beobachtungsnetz Alpenmassiv (direkt)</item>
+		<item>Provider Bidon (pour tests)</item>
+	</string-array>
+</resources>

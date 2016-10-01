@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/alarm_nom_provider"
+            style="?android:attr/spinnerStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/alarm_nom_balise"
+            style="?android:attr/spinnerStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="0dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_title_background"
+            android:padding="5dp"
+            android:text="@string/alarm_title_notifications"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/alarm_text_activation"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Spinner
+                android:id="@+id/alarm_activation"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/alarm_check_notification_android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_subtitle_background"
+            android:text="@string/alarm_title_notification_android"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:id="@+id/alarm_notification_android_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/alarm_check_notification_android_perso"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm_text_notification_android_perso"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/alarm_text_notification_android_perso_verifiee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/alarm_text_notification_android_perso_non_verifiee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/alarm_check_notification_android_audio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alarm_text_notification_android_audio"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/alarm_activation_android_audio_choix"
+                    style="?android:attr/spinnerStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/alarm_check_notification_android_vibration"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm_text_notification_android_vibration"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/alarm_check_notification_voix"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_subtitle_background"
+            android:text="@string/alarm_title_notification_voix"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:id="@+id/alarm_notification_voix_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/alarm_check_notification_voix_perso"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm_text_notification_voix_perso"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/alarm_text_notification_voix_perso_verifiee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <EditText
+                android:id="@+id/alarm_text_notification_voix_perso_non_verifiee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_subtitle_background"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/alarm_check_notification_broadcast"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/alarm_notification_broadcast_help"
+                android:text="@string/alarm_title_notification_broadcast"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageButton
+                android:id="@id/alarm_notification_broadcast_help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_menu_info_details" />
+        </RelativeLayout>
+
+        <!--
+        <CheckBox
+            android:id="@+id/alarm_check_notification_broadcast"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_subtitle_background"
+            android:text="@string/alarm_title_notification_broadcast"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_title_background"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/alarm_check_secteurs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alarm_title_secteurs"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <org.pedro.android.widget.SectorSelectorView
+            android:id="@+id/alarm_secteurs"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_title_background"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/alarm_check_vitesse_moy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/alarm_plage_vitesse_moy_add"
+                android:text="@string/alarm_title_vitesses_moy"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageButton
+                android:id="@id/alarm_plage_vitesse_moy_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_menu_add" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/alarm_plages_vitesse_moy_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_title_background"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/alarm_check_vitesse_maxi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/alarm_plage_vitesse_maxi_add"
+                android:text="@string/alarm_title_vitesses_maxi"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageButton
+                android:id="@id/alarm_plage_vitesse_maxi_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_menu_add" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/alarm_plages_vitesse_maxi_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_title_background"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/alarm_check_vitesse_mini"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/alarm_plage_vitesse_mini_add"
+                android:text="@string/alarm_title_vitesses_mini"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageButton
+                android:id="@id/alarm_plage_vitesse_mini_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_menu_add" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/alarm_plages_vitesse_mini_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/alarm_color_title_background"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/alarm_check_plages_horaires"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/alarm_plage_horaire_add"
+                android:text="@string/alarm_title_plages_horaires"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageButton
+                android:id="@id/alarm_plage_horaire_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_menu_add" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/alarm_plages_horaires_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+</ScrollView>

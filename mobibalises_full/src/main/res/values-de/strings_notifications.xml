@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_notification_title">MobiWindStationen+ aktiv ist</string>
+    <string name="label_notification_text">Aktive Modi : %1$s</string>
+    <string name="label_notification_flight_mode">Flug</string>
+    <string name="label_notification_history_mode">Historische</string>
+    <string name="label_notification_record_mode">Speichern</string>
+    <string name="label_notification_speak_black_widget">sprechender Widget</string>
+    <string name="label_notification_alarm_mode">Alarm</string>
+
+</resources>

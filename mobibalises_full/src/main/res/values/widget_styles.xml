@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="WidgetMainLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_margin">4dip</item>
+        <item name="android:background">@drawable/appwidget_dark_bg</item>
+    </style>
+    <style name="WidgetHeaderLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:paddingLeft">6dip</item>
+        <item name="android:paddingRight">6dip</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    <style name="WidgetTitleView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical|center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:visibility">visible</item>
+        <!--item name="android:background">@drawable/debug_background_green</item-->
+    </style>
+    <style name="WidgetIdView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top|center_horizontal</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:paddingLeft">2dip</item>
+        <!--item name="android:background">@drawable/debug_background_green</item-->
+    </style>
+    <style name="WidgetDatesView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">top|center_horizontal</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:paddingRight">2dip</item>
+        <!--item name="android:background">@drawable/debug_background_green</item-->
+    </style>
+    <style name="WidgetContentLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="WidgetMessageView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:padding">4dip</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="WidgetBeaconLayoutLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">4dip</item>
+    </style>
+    <style name="WidgetBeaconLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="WidgetImageAndTextLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <!--item name="android:background">@drawable/debug_background_blue</item-->
+    </style>
+	<style name="WidgetIconView">
+		<item name="android:layout_width">66dip</item>
+		<item name="android:layout_height">66dip</item>
+		<item name="android:layout_gravity">center_vertical|center_horizontal</item>
+        <item name="android:scaleType">center</item>
+        <!--item name="android:background">@drawable/debug_background_green</item-->
+    </style>
+	<style name="WidgetNameView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_gravity">bottom|center_horizontal</item>
+		<item name="android:textSize">10dip</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:gravity">bottom|center_horizontal</item>
+		<item name="android:textStyle">bold</item>
+		<!--item name="android:textColor">#AA0000</item-->
+        <!--item name="android:background">@drawable/debug_background</item-->
+	</style>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="unit_bearing">°</string>
+	<string name="unit_direction">°</string>
+	<string name="unit_hydrometry">mm/h</string>
+	<string name="unit_pressure">hPa</string>
+	<string name="unit_minutes">minuten</string>
+	<string name="unit_humidity">%</string>
+	<string name="unit_hours_abv">h</string>
+    <string name="unit_minutes_abv">min</string>
+    <string name="unit_seconds_abv">s</string>
+    <string name="unit_clouds">/8</string>
+
+    <string name="label_units">Maßeinheiten</string>
+    <string name="label_unit_speeds">Geschwindigkeiten</string>
+    <string name="unit_speed_kph">km/h</string>
+    <string name="unit_speed_mph">mph</string>
+    <string name="unit_speed_kts">kts</string>
+    <string name="label_unit_altitudes">Höhen</string>
+    <string name="unit_altitude_m">m</string>
+    <string name="unit_altitude_ft">ft</string>
+    <string name="label_unit_distances">Distanzen</string>
+    <string name="unit_distance_km">km</string>
+    <string name="unit_distance_mi">mi</string>
+    <string name="unit_distance_nm">Nm</string>
+    <string name="label_unit_temperatures">Temperaturen</string>
+    <string name="unit_temperature_celsius">°C</string>
+    <string name="unit_temperature_fahrenheit">°F</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="alarm_color_title_background">#442099CC</color>
+    <color name="alarm_color_subtitle_background">#22CCCCCC</color>
+
+    <string name="alarm_text_liste_vide">Alarm hinzufügen</string>
+    <string name="alarm_notification_android_title">Alarm für {1} !</string>
+    <string name="alarm_notification_android_text_verifiee">Die Kriterien sind erfüllt</string>
+    <string name="alarm_notification_android_text_non_verifiee">Die Kriterien sind nicht erfüllt</string>
+    <string name="alarm_notification_android_action_notification">Ok</string>
+    <string name="alarm_notification_android_action_alarme">Alarm</string>
+    <string name="alarm_notification_android_action_mode_alarme">Alle</string>
+    <string name="alarm_notification_android_text_default_provider">&lt;Versorger&gt;</string>
+    <string name="alarm_notification_android_text_default_balise">&lt;Windstation&gt;</string>
+    <string name="alarm_notification_voix_text_verifiee">Alarm überprüft für {1}</string>
+    <string name="alarm_notification_voix_text_non_verifiee">Alarm nicht überprüft für {1}</string>
+    <string name="alarm_title_fournisseur">Versorger</string>
+    <string name="alarm_title_balise">Windstation</string>
+    <string name="alarm_title_notifications">Benachrichtigung(en)</string>
+    <string name="alarm_title_notification_android">Android Systembenachrichtigung</string>
+    <string name="alarm_text_notification_android_perso">Maßgeschneidert text</string>
+    <string name="alarm_text_notification_android_audio">Notification ton :</string>
+    <string name="alarm_text_notification_android_audio_aucune">Kein</string>
+    <string name="alarm_text_notification_android_vibration">Vibration</string>
+    <string name="alarm_title_notification_voix">Sprachsynthese Benachrichtigung</string>
+    <string name="alarm_text_notification_voix_perso">Maßgeschneidert text</string>
+    <string name="alarm_title_notification_broadcast">Broadcast Benachrichtigung</string>
+    <string name="alarm_text_notification_broadcast_perso">Maßgeschneidert text</string>
+    <string name="alarm_title_secteurs">Sektoren</string>
+    <string name="alarm_title_vitesses_mini">Mindestgeschwindigkeiten</string>
+    <string name="alarm_title_vitesses_moy">Durchschnittsgeschwindigkeiten</string>
+    <string name="alarm_title_vitesses_maxi">Maximalgeschwindigkeiten</string>
+    <string name="alarm_title_plages_horaires">Zeitfenstern</string>
+    <string name="alarm_title_selection">Wählen Sie Alarmen</string>
+    <string name="alarm_title_selection_sous_titre_singulier">%1$s Alarm ausgewählt</string>
+    <string name="alarm_title_selection_sous_titre_pluriel">%1$s Alarmen ausgewählt</string>
+    <string name="alarm_text_activation">Benachrichtigen wenn Kriterien</string>
+    <string name="alarm_text_plage_horaire_sep">zu</string>
+    <string name="alarm_text_choix_fournisseur">Bitte wählen Sie einen Versorger</string>
+    <string name="alarm_text_choix_balise">Bitte wählen Sie einen WindStation</string>
+    <string name="alarm_message_provider_inactif">Versorger deaktiviert, bitte aktivieren Sie es</string>
+    <string name="alarm_message_non_creee">Alarm nicht erstellt, Versorger oder Windstation nicht gewählt</string>
+
+    <string-array name="alarm_label_activation">
+        <item>werden erfüllt</item>
+        <item>werden nicht erfüllt</item>
+        <item>werden erfüllt oder nicht erfüllt</item>
+        <item>sind erfüllt (bei jedem Update)</item>
+        <item>sind nicht erfüllt (bei jedem Update)</item>
+    </string-array>
+
+</resources>

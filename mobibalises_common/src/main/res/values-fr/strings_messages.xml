@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="message_startup">v%1$s</string>
+
+    <string-array name="messages_about"></string-array>
+
+    <string name="message_confirm_quit">Appuyez une nouvelle fois pour quitter</string>
+    <string name="message_cache_not_available">Attention, cache non disponible\n%1$s</string>
+    <string name="message_location_progress">En attente d\'informations de localisation.\nAppuyez sur la touche retour pour annuler...</string>
+    <string name="message_finer_location_progress">Position approximative trouvée.\nEn attente d\'informations de localisation plus précises.\nAppuyez sur la touche retour pour annuler...</string>
+    <string name="message_empty_location">Aucune balise à proximité ou recherche en cours. Essayez de changer les réglages du mode \"A proximité\"...</string>
+    <string name="message_location_non_active">Aucun fournisseur de localisation n\'est activé, cliquez sur OK pour afficher la page de configuration de localisation</string>
+    <string name="message_download_error_title">Erreur(s) de téléchargement</string>
+    <string name="message_download_error_nodata">Pas de donnée pour</string>
+    <string name="message_please_wait">Veuillez patienter...</string>
+    <string name="message_spot_error_title">Erreur pour les sites :</string>
+    <string name="message_spot_error">&#8226; %1$s (%2$s)</string>
+    <string name="message_spot_error_start">&lt;big&gt;</string>
+    <string name="message_spot_error_end">\n\n... essayez de re-télécharger les données (écran \"Préférences\")&lt;/big&gt;</string>
+    <string name="message_whats_new_title">Quoi de neuf ?</string>
+
+    <string-array name="messages_whats_new"></string-array>
+
+    <string name="message_first_launch">Vous utilisez %1$s pour la première fois...\n\nLa première étape consiste à configurer les sources de données des balises. Pour cela vous pouvez aller dans le menu \"Préférences\" puis suivez les items \"Balises météo...\" et \"Sources de données...\". Choisissez ensuite les pays et fournisseurs de données de votre choix.\n\n&lt;big&gt;En cliquant sur le bouton \"Fermer\" vous allez être directement redirigé vers cet écran...&lt;/big&gt;</string>
+    <string name="message_unknown_error">Erreur inconnue</string>
+    <string name="message_data_infos_title">Infos données</string>
+    <string name="message_data_infos_nonetwork">Réseau non disponible</string>
+    <string name="message_data_infos_noprovider">Aucun fournisseur...</string>
+    <string name="message_data_infos_releves">Relevés</string>
+    <string name="message_data_infos_balises">Balises</string>
+    <string name="message_data_infos_webcams">Webcams</string>
+    <string name="message_data_infos_nodata">Aucune info</string>
+    <string name="message_data_infos_provider_paused">inutilisé (mis en sommeil)</string>
+    <string name="message_data_infos_provider_in_progress">maj en cours...</string>
+    <string name="message_data_infos_provider_sleeping">en veille pendant %1$s</string>
+    <string name="message_data_infos_line_server">serveur</string>
+    <string name="message_data_infos_line_last_update">dernière récup.</string>
+    <string name="message_data_infos_line_last_check">dernière vérif.</string>
+    <string name="message_loading_providers">Chargement %1$s</string>
+    <string name="message_start_favorites">Initialisation en cours...</string>
+    <string name="message_no_favorites">Vous pouvez ajouter des balises par le bouton ci-dessus ou en mode carte par le menu contextuel (appui long) sur une balise (item \"Ajouter à listes\").</string>
+    <string name="message_no_widget">Vous devez d\'abord ajouter un ou plusieurs widgets sur votre bureau...</string>
+    <string name="message_delete_label_title">Supprimer liste ?</string>
+    <string name="message_delete_label_message">Etes-vous sûr de vouloir supprimer la liste \"%1$s\" et ses %2$d favoris ?</string>
+    <string name="message_label_already_exists">La liste \"%1$s\" existe déjà</string>
+    <string name="message_widget_update_in_progress">Mise à jour en cours...</string>
+    <string name="message_widget_update_in_progress_short">MAJ...</string>
+    <string name="message_widget_no_localisation">Impossible de déterminer la position géographique actuelle.\nAssurez-vous que vous avez activé au moins une source de géolocalisation (gps ou réseau) dans les paramètres système.</string>
+    <string name="message_widget_no_localisation_short">Erreur localisation</string>
+    <string name="message_no_spot_provider_checked">Vous devez aussi activer des sources de données de sites.\nCliquez sur le bouton \"Sites...\" ci-dessous</string>
+    <string name="message_error_title">Erreur</string>
+    <string name="message_ign_key_invalid">Votre clef d\'API IGN est invalide</string>
+    <string name="message_ign_unavailable">Les cartes IGN ne sont malheureusement pas disponibles dans MobiBalises+.\nToutes les explications ici : http://www.mobibalises.net/faq.php#ign</string>
+    <string name="message_balise_not_found">Balise non trouvée !</string>
+    <string name="message_spot_not_found">Spot non trouvé !</string>
+    <string name="message_webcam_not_found">Webcam non trouvée !</string>
+
+    <string name="message_config_search_reset">Etes-vous sûr de vouloir réinitialiser la base de données de recherche ?</string>
+    <string name="message_config_search_reset_done">Base de données de recherche réinitialisée...</string>
+    <string name="message_config_search_delete_title">Quelles données effacer ?</string>
+    <string name="message_config_search_delete_done">Données effacées !</string>
+    <string name="message_config_search_delete_nothing">Aucune donnée n\'a été effacée</string>
+    <string name="message_search_in_progress">En cours...</string>
+    <string name="message_search_no_result">Aucun résultat</string>
+
+</resources>

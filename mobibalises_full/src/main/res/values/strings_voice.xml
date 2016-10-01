@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="voice_balise_nom">Station of : {0}</string>
+	<string name="voice_balise_inactive">Inactive</string>
+	<string name="voice_balise_aucun_releve">No data</string>
+    <string name="voice_balise_non_disponible">Not available</string>
+	<string name="voice_balise_dir_moy">Direction : {0}</string>
+    <string name="voice_balise_dir_moy_nd">Direction : {0}</string>
+	<string name="voice_balise_dir_inst">Instant direction : {0}</string>
+    <string name="voice_balise_dir_inst_nd">Instant direction : {0}</string>
+	<string name="voice_balise_dir_variation">Varying from : {0} to : {1}</string>
+    <string name="voice_balise_dir_variation_nd">Variation : {0}</string>
+    <string name="voice_balise_tend_stable">stable</string>
+    <string name="voice_balise_tend_faible_baisse">decreasing</string>
+    <string name="voice_balise_tend_forte_baisse">falling</string>
+    <string name="voice_balise_tend_faible_hausse">rising</string>
+    <string name="voice_balise_tend_forte_hausse">increasing</string>
+	<string name="voice_balise_vit_moy">Average : {0,number,#} {1}</string>
+    <string name="voice_balise_vit_moy_tend">Average : {0,number,#} {1} {2}</string>
+	<string name="voice_balise_vit_moy_nd">Average : {0}</string>
+	<string name="voice_balise_vit_min">Minimum : {0,number,#} {1}</string>
+    <string name="voice_balise_vit_min_tend">Minimum : {0,number,#} {1} {2}</string>
+	<string name="voice_balise_vit_min_nd">Minimum : {0}</string>
+	<string name="voice_balise_vit_max">Maximum : {0,number,#} {1}{2}</string>
+    <string name="voice_balise_vit_max_tend">Maximum : {0,number,#} {1}{2} {3}</string>
+	<string name="voice_balise_vit_max_nd">Maximum : {0}</string>
+	<string name="voice_balise_heure_vit_max">at {0}</string>
+	<string name="voice_balise_temp">Temperature : {0,number,#} {1}</string>
+    <string name="voice_balise_temp_nd">Temperature : {0}</string>
+	<string name="voice_balise_point_rosee">Dew point : {0,number,#} {1}</string>
+    <string name="voice_balise_point_rosee_nd">Dew point : {0}</string>
+	<string name="voice_balise_alti">Altitude : {0} {1}</string>
+	<string name="voice_balise_pluie_hydro">Rain : {0} {1}</string>
+    <string name="voice_balise_pluie_hydro_nd">Rain : {0}</string>
+	<string-array name="voice_balise_pluies">
+        <item>few</item>
+        <item>average</item>
+        <item>heavy</item>
+        <item>downpour</item>
+    </string-array>
+    <string name="voice_balise_hydrometrie">{0,number,#.#} {1}</string>
+    <string name="voice_balise_nuages">Clouds : {0} eighth : {1} : {2}</string>
+    <string name="voice_balise_nuages_nd">Clouds : {0}</string>
+    <string name="voice_balise_nuages_plafond">Ceiling at {0} {1}</string>
+    <string name="voice_balise_nuages_cb_cu">Presence of cumulus or cumulonimbus</string>
+    <string name="voice_balise_pression">Pressure : {0,number,#} {1}</string>
+    <string name="voice_balise_pression_nd">Pressure : {0}</string>
+    <string name="voice_balise_lum">Luminosity : {0}</string>
+    <string name="voice_balise_lum_nd">Luminosity : {0}</string>
+    <string name="voice_balise_hum">Humidity : {0} {1}</string>
+    <string name="voice_balise_hum_nd">Humidity : {0}</string>
+
+	<string name="voice_balise_unit_heures">hours</string>
+	<string name="voice_balise_unit_vit">kilometers per hour</string>
+	<string name="voice_balise_unit_temp">degrees</string>
+	<string name="voice_balise_unit_alti">meters</string>
+	<string name="voice_balise_unit_hydro">millimeters per hour</string>
+	<string name="voice_balise_unit_pression">hectopascals</string>
+	<string name="voice_balise_unit_hum">percents</string>
+
+	<string-array name="voice_balise_points_cardinaux">
+		<item>North</item>
+        <item>North North East</item>
+		<item>North East</item>
+        <item>East North East</item>
+		<item>East</item>
+        <item>East South East</item>
+		<item>South East</item>
+        <item>South South East</item>
+		<item>South</item>
+        <item>South South West</item>
+		<item>South West</item>
+        <item>West South West</item>
+		<item>West</item>
+        <item>West North West</item>
+		<item>North West</item>
+        <item>North North West</item>
+	</string-array>
+
+</resources>

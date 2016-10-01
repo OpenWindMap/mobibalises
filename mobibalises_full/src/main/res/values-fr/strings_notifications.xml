@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="label_notification_title">MobiBalises+ est actif</string>
+    <string name="label_notification_text">Mode(s) actif(s) : %1$s</string>
+    <string name="label_notification_flight_mode">vol</string>
+    <string name="label_notification_history_mode">historique</string>
+    <string name="label_notification_record_mode">enregistrement</string>
+    <string name="label_notification_speak_black_widget">widget parlant</string>
+    <string name="label_notification_alarm_mode">alarme</string>
+
+</resources>

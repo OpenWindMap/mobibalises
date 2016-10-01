@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="button_ok">OK</string>
+	<string name="button_cancel">Abbestellen</string>
+	<string name="button_update">Aktualisierung</string>
+	<string name="button_close">Schließen</string>
+	<string name="button_add">Inzufügen</string>
+	<string name="button_remove">Entfernen</string>
+    <string name="button_proximity">In der Nähe</string>
+    <string name="button_retry">Wiederholen</string>
+    <string name="button_balises_sources">Wetterstationen...</string>
+    <string name="button_sites_sources">Plätze...</string>
+    <string name="button_yes">Ja</string>
+    <string name="button_no">Nein</string>
+    <string name="button_always">Immer</string>
+</resources>

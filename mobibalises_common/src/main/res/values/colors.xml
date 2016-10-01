@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="map_info_background">#DD6060DD</color>
+	<color name="map_info_stroke">#FFD2D2FF</color>
+	<color name="map_info_text">#FFFFFFFF</color>
+
+	<color name="map_balise_exterieur_active">#000000</color>
+	<color name="map_balise_exterieur_inactive">#555555</color>
+	<color name="map_balise_interieur_active">#FFFFFF</color>
+	<color name="map_balise_interieur_inactive">#777777</color>
+	<color name="map_balise_interieur_perimee">#AAAAAA</color>
+	<color name="map_balise_texte_ok">#009600</color>
+	<color name="map_balise_texte_ko">#FF0000</color>
+	<color name="map_balise_contour">#FFFFFF</color>
+	<color name="map_balise_variation_vent_disque_rouge_clair">#64FF2020</color>
+    <color name="map_balise_variation_vent_disque_rouge_fonce">#46FF2020</color>
+	<color name="map_balise_variation_vent_disque_vert_clair">#6420BB20</color>
+    <color name="map_balise_variation_vent_disque_vert_fonce">#46008000</color>
+    <color name="map_balise_fill_collisions">#AAFFFFFF</color>
+    <color name="map_balise_stroke_collisions">#FF000000</color>
+    <color name="map_balise_tendance_vent_faible">#FF009600</color>
+    <color name="map_balise_tendance_vent_forte">#FFFF0000</color>
+    <color name="map_balise_tendance_vent_stable">#FF009600</color>
+    <color name="map_balise_infos_tendance_vent_faible">#FF00DD00</color>
+    <color name="map_balise_infos_tendance_vent_forte">#FFFF5050</color>
+
+	<color name="map_spot_deco_disque">#0000FF</color>
+	<color name="map_spot_deco_interieur">#80C8C8FF</color>
+	<color name="map_spot_deco_exterieur">#DD1E1E96</color>
+	<color name="map_spot_atterro_disque">#FF0000</color>
+	<color name="map_spot_atterro_interieur">#80FFC8C8</color>
+	<color name="map_spot_atterro_exterieur">#DD961E1E</color>
+	<color name="map_spot_spot_interieur">#80FFFF50</color>
+	<color name="map_spot_spot_exterieur">#DD888800</color>
+
+    <color name="map_status_ok_text_background">#FF007700</color>
+	<color name="map_status_error_text_background">#FFFF0000</color>
+	<color name="map_status_warning_text_background">#FFFF9922</color>
+    <color name="map_status_error_background">#AAFF0000</color>
+    <color name="map_status_warning_background">#AAFF9922</color>
+
+    <color name="map_balise_weather_point_fill">#8020CC20</color>
+    <color name="map_balise_weather_point_stroke">#DD208020</color>
+
+	<color name="infos_spot_background">#FFFFFF</color>
+
+	<color name="data_infos_status_ok">#00AA00</color>
+    <color name="data_infos_status_error">#CC2020</color>
+
+	<color name="fav_status_ok">#006000</color>
+	<color name="fav_status_warning">#FF7700</color>
+	<color name="fav_status_error">#FF0000</color>
+	<color name="fav_item_background">#050520</color>
+	<color name="fav_item_background_stroke">#303050</color>
+	<color name="fav_divider">#000000</color>
+	<color name="fav_item_text">#BBBBBB</color>
+
+	<color name="alert_dialog_text">#BBBBBB</color>
+
+	<color name="widget_background">#60050520</color>
+	<color name="widget_background_stroke">#FF303050</color>
+	<color name="widget_status_ok">#00CC00</color>
+	<color name="widget_status_warning">#FFBB00</color>
+	<color name="widget_status_error">#FF0000</color>
+
+    <color name="history_title_background">#006000</color>
+	<color name="history_item_background">#050520</color>
+    <color name="history_item_background_stroke">#404080</color>
+
+</resources>

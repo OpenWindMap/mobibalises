@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="voice_balise_nom">Balise de : {0}</string>
+	<string name="voice_balise_inactive">Inactive</string>
+	<string name="voice_balise_aucun_releve">Pas de relevé</string>
+    <string name="voice_balise_non_disponible">Non disponible</string>
+	<string name="voice_balise_dir_moy">Direction : {0}</string>
+    <string name="voice_balise_dir_moy_nd">Direction : {0}</string>
+	<string name="voice_balise_dir_inst">Direction instantanée : {0}</string>
+    <string name="voice_balise_dir_inst_nd">Direction instantanée : {0}</string>
+	<string name="voice_balise_dir_variation">Variant de : {0} à : {1}</string>
+    <string name="voice_balise_dir_variation_nd">Variation de direction : {0}</string>
+    <string name="voice_balise_tend_stable">stable</string>
+    <string name="voice_balise_tend_faible_baisse">en baisse</string>
+    <string name="voice_balise_tend_forte_baisse">en forte baisse</string>
+    <string name="voice_balise_tend_faible_hausse">en hausse</string>
+    <string name="voice_balise_tend_forte_hausse">en forte hausse</string>
+    <string name="voice_balise_vit_moy">Moyenne : {0,number,#} {1}</string>
+	<string name="voice_balise_vit_moy_tend">Moyenne : {0,number,#} {1} {2}</string>
+    <string name="voice_balise_vit_moy_nd">Moyenne : {0}</string>
+	<string name="voice_balise_vit_min">Minimum : {0,number,#} {1}</string>
+    <string name="voice_balise_vit_min_tend">Minimum : {0,number,#} {1} {2}</string>
+	<string name="voice_balise_vit_min_nd">Minimum : {0}</string>
+	<string name="voice_balise_vit_max">Maximum : {0,number,#} {1}{2}</string>
+    <string name="voice_balise_vit_max_tend">Maximum : {0,number,#} {1}{2} {3}</string>
+	<string name="voice_balise_vit_max_nd">Maximum : {0}</string>
+	<string name="voice_balise_heure_vit_max">à {0}</string>
+	<string name="voice_balise_temp">Température : {0,number,#} {1}</string>
+    <string name="voice_balise_temp_nd">Température : {0}</string>
+	<string name="voice_balise_point_rosee">Point de rosée : {0,number,#} {1}</string>
+    <string name="voice_balise_point_rosee_nd">Point de rosée : {0}</string>
+	<string name="voice_balise_alti">Altitude : {0} {1}</string>
+	<string name="voice_balise_pluie_hydro">Pluie : {0} : {1}</string>
+    <string name="voice_balise_pluie_hydro_nd">Pluie : {0}</string>
+	<string-array name="voice_balise_pluies">
+	    <item>faible</item>
+	    <item>moyenne</item>
+	    <item>forte</item>
+        <item>déluge</item>
+	</string-array>
+	<string name="voice_balise_hydrometrie">{0,number,#.#} {1}</string>
+	<string name="voice_balise_nuages">Nuages : {0} huitièmes : {1} : {2}</string>
+    <string name="voice_balise_nuages_nd">Nuages : {0}</string>
+	<string name="voice_balise_nuages_plafond">Plafond à {0} {1}</string>
+	<string name="voice_balise_nuages_cb_cu">Présence de cumulusse ou cumulonimbusse</string>
+	<string name="voice_balise_pression">Pression : {0,number,#} {1}</string>
+    <string name="voice_balise_pression_nd">Pression : {0}</string>
+	<string name="voice_balise_lum">Luminosité : {0}</string>
+    <string name="voice_balise_lum_nd">Luminosité : {0}</string>
+	<string name="voice_balise_hum">Humidité : {0} {1}</string>
+    <string name="voice_balise_hum_nd">Humidité : {0}</string>
+
+	<string name="voice_balise_unit_heures">heures</string>
+	<string name="voice_balise_unit_vit">kilomètres heure</string>
+	<string name="voice_balise_unit_temp">degrés</string>
+	<string name="voice_balise_unit_alti">mètres</string>
+	<string name="voice_balise_unit_hydro">millimètres par heure</string>
+	<string name="voice_balise_unit_pression">hectopascals</string>
+	<string name="voice_balise_unit_hum">pourcents</string>
+
+	<string-array name="voice_balise_points_cardinaux">
+		<item>Nord</item>
+        <item>Nord Nord Est</item>
+		<item>Nord Est</item>
+        <item>Est, Nord Est</item>
+		<item>Est</item>
+        <item>Est, Sud Est</item>
+		<item>Sud Est</item>
+        <item>Sud Sud Est</item>
+		<item>Sud</item>
+		<item>Sud Sud Ouest</item>
+        <item>Sud Ouest</item>
+		<item>Ouest Sud Ouest</item>
+        <item>Ouest</item>
+		<item>Ouest Nord Ouest</item>
+        <item>Nord Ouest</item>
+		<item>Nord Nord Ouest</item>
+	</string-array>
+
+</resources>

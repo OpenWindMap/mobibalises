@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="alarm_notification_android_title">Alarme {1} !</string>
+    <string name="alarm_notification_android_text_verifiee">Les critères sont vérifiés</string>
+    <string name="alarm_notification_android_text_non_verifiee">Les critères ne sont pas vérifiés</string>
+    <string name="alarm_notification_android_action_notification">Ok</string>
+    <string name="alarm_notification_android_action_alarme">Alarme</string>
+    <string name="alarm_notification_android_action_mode_alarme">Toutes</string>
+    <string name="alarm_notification_android_text_default_provider">&lt;fournisseur&gt;</string>
+    <string name="alarm_notification_android_text_default_balise">&lt;balise&gt;</string>
+    <string name="alarm_notification_voix_text_verifiee">Alarme vérifiée pour {1}</string>
+    <string name="alarm_notification_voix_text_non_verifiee">Alarme non vérifiée pour {1}</string>
+
+    <string name="alarm_text_liste_vide">Ajouter une alarme</string>
+    <string name="alarm_title_fournisseur">Fournisseur</string>
+    <string name="alarm_title_balise">Balise</string>
+    <string name="alarm_title_notifications">Notification(s)</string>
+    <string name="alarm_title_notification_android">Notification système Android</string>
+    <string name="alarm_text_notification_android_perso">Texte personnalisé</string>
+    <string name="alarm_text_notification_android_audio">Son de notification :</string>
+    <string name="alarm_text_notification_android_audio_aucune">Aucune</string>
+    <string name="alarm_text_notification_android_vibration">Vibration</string>
+    <string name="alarm_title_notification_voix">Notification par synthèse vocale</string>
+    <string name="alarm_text_notification_voix_perso">Texte personnalisé</string>
+    <string name="alarm_title_notification_broadcast">Notification par Broadcast</string>
+    <string name="alarm_text_notification_broadcast_perso">Texte personnalisé</string>
+    <string name="alarm_title_secteurs">Secteurs</string>
+    <string name="alarm_title_vitesses_mini">Vitesses mini</string>
+    <string name="alarm_title_vitesses_moy">Vitesses moyennes</string>
+    <string name="alarm_title_vitesses_maxi">Vitesses maxi</string>
+    <string name="alarm_title_plages_horaires">Plages horaires</string>
+    <string name="alarm_title_selection">Sélectionnez les alarmes</string>
+    <string name="alarm_title_selection_sous_titre_singulier">%1$s alarme sélectionnée</string>
+    <string name="alarm_title_selection_sous_titre_pluriel">%1$s alarmes sélectionnées</string>
+    <string name="alarm_text_activation">Notification(s) quand les critères</string>
+    <string name="alarm_text_plage_horaire_sep">à</string>
+    <string name="alarm_text_choix_fournisseur">Choisissez une source de données</string>
+    <string name="alarm_text_choix_balise">Choisissez une balise</string>
+    <string name="alarm_message_provider_inactif">Fournisseur non actif, activez le dans les préférences avant de pouvoir changer la balise</string>
+    <string name="alarm_message_non_creee">Alarme non créée, fournisseur et/ou balise non choisi(s)</string>
+
+    <string-array name="alarm_label_activation">
+        <item>deviennent vérifiés</item>
+        <item>deviennent non vérifiés</item>
+        <item>deviennent vérifiés ou non vérifiés</item>
+        <item>sont vérifiés (à chaque maj balise)</item>
+        <item>ne sont pas vérifiés (à chaque maj balise)</item>
+    </string-array>
+
+</resources>

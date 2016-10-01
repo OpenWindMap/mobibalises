@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="webcam_providers_titles">
+        <item>MobiWindStationen</item>
+    </string-array>
+    <string-array name="webcam_providers_summaries">
+        <item>www.mobibalises.net/webcams</item>
+    </string-array>
+    <string-array name="webcam_pratiques_titles">
+        <item>Frei Flug</item>
+        <item>Kite</item>
+        <item>Ski</item>
+        <item>Andere</item>
+    </string-array>
+
+    <string name="webcam_statut_enligne_title">Offline</string>
+    <string name="webcam_statut_enligne_summary">Siehe auch offline Webcams?</string>
+    <string name="webcam_statut_variable_title">Froren</string>
+    <string name="webcam_statut_variable_summary">Siehe auch froren Webcams?</string>
+
+</resources>
