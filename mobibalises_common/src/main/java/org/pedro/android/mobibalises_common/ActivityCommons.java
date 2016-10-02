@@ -259,10 +259,8 @@ public abstract class ActivityCommons
     // Une seule fois
     synchronized (initLock)
     {
-      // TODO 201609
-      Log.d(ActivityCommons.class.getSimpleName(), "########### Environment.getExternalStorageDirectory() = " + Environment.getExternalStorageDirectory());
-      Log.d(ActivityCommons.class.getSimpleName(), "########### context.getExternalFilesDir(null) = " + context.getExternalFilesDir(null));
       MOBIBALISES_EXTERNAL_STORAGE_PATH = context.getExternalFilesDir(null);
+      Log.d(ActivityCommons.class.getSimpleName(), "MOBIBALISES_EXTERNAL_STORAGE_PATH : " + MOBIBALISES_EXTERNAL_STORAGE_PATH);
 
       // Initialisation formats dates
       formatDateInfosDonnees = android.text.format.DateFormat.getDateFormat(context);

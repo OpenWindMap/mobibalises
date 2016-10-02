@@ -57,12 +57,10 @@ public final class MapView extends ViewGroup implements MapDisplayer<Bitmap, Can
   private static final int                              HANDLER_ZOOM_CONTROLS_HIDER    = 0;
   public static final long                              ZOOM_CONTROLS_HIDE_TIMEOUT     = ViewConfiguration.getZoomControlsTimeout();
 
-  //TODO 201609 private static final File                             CACHE_PATH                     = new File(Environment.getExternalStorageDirectory(), ".pedromap_cache");
   private File                                          cachePath;
 
   private IMapActivity                                  mapActivity;
 
-  //TODO 201609 private TileCache                                     tileCache                      = new TileFileCacheLight(CACHE_PATH.getPath());
   private TileCache                                     tileCache;
 
   private TileManager<Bitmap, Canvas, Integer>          tileManager;
@@ -233,6 +231,7 @@ public final class MapView extends ViewGroup implements MapDisplayer<Bitmap, Can
 
     // Cache
     final File cachePath = new File(inContext.getExternalFilesDir(null), "pedromap_cache");
+    Log.d(getClass().getSimpleName(), "cachePath : " + cachePath);
     tileCache = new TileFileCacheLight(cachePath.getPath());
 
     // Proprietes
@@ -689,7 +688,6 @@ public final class MapView extends ViewGroup implements MapDisplayer<Bitmap, Can
   {
     if (!tileCache.isAvailable())
     {
-      //TODO 201609 ((TileCache.CacheNotAvailableListener)mapActivity).onCacheNotAvailable(CACHE_PATH.getPath());
       ((TileCache.CacheNotAvailableListener)mapActivity).onCacheNotAvailable(cachePath.getPath());
     }
   }

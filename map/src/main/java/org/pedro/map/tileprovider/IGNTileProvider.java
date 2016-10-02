@@ -87,8 +87,7 @@ public abstract class IGNTileProvider extends NetworkTileProvider
   @Override
   public String getUserAgent()
   {
-    //return debug ? USER_AGENT_DEBUG : USER_AGENT_PROD;
-    return null; //TODO ? USER_AGENT_PROD;
+    return null;
   }
 
   @Override

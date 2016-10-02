@@ -18,7 +18,7 @@
         <item>\nID : {0}</item>
     </string-array>
     <string-array name="messages_whats_new">
-        <item>Pioupiou wind data (www.pioupiou.fr)</item>
+        <item>Korrecturen</item>
     </string-array>
 
     <string name="message_unlicensed">&lt;b&gt;Ihre Installation von MobiWindStationen+ ist nicht lizenzierte&lt;/b&gt;.\nSie können MobiWindStationen+ aus Google Play-Shop, indem Sie auf die Schaltfläche unten bekommen.\nSie können versuchen (2-mal), oder das Programm jetzt beenden...\n\nID : %1$s</string>

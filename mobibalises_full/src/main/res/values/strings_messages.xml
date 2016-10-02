@@ -18,7 +18,7 @@
         <item>\nID : {0}</item>
     </string-array>
     <string-array name="messages_whats_new">
-        <item>Pioupiou wind network (www.pioupiou.fr)</item>
+        <item>Fixes</item>
     </string-array>
 
     <string name="message_unlicensed">&lt;b&gt;Your installation of MobiWindStations+ is unlicensed&lt;/b&gt;.\nYou can get MobiWindStations+ on Google Play Store by clicking the button below.\You can retry (2 times) or the program will exit now...\n\nID : %1$s</string>

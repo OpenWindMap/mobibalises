@@ -131,7 +131,6 @@ public class WebcamDatabaseHelper extends SQLiteOpenHelper
    */
   private WebcamDatabaseHelper(final Context context) throws NameNotFoundException
   {
-    //TODO 20160902 super(context, ActivityCommons.isFroyo() ? DATABASE_NAME : BASE_DATABASE_NAME, null, context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionCode);
     super(context, BASE_DATABASE_NAME, null, context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionCode);
   }
 

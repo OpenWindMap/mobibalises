@@ -3192,7 +3192,8 @@ public abstract class AbstractBalisesMapActivity extends MapActivity implements 
       {
         hideActionBar();
       }
-      else if (!consumedByOverlays && !hasPermanentMenuKey)
+      //TODO PMU 201610 else if (!consumedByOverlays && !hasPermanentMenuKey)
+      else if (!consumedByOverlays)
       {
         showActionBar(true);
       }
