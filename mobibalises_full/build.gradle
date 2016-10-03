@@ -12,16 +12,21 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        applicationId 'com.pedro.android.mobibalises'
+        applicationId "com.pedro.android.mobibalises"
         minSdkVersion 8
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        versionCode 44
+        versionName "3.5.6"
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.mobibalises_full
+            lintOptions {
+                disable 'MissingTranslation'
+            }
+            proguardFile '/home/pierre/AndroidStudioProjects/MobiBalises/mobibalises_common/proguard-rules.pro'
         }
     }
     productFlavors {

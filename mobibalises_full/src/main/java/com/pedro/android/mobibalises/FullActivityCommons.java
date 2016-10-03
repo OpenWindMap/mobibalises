@@ -319,7 +319,7 @@ public abstract class FullActivityCommons
   {
     // Verification de l'existence
     final File file = new File(ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH, "mobibalises.license");
-    Log.d(FullActivityCommons.class.getSimpleName(), "################################### : license file : " + file);
+    //Log.d(FullActivityCommons.class.getSimpleName(), "################################### : license file : " + file);
     if (!file.exists() || !file.isFile() || !file.canRead())
     {
       return false;

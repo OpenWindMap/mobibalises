@@ -3112,49 +3112,14 @@ public abstract class ActivityCommons
   }
 
   /**
-   * 
+   *
    * @param context
    * @return
    */
   public static String getBuildDate(final Context context)
   {
-    // Initialisations
-    String retour = null;
-    ZipFile zipFile = null;
-
-    try
-    {
-      ApplicationInfo appInfo = context.getPackageManager().getApplicationInfo(context.getPackageName(), 0);
-      zipFile = new ZipFile(appInfo.sourceDir);
-      final ZipEntry entry = zipFile.getEntry("classes.dex");
-      final long time = entry.getTime();
-
-      retour = DateFormat.getDateInstance(DateFormat.SHORT).format(new Date(time));
-    }
-    catch (final IOException ioe)
-    {
-      Log.w(context.getClass().getSimpleName(), ioe.getMessage(), ioe);
-    }
-    catch (final NameNotFoundException nnfe)
-    {
-      Log.w(context.getClass().getSimpleName(), nnfe.getMessage(), nnfe);
-    }
-    finally
-    {
-      try
-      {
-        if (zipFile != null)
-        {
-          zipFile.close();
-        }
-      }
-      catch (final IOException ioe)
-      {
-        Log.w(context.getClass().getSimpleName(), ioe.getMessage(), ioe);
-      }
-    }
-
-    return retour;
+    final Date buildDate = new Date(BuildConfig.TIMESTAMP);
+    return DateFormat.getDateInstance(DateFormat.SHORT).format(buildDate);
   }
 
   /**
