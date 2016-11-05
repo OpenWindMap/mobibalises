@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Common MobiWindStations</string>
-    <string name="app_version">3.5.7</string>
+    <string name="app_version">3.5.8</string>
     <string name="preferences_shared_name">org.pedro.android.mobibalises_common</string>
     <string name="app_version_debug">(debug)</string>
     <string name="app_type_free">true</string>

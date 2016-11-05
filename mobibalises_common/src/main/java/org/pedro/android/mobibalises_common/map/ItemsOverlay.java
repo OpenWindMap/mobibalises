@@ -120,7 +120,7 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
   boolean                                      lastWebcamsLayer;
 
   // Thread de téléchargement des images des webcams
-  final WebcamDownloadThread                   webcamDownloadThread   = new WebcamDownloadThread(this);
+  final WebcamDownloadThread                   webcamDownloadThread;
 
   /**
    * 
@@ -179,7 +179,7 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
       }
     }
 
-    private static final File        WEBCAM_DIR          = new File(ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH, "webcams");
+    private static File              WEBCAM_DIR;
     private static final long        CACHE_DELTA         = 24 * 3600 * 1000;                                                      // 24h
     private static int               READ_SIZE           = 10240;
     private static final int         DEFAULT_BUFFER_SIZE = 512 * 1024;
@@ -192,9 +192,11 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
      * 
      * @param overlay
      */
-    WebcamDownloadThread(final ItemsOverlay overlay)
+    WebcamDownloadThread(final ItemsOverlay overlay, final Context context)
     {
       super(WebcamDownloadThread.class.getName());
+      ActivityCommons.init(context);
+      WEBCAM_DIR = new File(ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH, "webcams");
       this.overlay = overlay;
     }
 
@@ -978,6 +980,9 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
     // Super
     super(mapView, ItemsOverlay.class.getName());
 
+    // Thread de téléchargement des webcams
+    webcamDownloadThread   = new WebcamDownloadThread(this, context);
+
     // Preferences
     updatePreferences(context, sharedPreferences);
 
@@ -1053,7 +1058,7 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
 
   /**
    * 
-   * @param baliseProvider
+   * @param baliseProviderKey
    * @param baliseId
    */
   protected void showTooltip(final String baliseProviderKey, final String baliseId)
