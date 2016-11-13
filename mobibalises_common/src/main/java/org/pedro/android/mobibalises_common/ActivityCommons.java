@@ -143,7 +143,7 @@ public abstract class ActivityCommons
   public static final Uri           MARKET_URI                                = Uri.parse("market://details?id=com.pedro.android.mobibalises");
 
   //TODO 201609 public static final File          MOBIBALISES_EXTERNAL_STORAGE_PATH         = new File(Environment.getExternalStorageDirectory(), ".mobibalises");
-  public static File                MOBIBALISES_EXTERNAL_STORAGE_PATH;
+  private static File               MOBIBALISES_EXTERNAL_STORAGE_PATH;
 
   private static final String       HTML_WHATS_NEW_PREFIX                     = "<big><b>";
   private static final String       HTML_WHATS_NEW_SUFFIX                     = "</b></big>";

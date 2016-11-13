@@ -27,7 +27,6 @@ import android.util.Log;
 public class WebcamDatabaseHelper extends SQLiteOpenHelper
 {
   private static final String BASE_DATABASE_NAME                           = "MobiBalisesWebcams.db";
-  public static final String  DATABASE_NAME                                = ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH.getAbsolutePath() + "/webcams/" + BASE_DATABASE_NAME;
 
   private static final String TABLE_PROVIDER                               = "provider";
   private static final String COL_PROVIDER_KEY                             = "key";
@@ -132,6 +131,16 @@ public class WebcamDatabaseHelper extends SQLiteOpenHelper
   private WebcamDatabaseHelper(final Context context) throws NameNotFoundException
   {
     super(context, BASE_DATABASE_NAME, null, context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionCode);
+  }
+
+  /**
+   *
+   * @param context
+   * @return
+   */
+  public static String getDatabaseName(final Context context)
+  {
+    return context.getExternalFilesDir(null).getAbsolutePath() + "/webcams/" + BASE_DATABASE_NAME;
   }
 
   /**

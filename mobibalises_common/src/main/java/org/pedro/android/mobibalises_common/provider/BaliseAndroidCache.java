@@ -18,7 +18,7 @@ import android.content.Context;
  */
 public final class BaliseAndroidCache extends BaliseSaveableCache
 {
-  private final BaliseAndroidSDCache      sdCache = new BaliseAndroidSDCache();
+  private final BaliseAndroidSDCache      sdCache;
   private final BaliseAndroidContextCache contextCache;
 
   /**
@@ -27,6 +27,7 @@ public final class BaliseAndroidCache extends BaliseSaveableCache
    */
   public BaliseAndroidCache(final Context context)
   {
+    sdCache = new BaliseAndroidSDCache(context);
     contextCache = new BaliseAndroidContextCache(context);
   }
 
@@ -72,13 +73,13 @@ public final class BaliseAndroidCache extends BaliseSaveableCache
   public InputStream getCacheInputStream(final String key) throws IOException
   {
     // Si la SD est dispo
-    if (BaliseAndroidSDCache.isAvailable())
+    if (sdCache.isAvailable())
     {
       // Copie si le fichier local est plus recent que le fichier de la SD
       final long contextTimestamp = contextCache.getCacheTimestamp(key);
       if (contextTimestamp > sdCache.getCacheTimestamp(key))
       {
-        copyFile((FileInputStream)contextCache.getCacheInputStream(key), BaliseAndroidSDCache.getFile(key));
+        copyFile((FileInputStream)contextCache.getCacheInputStream(key), sdCache.getFile(key));
         sdCache.setCacheTimestamp(key, contextTimestamp);
       }
 
@@ -98,7 +99,7 @@ public final class BaliseAndroidCache extends BaliseSaveableCache
   @Override
   public OutputStream getCacheOutputStream(final String key) throws IOException
   {
-    if (BaliseAndroidSDCache.isAvailable())
+    if (sdCache.isAvailable())
     {
       // Effacement du fichier local si present
       if (contextCache.getCacheTimestamp(key) >= 0)

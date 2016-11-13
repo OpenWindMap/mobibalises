@@ -179,7 +179,7 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
       }
     }
 
-    private static File              WEBCAM_DIR;
+    private final File               webcamDir;
     private static final long        CACHE_DELTA         = 24 * 3600 * 1000;                                                      // 24h
     private static int               READ_SIZE           = 10240;
     private static final int         DEFAULT_BUFFER_SIZE = 512 * 1024;
@@ -187,6 +187,7 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
     private ItemsOverlay             overlay;
     private List<WebcamDownloadStep> steps               = new ArrayList<WebcamDownloadStep>();
     private WebcamDownloadStep       currentStep         = null;
+    private Context                  context;
 
     /**
      * 
@@ -195,8 +196,9 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
     WebcamDownloadThread(final ItemsOverlay overlay, final Context context)
     {
       super(WebcamDownloadThread.class.getName());
+      this.context = context;
       ActivityCommons.init(context);
-      WEBCAM_DIR = new File(ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH, "webcams");
+      webcamDir = new File(context.getExternalFilesDir(null), "webcams");
       this.overlay = overlay;
     }
 
@@ -243,7 +245,7 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
     public void run()
     {
       // Creation du repertoire des webcams si besoin et nettoyage
-      WEBCAM_DIR.mkdirs();
+      webcamDir.mkdirs();
       cleanCache();
 
       // Boucle principale
@@ -282,6 +284,7 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
       // Fin
       overlay = null;
       imageBuffer = null;
+      context = null;
     }
 
     /**
@@ -290,7 +293,7 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
     private void cleanCache()
     {
       Log.d(getClass().getSimpleName(), "cleaning cache");
-      for (final File file : WEBCAM_DIR.listFiles())
+      for (final File file : webcamDir.listFiles())
       {
         final long limit = System.currentTimeMillis() - CACHE_DELTA;
         if (file.getName().startsWith("webcam_") && file.getName().endsWith(".jpg") && (file.lastModified() < limit))
@@ -474,14 +477,15 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
     }
 
     /**
-     * 
+     *
+     * @param context
      * @param provider
      * @param id
      * @return
      */
-    protected static File getWebcamCacheFile(final String provider, final String id)
+    protected static File getWebcamCacheFile(final Context context, final String provider, final String id)
     {
-      return new File(WEBCAM_DIR, "webcam_" + provider + "_" + id + ".jpg");
+      return new File(new File(context.getExternalFilesDir(null), "webcams"), "webcam_" + provider + "_" + id + ".jpg");
     }
 
     /**
@@ -512,7 +516,7 @@ public final class ItemsOverlay extends ItemizedOverlay<Bitmap, Canvas, OverlayI
         try
         {
           // Recherche dans le cache
-          final File cacheFile = getWebcamCacheFile(currentStep.row.provider, currentStep.row.id);
+          final File cacheFile = getWebcamCacheFile(context, currentStep.row.provider, currentStep.row.id);
           final long cacheFileSize;
           final long cacheFileTs;
           if (cacheFile.exists() && cacheFile.canRead() && cacheFile.isFile())

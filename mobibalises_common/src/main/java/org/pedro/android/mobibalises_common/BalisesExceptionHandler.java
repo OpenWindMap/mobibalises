@@ -53,6 +53,7 @@ public final class BalisesExceptionHandler implements UncaughtExceptionHandler
   private boolean                        sendReport        = true;
   private final String                   version;
   private final String                   packageName;
+  private final File                     externalStoragePath;
 
   /**
    * 
@@ -101,9 +102,10 @@ public final class BalisesExceptionHandler implements UncaughtExceptionHandler
     this.defaultHandler = defaultHandler;
     this.version = getVersion(context);
     this.packageName = context.getPackageName();
+    this.externalStoragePath = context.getExternalFilesDir(null);
     try
     {
-      ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH.mkdirs();
+      this.externalStoragePath.mkdirs();
     }
     catch (final RuntimeException re)
     {
@@ -171,7 +173,7 @@ public final class BalisesExceptionHandler implements UncaughtExceptionHandler
     try
     {
       // Initialisations
-      fw = new FileWriter(new File(ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH, MOBIBALISES_LOG), false);
+      fw = new FileWriter(new File(externalStoragePath, MOBIBALISES_LOG), false);
 
       // Date heure
       System.err.println(new Date());

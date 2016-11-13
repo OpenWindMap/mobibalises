@@ -1369,7 +1369,7 @@ public final class ProvidersService extends AbstractProvidersService implements 
     private void initialize()
     {
       // Repertoire de sauvegarde
-      historyFileDir = new File(ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH, HISTORY_FILE_BASE_DIR);
+      historyFileDir = new File(providersService.getApplicationContext().getExternalFilesDir(null), HISTORY_FILE_BASE_DIR);
       historyFileDir.mkdirs();
       refreshSDCardAvailability();
 

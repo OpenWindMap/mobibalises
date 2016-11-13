@@ -1,5 +1,10 @@
 package org.pedro.android.mobibalises_common.provider;
 
+import android.content.Context;
+
+import org.pedro.balises.BaliseSaveableCache;
+import org.pedro.utils.FileTimestampUtils;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -7,33 +12,30 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import org.pedro.android.mobibalises_common.ActivityCommons;
-import org.pedro.balises.BaliseSaveableCache;
-import org.pedro.utils.FileTimestampUtils;
-
 /**
  * 
  * @author pedro.m
  */
 public final class BaliseAndroidSDCache extends BaliseSaveableCache
 {
-  private static final File STORAGE_PATH = new File(ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH, "balises");
+  private final File storagePath;
 
   /**
    * 
    */
-  public BaliseAndroidSDCache()
+  public BaliseAndroidSDCache(final Context context)
   {
-    STORAGE_PATH.mkdirs();
+    storagePath = new File(context.getExternalFilesDir(null), "balises");
+    storagePath.mkdirs();
   }
 
   /**
    * 
    * @return
    */
-  public static boolean isAvailable()
+  public boolean isAvailable()
   {
-    return (STORAGE_PATH.exists() && STORAGE_PATH.isDirectory() && STORAGE_PATH.canWrite());
+    return (storagePath.exists() && storagePath.isDirectory() && storagePath.canWrite());
   }
 
   /**
@@ -41,9 +43,9 @@ public final class BaliseAndroidSDCache extends BaliseSaveableCache
    * @param key
    * @return
    */
-  protected static File getFile(final String key)
+  protected File getFile(final String key)
   {
-    return new File(STORAGE_PATH, key);
+    return new File(storagePath, key);
   }
 
   @Override

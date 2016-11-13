@@ -130,7 +130,7 @@ public abstract class AbstractBalisesMapActivity extends MapActivity implements 
   private static final long          ACTION_BAR_HIDE_TIMEOUT         = MapView.ZOOM_CONTROLS_HIDE_TIMEOUT;
 
   private static final String        CUSTOM_MAPS_KEY                 = "custom_maps";
-  private static final File          CUSTOM_MAPS_FILE                = new File(ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH, "custom_maps.properties");
+  private File                       customMapFiles;
 
   private static final String        INTENT_FILE_DATA_SCHEME         = "file";
   private static final String        BING_API_KEY                    = "Aq_ZKLo-P5FKgQjX9aXzH6ZKcA2mNVfi3UXXC9n_TzvxSwZGfRSEkxmpIi2ZpQ-C";
@@ -740,6 +740,9 @@ public abstract class AbstractBalisesMapActivity extends MapActivity implements 
     // Avant tout !
     exceptionHandler = ActivityCommons.initExceptionHandler(getApplicationContext());
     mapInitialized = false;
+
+    // CustomMapFiles
+    customMapFiles = new File(getApplicationContext().getExternalFilesDir(null), "custom_maps.properties");
 
     // Splash screen
     showSplash = ActivityCommons.manageSplash(this, R.layout.splash_map, R.layout.map);
@@ -2346,11 +2349,11 @@ public abstract class AbstractBalisesMapActivity extends MapActivity implements 
   {
     try
     {
-      final boolean sdcardAvailable = CUSTOM_MAPS_FILE.exists() && CUSTOM_MAPS_FILE.isFile() && CUSTOM_MAPS_FILE.canRead();
+      final boolean sdcardAvailable = customMapFiles.exists() && customMapFiles.isFile() && customMapFiles.canRead();
       if (sdcardAvailable)
       {
-        Log.d(getClass().getSimpleName(), "Reading custom maps configuration from " + CUSTOM_MAPS_FILE.toURL());
-        final Map<String, String> properties = tileProviderHelper.readConfiguration(CUSTOM_MAPS_FILE.toURL());
+        Log.d(getClass().getSimpleName(), "Reading custom maps configuration from " + customMapFiles.toURL());
+        final Map<String, String> properties = tileProviderHelper.readConfiguration(customMapFiles.toURL());
 
         // Sauvegarde en local
         TileProviderHelper.saveConfiguration(openFileOutput(CUSTOM_MAPS_KEY, Context.MODE_PRIVATE), properties);
@@ -3487,7 +3490,7 @@ public abstract class AbstractBalisesMapActivity extends MapActivity implements 
   {
     if ((webcamItem.row != null) && !Utils.isStringVide(webcamItem.row.provider) && !Utils.isStringVide(webcamItem.row.id))
     {
-      final File file = ItemsOverlay.WebcamDownloadThread.getWebcamCacheFile(webcamItem.row.provider, webcamItem.row.id);
+      final File file = ItemsOverlay.WebcamDownloadThread.getWebcamCacheFile(getApplicationContext(), webcamItem.row.provider, webcamItem.row.id);
       if ((file != null) && file.exists() && file.isFile() && file.canRead())
       {
         final Intent intent = new Intent();

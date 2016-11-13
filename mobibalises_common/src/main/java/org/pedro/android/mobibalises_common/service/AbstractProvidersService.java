@@ -105,7 +105,7 @@ public abstract class AbstractProvidersService extends Service implements IProvi
 
   private static final String                  FORMAT_INTERNATIONAL_BALISE_PROVIDER_NAME = "{0}.{1}";
 
-  private static final File                    SPOTS_PATH                                = new File(ActivityCommons.MOBIBALISES_EXTERNAL_STORAGE_PATH, "spots");
+  private File                                 spotsPath;
 
   private static final long                    ADJUSTABLE_SLEEP_PERIOD_MILLIS            = 1 * 60000;
   private static final long                    MINIMUM_SLEEP_PERIOD_MILLIS               = 30 * 1000;
@@ -1284,7 +1284,7 @@ public abstract class AbstractProvidersService extends Service implements IProvi
       }
 
       // Carte SD indisponible ?
-      final File webcamDbDir = new File(WebcamDatabaseHelper.DATABASE_NAME).getParentFile();
+      final File webcamDbDir = new File(WebcamDatabaseHelper.getDatabaseName(providersService.getApplicationContext())).getParentFile();
       final boolean sdAvailable = webcamDbDir.exists() && webcamDbDir.isDirectory() && webcamDbDir.canWrite();
       Log.d(getClass().getSimpleName(), "sdAvailable : " + sdAvailable);
       if (!sdAvailable)
@@ -1422,6 +1422,8 @@ public abstract class AbstractProvidersService extends Service implements IProvi
     // Parent
     Log.d(getClass().getSimpleName(), ">>> abstract.onCreate()");
     super.onCreate();
+
+    spotsPath = new File(getApplicationContext().getExternalFilesDir(null), "spots");
 
     // Initialisations
     initCommons();
@@ -3377,9 +3379,9 @@ public abstract class AbstractProvidersService extends Service implements IProvi
    * @param country
    * @return
    */
-  private static File getSpotsFile(final String key, final String country)
+  private File getSpotsFile(final String key, final String country)
   {
-    return new File(SPOTS_PATH, key + Strings.CHAR_POINT + country);
+    return new File(spotsPath, key + Strings.CHAR_POINT + country);
   }
 
   @Override
