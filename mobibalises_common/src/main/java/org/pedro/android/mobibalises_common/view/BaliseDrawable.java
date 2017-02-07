@@ -28,6 +28,7 @@ import android.graphics.Paint;
 import android.graphics.Paint.Align;
 import android.util.DisplayMetrics;
 import android.util.FloatMath;
+import android.util.Log;
 
 /**
  * 
@@ -35,6 +36,7 @@ import android.util.FloatMath;
  */
 public class BaliseDrawable extends InfosDrawable implements MapDrawable<Canvas>, InvalidableDrawable
 {
+  private static final long               DELTA_BALISE_DRAWABLE     = 7L * 86400000L; // 7 jours : limite au delà de laquelle les balises ne sont plus affichées
   private static boolean                  GRAPHICS_INITIALIZED      = false;
   private static final Object             GRAPHICS_INITIALIZED_LOCK = new Object();
 
@@ -135,8 +137,6 @@ public class BaliseDrawable extends InfosDrawable implements MapDrawable<Canvas>
   /**
    * 
    * @param context
-   * @param resources
-   * @param scalingFactor
    */
   public static void initGraphics(final Context context)
   {
@@ -475,6 +475,18 @@ public class BaliseDrawable extends InfosDrawable implements MapDrawable<Canvas>
 
     // Affichable ?
     drawable = (windIconInfos.isBaliseActive() && windIconInfos.isReleveValide() && (releve != null) && (releve.date != null));
+
+    // Ne pas afficher les balises trop vieilles
+    if (drawable)
+    {
+      Log.d(getClass().getSimpleName(), "releve : " + (drawable ? releve.date : "null")); //TODO
+      final long delta = System.currentTimeMillis() - releve.date.getTime();
+      if (delta > DELTA_BALISE_DRAWABLE)
+      {
+        Log.d(getClass().getSimpleName(), "trop vieille"); //TODO
+        drawable = false;
+      }
+    }
 
     // Infos
     validateInfosGraphics(balise, releve);
