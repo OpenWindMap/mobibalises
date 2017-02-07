@@ -19,7 +19,7 @@
         <item>\nID : {0}</item>
     </string-array>
     <string-array name="messages_whats_new">
-        <item>Fixes</item>
+        <item>Filtering old stations</item>
     </string-array>
 
 </resources>
