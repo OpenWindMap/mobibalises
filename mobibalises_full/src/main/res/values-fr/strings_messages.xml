@@ -18,7 +18,7 @@
         <item>\nID : {0}</item>
     </string-array>
     <string-array name="messages_whats_new">
-        <item>Corrections</item>
+        <item>Filtrage des balises trop anciennes</item>
     </string-array>
 
     <string name="message_unlicensed">&lt;b&gt;Votre license d\'utilisation de MobiBalises+ n\'est pas valide&lt;/b&gt;.\nVous pouvez vous procurer MobiBalises+ sur Google Play Store en cliquant sur le bouton ci-dessous.\nVous pouvez réessayer (2 fois), sinon MobiBalises+ va se terminer maintenant...\n\nID : %1$s</string>

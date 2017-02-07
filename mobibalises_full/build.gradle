@@ -15,8 +15,8 @@ android {
         applicationId "com.pedro.android.mobibalises"
         minSdkVersion 8
         targetSdkVersion 22
-        versionCode 46
-        versionName "3.5.8"
+        versionCode 47
+        versionName "3.5.9"
     }
     buildTypes {
         release {
