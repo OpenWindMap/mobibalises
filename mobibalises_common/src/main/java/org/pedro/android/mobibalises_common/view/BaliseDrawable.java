@@ -36,7 +36,7 @@ import android.util.Log;
  */
 public class BaliseDrawable extends InfosDrawable implements MapDrawable<Canvas>, InvalidableDrawable
 {
-  private static final long               DELTA_BALISE_DRAWABLE     = 7L * 86400000L; // 7 jours : limite au delà de laquelle les balises ne sont plus affichées
+  private static final long               DELTA_BALISE_DRAWABLE     = 3L * 3600000L; // 3 heures : limite au delà de laquelle les balises ne sont plus affichées
   private static boolean                  GRAPHICS_INITIALIZED      = false;
   private static final Object             GRAPHICS_INITIALIZED_LOCK = new Object();
 
