@@ -1525,7 +1525,7 @@ public abstract class ActivityCommons
     }
 
     // Affichage de la boite de dialogue "quoi de neuf" si besoin
-    displayWhatsNewMessage(activity, false);
+    //displayWhatsNewMessage(activity, false);
   }
 
   /**
