@@ -154,8 +154,7 @@ public class PioupiouProvider extends AbstractBaliseProvider implements HistoryB
         final JSONObject location = jsonBalise.getJSONObject("location");
 
         // Vérification de la localisation
-        if (!location.getBoolean("success"))
-        {
+        if (location.isNull("date")) {
           continue;
         }
 
@@ -169,7 +168,7 @@ public class PioupiouProvider extends AbstractBaliseProvider implements HistoryB
         balise.latitude = location.getDouble("latitude");
         balise.longitude = location.getDouble("longitude");
         balise.altitude = location.optInt("altitude", Integer.MIN_VALUE);
-        balise.active = "on".equalsIgnoreCase(status.getString("state")) ? 1 : 0;
+        balise.active = 1;
 
         // Ajout
         map.put(balise.id, balise);
@@ -225,7 +224,7 @@ public class PioupiouProvider extends AbstractBaliseProvider implements HistoryB
   }
 
   /**
-   * 
+   *
    * @param source
    * @throws IOException
    */
@@ -243,18 +242,21 @@ public class PioupiouProvider extends AbstractBaliseProvider implements HistoryB
       {
         // Initialisations
         final JSONObject jsonBalise = (JSONObject)data.get(i);
-        final JSONObject status = jsonBalise.getJSONObject("status");
+        //final JSONObject status = jsonBalise.getJSONObject("status");
 
         // Vérification de la localisation
-        if (!"on".equalsIgnoreCase(status.getString("state")))
-        {
-          continue;
-        }
+        //if (!"on".equalsIgnoreCase(status.getString("state")))
+        //{
+        //  continue;
+        //}
 
         // Analyse
         final Releve releve = new Releve();
         final JSONObject measurements = jsonBalise.getJSONObject("measurements");
         releve.id = jsonBalise.getString("id");
+        if (measurements.isNull("date")) {
+          continue;
+        }
         final String dateString = measurements.getString("date").replaceAll("Z", "+0000");
         releve.date = UTC_FORMAT.parse(dateString);
         Utils.toUTC(releve.date);
